@@ -37,20 +37,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const fs = __importStar(require("fs"));
-const dotenv_1 = __importDefault(require("dotenv"));
-dotenv_1.default.config();
-const { TOKEN } = process.env;
-const URL = `https://api.discogs.com/`;
+const config_1 = require("../../../config");
 const getAllVinyls = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { data } = yield axios_1.default.get(`${URL}database/search?format=Vinyl&token=${TOKEN}`);
+        const { data } = yield axios_1.default.get(`${config_1.URL}database/search?format=Vinyl&token=${config_1.TOKEN}`);
         fs.writeFileSync('response.json', JSON.stringify(data, null, 2));
-        console.log(data);
-        return res.status(200).json({ message: 'Respuesta guardada como data.json' });
-        // return res.status(200).send(data);
+        return res.status(200).json(data);
     }
     catch (error) {
-        console.error(error);
         res.status(500).json({ error: 'Malio sal :(' });
     }
 });
