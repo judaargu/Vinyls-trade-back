@@ -1,5 +1,4 @@
-import { DataTypes, Model } from "sequelize";
-import {sequelize} from "../db"; 
+import { DataTypes, Model, Sequelize } from "sequelize";
 
 class OrderDetail extends Model {
   public id!: string;
@@ -12,7 +11,8 @@ class OrderDetail extends Model {
   public updated!: Date;
 }
 
-OrderDetail.init(
+const initOrderDetail = (sequelize: Sequelize) => {
+  OrderDetail.init(
   {
     id: {
       type: DataTypes.UUID,
@@ -50,5 +50,5 @@ OrderDetail.init(
     timestamps: false,
   }
 );
-
-export default OrderDetail;
+}
+export {initOrderDetail, OrderDetail};
