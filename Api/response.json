@@ -3,13 +3,62 @@
     "page": 100,
     "pages": 100,
     "per_page": 100,
-    "items": 8437497,
+    "items": 8437558,
     "urls": {
-      "first": "https://api.discogs.com/database/search?format=Vinyl&token=htKmiOHvbGaWbhXLlwkxutoEdLodnwVSbcGsictP&page=1&per_page=100",
-      "prev": "https://api.discogs.com/database/search?format=Vinyl&token=htKmiOHvbGaWbhXLlwkxutoEdLodnwVSbcGsictP&page=99&per_page=100"
+      "first": "https://api.discogs.com/database/search?format=Vinyl&token=cKjjmQbUYYfoXNXWJYyQNrweoHywfppPnMKHoVZT&page=1&per_page=100",
+      "prev": "https://api.discogs.com/database/search?format=Vinyl&token=cKjjmQbUYYfoXNXWJYyQNrweoHywfppPnMKHoVZT&page=99&per_page=100"
     }
   },
   "results": [
+    {
+      "country": "UK",
+      "year": "1984",
+      "format": [
+        "Vinyl",
+        "LP"
+      ],
+      "label": [
+        "Bruton Music"
+      ],
+      "type": "release",
+      "genre": [
+        "Electronic",
+        "Rock",
+        "Stage & Screen"
+      ],
+      "style": [
+        "Soundtrack",
+        "Theme"
+      ],
+      "id": 1895234,
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/John-Cameron-Power-Play/release/1895234",
+      "catno": "BRH 22",
+      "title": "John Cameron (2) - Power Play",
+      "thumb": "https://i.discogs.com/A5lmkNzYx9FQnexHs758S4vfnH0_j1tJW2kAJZDzXCE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTUy/MzQtMTM0MTk5ODgy/My02MTIwLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/TVTwHTbq_kNvKR-0D0kTUFarxBSkN_KUYKVEvrNNOLY/rs:fit/g:sm/q:90/h:549/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTUy/MzQtMTM0MTk5ODgy/My02MTIwLmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/1895234",
+      "community": {
+        "want": 68,
+        "have": 60
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP"
+          ]
+        }
+      ]
+    },
     {
       "country": "UK",
       "year": "2008",
@@ -419,7 +468,7 @@
       "catno": "XPRESS011",
       "title": "Various - Step Express 11",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/4017adc195995bbe36977a41c727b3f8e50314e4/images/spacer.gif",
+      "cover_image": "https://st.discogs.com/c670511d719518b2298aecf1242a7d02b27a5242/images/spacer.gif",
       "resource_url": "https://api.discogs.com/releases/1547384",
       "community": {
         "want": 40,
@@ -4752,64 +4801,6 @@
           "qty": "1",
           "descriptions": [
             "7\""
-          ]
-        }
-      ]
-    },
-    {
-      "country": "US",
-      "year": "1972",
-      "format": [
-        "Vinyl",
-        "LP"
-      ],
-      "label": [
-        "CTI Records",
-        "Van Gelder Studio, Englewood Cliffs, New Jersey",
-        "Creed Taylor, Inc.",
-        "Knollwood Music Corp.",
-        "Char-Liz Music, Inc.",
-        "Litha Music"
-      ],
-      "type": "release",
-      "genre": [
-        "Jazz"
-      ],
-      "style": [
-        "Post Bop",
-        "Modal"
-      ],
-      "id": 10745376,
-      "barcode": [
-        "ASCAP",
-        "BMI",
-        "RVG 87670 A",
-        "RVG 87670 A"
-      ],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 53763,
-      "master_url": "https://api.discogs.com/masters/53763",
-      "uri": "/release/10745376-Joe-Farrell-Outback",
-      "catno": "CTI 6014",
-      "title": "Joe Farrell - Outback",
-      "thumb": "https://i.discogs.com/SOEbdMdb3wKTMugj2bBsZCIdrg_UrfvIB1gVLQSwdXg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzQ1/Mzc2LTE1MDQxMDIx/OTYtOTYxMS5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/O8XwWf5_dRAbM-FfbCn-7-Pa2jG8mduCVhFL5uzVX5E/rs:fit/g:sm/q:90/h:606/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzQ1/Mzc2LTE1MDQxMDIx/OTYtOTYxMS5qcGVn.jpeg",
-      "resource_url": "https://api.discogs.com/releases/10745376",
-      "community": {
-        "want": 97,
-        "have": 59
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "text": "Gatefold",
-          "descriptions": [
-            "LP"
           ]
         }
       ]

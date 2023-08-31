@@ -1,5 +1,4 @@
-import { DataTypes, Model } from "sequelize";
-import {sequelize} from "../db"; 
+import { DataTypes, Model, Sequelize } from "sequelize";
 
 class Users extends Model {
   public id!: string;
@@ -9,7 +8,8 @@ class Users extends Model {
 
 }
 
-Users.init(
+const initUsersModel = (sequelize: Sequelize) =>{
+  Users.init(
   {
     id: {
       type: DataTypes.UUID,
@@ -33,6 +33,6 @@ Users.init(
     modelName: "Users",
     timestamps: false,
   }
-);
+);}
 
-export default Users;
+export {initUsersModel, Users};

@@ -15,7 +15,6 @@ const getAllVinyls = async (req: Request, res: Response) => {
     } catch (error) {
         res.status(500).json({ error: 'Malio sal :(' })
     }
-
 }
 
-export default getAllVinyls;    
+export default getAllVinyls;
