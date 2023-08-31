@@ -57,3 +57,5 @@ Vinyl.init(
     De resource_url viene:
     artists 
     tracklist */
+
+    export default Vinyl;

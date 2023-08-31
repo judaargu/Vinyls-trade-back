@@ -46,4 +46,5 @@ title
 cover_image
 De resource_url viene:
 artists
-tracklist */ 
+tracklist */
+exports.default = Vinyl;

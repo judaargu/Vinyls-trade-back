@@ -40,7 +40,7 @@ const fs = __importStar(require("fs"));
 const config_1 = require("../../../config");
 const getAllVinyls = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { data } = yield axios_1.default.get(`${config_1.URL}database/search?format=Vinyl&token=${config_1.TOKEN}`);
+        const { data } = yield axios_1.default.get(`${config_1.URL}database/search?format=Vinyl&token=${config_1.TOKEN}&page=100&per_page=100`);
         fs.writeFileSync('response.json', JSON.stringify(data, null, 2));
         return res.status(200).json(data);
     }
