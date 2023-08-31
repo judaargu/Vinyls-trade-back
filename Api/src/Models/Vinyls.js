@@ -12,6 +12,9 @@ Vinyl.init({
         primaryKey: true,
         defaultValue: sequelize_1.DataTypes.UUIDV4
     },
+    idApi: {
+        type: sequelize_1.DataTypes.NUMBER
+    },
     title: {
         type: sequelize_1.DataTypes.STRING,
         allowNull: false

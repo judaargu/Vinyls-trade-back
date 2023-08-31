@@ -3,6 +3,7 @@ import {sequelize} from "../db";
 import { UUID } from "crypto";
 export class Vinyl extends Model {
     public id!: UUID;
+    public idApi!: number;
     public title!: string;
     public year!: number;
     public genre!: string;
@@ -18,6 +19,9 @@ Vinyl.init(
             type: DataTypes.UUID,
             primaryKey: true,
             defaultValue: DataTypes.UUIDV4
+        },
+        idApi:{
+            type: DataTypes.NUMBER
         },
         title:{
             type: DataTypes.STRING,
