@@ -18,4 +18,4 @@ const getAllVinyls = async (req: Request, res: Response) => {
 
 }
 
-export default getAllVinyls;
+export default getAllVinyls;    
