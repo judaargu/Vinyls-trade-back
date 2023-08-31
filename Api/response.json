@@ -3,7 +3,11 @@
     "page": 1,
     "pages": 200,
     "per_page": 50,
+<<<<<<< HEAD
     "items": 8437392,
+=======
+    "items": 8436405,
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
     "urls": {
       "last": "https://api.discogs.com/database/search?format=Vinyl&token=JEGTUdoMYUITBsNEEOzPwCmKOmHeaoefduUbcSUq&page=200&per_page=50",
       "next": "https://api.discogs.com/database/search?format=Vinyl&token=JEGTUdoMYUITBsNEEOzPwCmKOmHeaoefduUbcSUq&page=2&per_page=50"
@@ -289,7 +293,11 @@
       "catno": "",
       "title": "The National Military Band - National Emblem March / The Stars And Stripes March",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/28040658",
       "community": {
         "want": 0,
@@ -329,7 +337,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27988779",
       "community": {
         "want": 0,
@@ -370,7 +382,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27969510",
       "community": {
         "want": 0,
@@ -406,7 +422,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27942765",
       "community": {
         "want": 0,
@@ -452,7 +472,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27835755",
       "community": {
         "want": 0,
@@ -492,7 +516,11 @@
       "catno": "",
       "title": "Bourn Ultra - =[*-",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27772944",
       "community": {
         "want": 0,
@@ -535,7 +563,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27747984",
       "community": {
         "want": 0,
@@ -574,7 +606,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27745596",
       "community": {
         "want": 0,
@@ -610,7 +646,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27681399",
       "community": {
         "want": 0,
@@ -646,7 +686,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27673356",
       "community": {
         "want": 0,
@@ -682,7 +726,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27665145",
       "community": {
         "want": 0,
@@ -718,7 +766,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27660918",
       "community": {
         "want": 0,
@@ -757,7 +809,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27638010",
       "community": {
         "want": 0,
@@ -792,7 +848,11 @@
       "catno": "",
       "title": "Groupe Oulad Cherif - Unknown Title",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27605109",
       "community": {
         "want": 0,
@@ -828,7 +888,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27568143",
       "community": {
         "want": 0,
@@ -868,7 +932,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27521634",
       "community": {
         "want": 0,
@@ -904,7 +972,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27433686",
       "community": {
         "want": 0,
@@ -939,7 +1011,11 @@
       "catno": "",
       "title": "Gregory Isaacs, U Brown - The ",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27411021",
       "community": {
         "want": 0,
@@ -975,7 +1051,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27409995",
       "community": {
         "want": 0,
@@ -1011,7 +1091,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27354006",
       "community": {
         "want": 1,
@@ -1051,7 +1135,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27338646",
       "community": {
         "want": 0,
@@ -1092,7 +1180,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27306390",
       "community": {
         "want": 0,
@@ -1128,7 +1220,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27284712",
       "community": {
         "want": 0,
@@ -1164,7 +1260,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27265554",
       "community": {
         "want": 0,
@@ -1203,7 +1303,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27085323",
       "community": {
         "want": 0,
@@ -1239,7 +1343,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27081630",
       "community": {
         "want": 0,
@@ -1275,7 +1383,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/27003729",
       "community": {
         "want": 0,
@@ -1314,7 +1426,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26992932",
       "community": {
         "want": 0,
@@ -1350,7 +1466,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26990067",
       "community": {
         "want": 0,
@@ -1386,7 +1506,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26988705",
       "community": {
         "want": 0,
@@ -1422,7 +1546,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26899397",
       "community": {
         "want": 0,
@@ -1458,7 +1586,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26898188",
       "community": {
         "want": 0,
@@ -1499,7 +1631,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26868338",
       "community": {
         "want": 0,
@@ -1535,7 +1671,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26844275",
       "community": {
         "want": 0,
@@ -1571,7 +1711,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26817170",
       "community": {
         "want": 0,
@@ -1610,7 +1754,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26774270",
       "community": {
         "want": 0,
@@ -1646,7 +1794,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26771168",
       "community": {
         "want": 0,
@@ -1687,7 +1839,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26760245",
       "community": {
         "want": 0,
@@ -1731,7 +1887,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26754149",
       "community": {
         "want": 0,
@@ -1772,7 +1932,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26750879",
       "community": {
         "want": 0,
@@ -1808,7 +1972,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26694404",
       "community": {
         "want": 0,
@@ -1847,7 +2015,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26686109",
       "community": {
         "want": 0,
@@ -1883,7 +2055,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26648615",
       "community": {
         "want": 0,
@@ -1924,7 +2100,11 @@
       "catno": "",
       "title": "",
       "thumb": "",
+<<<<<<< HEAD
       "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+=======
+      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+>>>>>>> 8acb5d355687de6e5bf916bb66c3fcc4a78a97c3
       "resource_url": "https://api.discogs.com/releases/26639276",
       "community": {
         "want": 0,
