@@ -9,6 +9,8 @@ export class Vinyl extends Model {
     public genre!: string;
     public cover_image!: string;
     public style!: string;
+    public stock!: number;
+    public price!: number;
     public readonly createdAt!: Date;
     public readonly updatedAt!: Date;
 }
@@ -38,6 +40,12 @@ Vinyl.init(
         },
         style:{
             type: DataTypes.STRING
+        },
+        stock:{
+            type: DataTypes.NUMBER
+        },
+        price:{
+            type: DataTypes.NUMBER
         }
     },
     {
@@ -46,14 +54,3 @@ Vinyl.init(
         timestamps: true,
     }
     )
-    /*
-    country
-    year
-    id
-    genre
-    style
-    title
-    cover_image
-    De resource_url viene:
-    artists 
-    tracklist */

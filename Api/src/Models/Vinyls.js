@@ -30,20 +30,15 @@ Vinyl.init({
     },
     style: {
         type: sequelize_1.DataTypes.STRING
+    },
+    stock: {
+        type: sequelize_1.DataTypes.NUMBER
+    },
+    price: {
+        type: sequelize_1.DataTypes.NUMBER
     }
 }, {
     sequelize: db_1.sequelize,
     tableName: 'Vinyl',
     timestamps: true,
 });
-/*
-country
-year
-id
-genre
-style
-title
-cover_image
-De resource_url viene:
-artists
-tracklist */ 
