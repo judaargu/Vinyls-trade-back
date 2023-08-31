@@ -1,1 +1,46 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Vinyl = void 0;
+const sequelize_1 = require("sequelize");
+const db_1 = require("../db");
+class Vinyl extends sequelize_1.Model {
+}
+exports.Vinyl = Vinyl;
+Vinyl.init({
+    id: {
+        type: sequelize_1.DataTypes.UUID,
+        primaryKey: true,
+        defaultValue: sequelize_1.DataTypes.UUIDV4
+    },
+    title: {
+        type: sequelize_1.DataTypes.STRING,
+        allowNull: false
+    },
+    year: {
+        type: sequelize_1.DataTypes.NUMBER
+    },
+    genre: {
+        type: sequelize_1.DataTypes.STRING,
+    },
+    cover_image: {
+        type: sequelize_1.DataTypes.STRING
+    },
+    style: {
+        type: sequelize_1.DataTypes.STRING
+    }
+}, {
+    sequelize: db_1.sequelize,
+    tableName: 'Vinyl',
+    timestamps: true,
+});
+/*
+country
+year
+id
+genre
+style
+title
+cover_image
+De resource_url viene:
+artists
+tracklist */ 
