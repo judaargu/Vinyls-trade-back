@@ -3,107 +3,13 @@
     "page": 1,
     "pages": 200,
     "per_page": 50,
-    "items": 8435901,
+    "items": 8437392,
     "urls": {
-      "last": "https://api.discogs.com/database/search?format=Vinyl&token=ccgnszOHRVmawzKRNLaNSLBFgpJEMJAnvdGFyyNL&page=200&per_page=50",
-      "next": "https://api.discogs.com/database/search?format=Vinyl&token=ccgnszOHRVmawzKRNLaNSLBFgpJEMJAnvdGFyyNL&page=2&per_page=50"
+      "last": "https://api.discogs.com/database/search?format=Vinyl&token=JEGTUdoMYUITBsNEEOzPwCmKOmHeaoefduUbcSUq&page=200&per_page=50",
+      "next": "https://api.discogs.com/database/search?format=Vinyl&token=JEGTUdoMYUITBsNEEOzPwCmKOmHeaoefduUbcSUq&page=2&per_page=50"
     }
   },
   "results": [
-    {
-      "country": "US",
-      "year": "1992",
-      "format": [
-        "Vinyl",
-        "EP",
-        "Vinyl"
-      ],
-      "label": [
-        "Nothing Records",
-        "TVT Records",
-        "Interscope Records",
-        "Atlantic",
-        "Nothing Records",
-        "TVT Records",
-        "Interscope Records",
-        "Atlantic",
-        "NIN",
-        "Time Warner",
-        "Leaving Hope Music",
-        "TVT Music, Inc.",
-        "Atlantic Recording Corporation",
-        "Atlantic Recording Corporation",
-        "TVT Records",
-        "TVT Records",
-        "Interscope Records",
-        "Interscope Records",
-        "CBS Records Inc.",
-        "CBS Records Inc.",
-        "Thumbless Music",
-        "Thumbless Music",
-        "Specialty Records Corporation",
-        "Interscope Records",
-        "Interscope Records",
-        "DADC Austria",
-        "Hell",
-        "South Beach Studios",
-        "The Village Recorder",
-        "A&M Studios",
-        "Pig",
-        "Royal Recorders",
-        "Future Disc"
-      ],
-      "type": "release",
-      "genre": [
-        "Electronic",
-        "Rock"
-      ],
-      "style": [
-        "Alternative Rock",
-        "Industrial"
-      ],
-      "id": 12642410,
-      "barcode": [
-        "0 7567-92213-2 2",
-        "3 92213-2.1 SRC+02 M1S6",
-        "3 92213-2.1 SRC+02 M1S1",
-        "3 92213-2.1 SRC+02 M1S4",
-        "92213 12",
-        "92213 12 B1 DADC AUSTRIA",
-        "92213 22 B4 DADC AUSTRIA",
-        "92213 12 A2 DADC AUSTRIA"
-      ],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/12642410-Nine-Inch-Nails-Broken",
-      "catno": "7 92213-2",
-      "title": "Nine Inch Nails - Broken",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/12642410",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 2,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "EP"
-          ]
-        },
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
     {
       "country": "France",
       "year": "2002",
@@ -129,7 +35,7 @@
       "catno": "",
       "title": "l'acte a 2 - curriculum vitae",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
       "resource_url": "https://api.discogs.com/releases/13302965",
       "community": {
         "want": 0,
@@ -148,48 +54,7 @@
       ]
     },
     {
-      "country": "Belgium",
-      "genre": [
-        "Rock"
-      ],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 3265291,
-      "label": [
-        "The Twilight Bark"
-      ],
-      "type": "release",
-      "barcode": [
-        "481.5002.10"
-      ],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 390070,
-      "master_url": "https://api.discogs.com/masters/390070",
-      "uri": "/De-Bossen-Feel-The-Beating/release/3265291",
-      "catno": "TTB03",
-      "title": "De Bossen - Feel The Beating...",
-      "thumb": "https://i.discogs.com/d9Gn84qIjZ22u7DbFEdnYrTgBVUK8nt64i138hf1JjU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNjUy/OTEtMTMyMzAxNDM3/Ni5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/huap3LNIAIhrqAGH2plDDhfE7KCs7RINa6jYk1ug_6c/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNjUy/OTEtMTMyMzAxNDM3/Ni5qcGVn.jpeg",
-      "resource_url": "https://api.discogs.com/releases/3265291",
-      "community": {
-        "want": 1,
-        "have": 24
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
+      "country": "US",
       "genre": [
         "Electronic"
       ],
@@ -199,9 +64,9 @@
       "style": [
         "House"
       ],
-      "id": 3779645,
+      "id": 2663447,
       "label": [
-        "Kiss My Ass"
+        "Deep House Project"
       ],
       "type": "release",
       "barcode": [],
@@ -211,153 +76,15 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/KT-Groove-Black-Score-Remix-By-TIG/release/3779645",
-      "catno": "KT-001",
-      "title": "KT Groove - Black Score (Remix By T.I.G.)",
-      "thumb": "https://i.discogs.com/HQLbWYOnaRimLGPeqK2ZxTUKUtPWZlMlGtQpXC1AUwE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzk2/NDUtMTQ2MTMyMjc2/MC05NDk2LmpwZWc.jpeg",
-      "cover_image": "https://i.discogs.com/CbHf9AybxPGinst-GVeXgTHZN9YtdS8Ex7N8Qhe4DjA/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Nzk2/NDUtMTQ2MTMyMjc2/MC05NDk2LmpwZWc.jpeg",
-      "resource_url": "https://api.discogs.com/releases/3779645",
+      "uri": "/Jerry-Boathouse-Sammy-Dee-VS-The-X-Men-DHP-No-2/release/2663447",
+      "catno": "002",
+      "title": "Jerry Boathouse + Sammy Dee VS The X Men - DHP No. 2",
+      "thumb": "https://i.discogs.com/v1LQqzxffFHXW_eLHjqYSJAMFPMvjAaB13GXg4h_3MM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NjM0/NDctMTU1OTIzNjgz/OC05MTIyLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/F8vnC9bmDMMUvRGA8HGJ6OZK377F2qufFd9ax7AyPnc/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NjM0/NDctMTU1OTIzNjgz/OC05MTIyLmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/2663447",
       "community": {
-        "want": 14,
-        "have": 12
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "text": "12\""
-        }
-      ]
-    },
-    {
-      "country": "Switzerland",
-      "year": "2011",
-      "format": [
-        "Vinyl"
-      ],
-      "label": [
-        "Purple Tracks"
-      ],
-      "type": "release",
-      "genre": [
-        "Electronic"
-      ],
-      "style": [
-        "House"
-      ],
-      "id": 3784589,
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/Qboyz-Italian-Cake-EP/release/3784589",
-      "catno": "PT067",
-      "title": "Q:boyz - Italian Cake E.P.",
-      "thumb": "https://i.discogs.com/CCb6y4sRqSmra9O_2IfWTCY8JsRr1hlPFY1SaiL2cGw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODQ1/ODktMTM0NDI4NjYz/OC0yNTE0LmpwZWc.jpeg",
-      "cover_image": "https://i.discogs.com/w05JVtqdzjRKNA1cfeOiJS_98kAg8jjViy7mLEB2Iz0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODQ1/ODktMTM0NDI4NjYz/OC0yNTE0LmpwZWc.jpeg",
-      "resource_url": "https://api.discogs.com/releases/3784589",
-      "community": {
-        "want": 4,
-        "have": 6
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "text": "12\", 33 ⅓ RPM"
-        }
-      ]
-    },
-    {
-      "country": "Italy",
-      "year": "1988",
-      "format": [
-        "Vinyl"
-      ],
-      "label": [
-        "High Fashion Music",
-        "Phonopress Milano",
-        "Medicina Studio",
-        "Ibiza Records"
-      ],
-      "type": "release",
-      "genre": [
-        "Electronic",
-        "Hip Hop",
-        "Reggae"
-      ],
-      "style": [
-        "House",
-        "Italodance"
-      ],
-      "id": 5528051,
-      "barcode": [
-        "STEMRA",
-        "DURECO 11.00532 CDM01"
-      ],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/5528051-Jovanotti-Gimme-Five-",
-      "catno": "1100532",
-      "title": "Jovanotti - Gimme Five  ",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/5528051",
-      "community": {
-        "want": 0,
-        "have": 1
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "text": "12 Test pressing"
-        }
-      ]
-    },
-    {
-      "country": "UK & Europe",
-      "year": "2009",
-      "format": [
-        "Vinyl"
-      ],
-      "label": [
-        "Fullbarr Digital"
-      ],
-      "type": "release",
-      "genre": [
-        "Electronic"
-      ],
-      "style": [
-        "Techno"
-      ],
-      "id": 1647256,
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/Midnite-Radio-Factory/release/1647256",
-      "catno": "FBD001",
-      "title": "Midnite Radio - Factory",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/1647256",
-      "community": {
-        "want": 0,
-        "have": 1
+        "want": 57,
+        "have": 29
       },
       "format_quantity": 1,
       "formats": [
@@ -374,40 +101,168 @@
         "Vinyl"
       ],
       "label": [
-        "duzkiss"
+        "Speakertree Records"
+      ],
+      "type": "release",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "style": [
+        "Garage Rock",
+        "Pop Rock",
+        "Psychedelic Rock",
+        "Indie Rock"
+      ],
+      "id": 3005681,
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 902019,
+      "master_url": "https://api.discogs.com/masters/902019",
+      "uri": "/Borrowed-Beams-of-Light-Stellar-Hoax/release/3005681",
+      "catno": "SPKR003",
+      "title": "Borrowed Beams of Light - Stellar Hoax",
+      "thumb": "https://i.discogs.com/6IGNtXgOobVVTuOWQo8eCUsjHRIBfU0-BSXz22teY88/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDU2/ODEtMTMxMTM2NTMz/Ni5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/mIBfRg7ZpumuPEcwrrWhG_6Z8zvrIOFzbStSBdCBbL0/rs:fit/g:sm/q:90/h:524/w:570/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDU2/ODEtMTMxMTM2NTMz/Ni5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/releases/3005681",
+      "community": {
+        "want": 4,
+        "have": 30
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "year": "2011",
+      "format": [
+        "Vinyl"
+      ],
+      "label": [
+        "Avantpop"
+      ],
+      "type": "release",
+      "genre": [
+        "Pop"
+      ],
+      "style": [],
+      "id": 3862449,
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 752149,
+      "master_url": "https://api.discogs.com/masters/752149",
+      "uri": "/Reflekta-Reflekta-Wildlife/release/3862449",
+      "catno": "avant003",
+      "title": "Reflekta Reflekta - Wildlife",
+      "thumb": "https://i.discogs.com/j3iXKXkLNAJPzqt0L9y-4XJvLiZ-AaVDYcw381Uubzo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NjI0/NDktMTM0NzI3MjUw/OS0yODE4LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/sHY3Mp12nWCP2K9YzLZPefis61nRfg2nIZAEmdUygPk/rs:fit/g:sm/q:90/h:200/w:200/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NjI0/NDktMTM0NzI3MjUw/OS0yODE4LmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/3862449",
+      "community": {
+        "want": 2,
+        "have": 11
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "genre": [
+        "Reggae"
+      ],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 3799655,
+      "label": [
+        "Silver B"
+      ],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/Dan-Youth-Freak-Out/release/3799655",
+      "catno": "SB-101",
+      "title": "Dan Youth - Freak Out",
+      "thumb": "https://i.discogs.com/Cl4EOkYUdHqjQHe7hliRlj9A4wRPaWkAo8AXdktrH54/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTk2/NTUtMTM0NDg5NDAy/OS0zMTE3LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/laJkNDzbP_L2MurGUe7sJDpBgOXVe8EdlWtWtbYxBMQ/rs:fit/g:sm/q:90/h:240/w:320/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTk2/NTUtMTM0NDg5NDAy/OS0zMTE3LmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/3799655",
+      "community": {
+        "want": 2,
+        "have": 6
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "year": "2012",
+      "format": [
+        "Vinyl"
+      ],
+      "label": [
+        "K47 Music"
       ],
       "type": "release",
       "genre": [
         "Electronic"
       ],
       "style": [
-        "House"
+        "Progressive House",
+        "House",
+        "Deep House",
+        "Tech House",
+        "Minimal"
       ],
-      "id": 3307895,
-      "barcode": [
-        "859706477131"
-      ],
+      "id": 3854947,
+      "barcode": [],
       "user_data": {
         "in_wantlist": false,
         "in_collection": false
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/M2X-Be-Blunt/release/3307895",
-      "catno": "001",
-      "title": "M2X - Be Blunt",
-      "thumb": "https://i.discogs.com/ZnNwSjq7VO3lM7ZUIEknscu2W-Xc0uuQFxQLr0jzKK0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDc4/OTUtMTMyNTA3NTEz/NS5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/L08b9NQzbFzLylEOolabJaKweVgr3KoJNnlLGu0Axuw/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDc4/OTUtMTMyNTA3NTEz/NS5qcGVn.jpeg",
-      "resource_url": "https://api.discogs.com/releases/3307895",
+      "uri": "/Cristian-Lange-The-Best-Of-K47-Music-Vol-2/release/3854947",
+      "catno": "10036098",
+      "title": "Cristian Lange - The Best Of K47 Music Vol. 2",
+      "thumb": "https://i.discogs.com/DVxakEVtdWYizdF-EvKZIGRkBVo04pqrdngqBzkzWGw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTQ5/NDctMTM0NzAxMzQw/MS04NTE5LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/yielP8atqoMkBnco11q42nEJ_99HRzJ_9MwDohUp88k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTQ5/NDctMTM0NzAxMzQw/MS04NTE5LmpwZWc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/3854947",
       "community": {
-        "want": 1,
-        "have": 0
+        "want": 0,
+        "have": 1
       },
       "format_quantity": 1,
       "formats": [
         {
           "name": "Vinyl",
-          "qty": "1"
+          "qty": "1",
+          "text": "Album"
         }
       ]
     },
@@ -418,9 +273,9 @@
         "Vinyl"
       ],
       "style": [],
-      "id": 28102291,
+      "id": 28040658,
       "label": [
-        "Self-Released"
+        "Columbia"
       ],
       "type": "release",
       "barcode": [],
@@ -430,12 +285,52 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/28102291-Les-Gosses-DAngoul%C3%AAme-LAmour-La-Joie-LAmite",
+      "uri": "/release/28040658-The-National-Military-Band-National-Emblem-March-The-Stars-And-Stripes-March",
       "catno": "",
-      "title": "Les Gosses D'Angoulême - L'Amour, La Joie, L'Amite",
+      "title": "The National Military Band - National Emblem March / The Stars And Stripes March",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/28102291",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/28040658",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Shellac",
+          "qty": "1",
+          "descriptions": [
+            "10\"",
+            "78 RPM"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Gregor Zwekan",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27988779,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27988779-Gregor-Zwekan-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27988779",
       "community": {
         "want": 0,
         "have": 0
@@ -446,20 +341,22 @@
           "name": "Vinyl",
           "qty": "1",
           "descriptions": [
-            "LP"
+            "7\"",
+            "Single",
+            "Stereo"
           ]
         }
       ]
     },
     {
       "country": "Unknown",
-      "artist_joined": "SlutBomb",
+      "artist_joined": "Shove It (3)",
       "genre": [],
       "format": [
         "Vinyl"
       ],
       "style": [],
-      "id": 28089319,
+      "id": 27969510,
       "label": [],
       "type": "release",
       "barcode": [],
@@ -469,12 +366,12 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/28089319-SlutBomb-",
+      "uri": "/release/27969510-Shove-It-",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/28089319",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27969510",
       "community": {
         "want": 0,
         "have": 0
@@ -495,83 +392,7 @@
         "Vinyl"
       ],
       "style": [],
-      "id": 28053720,
-      "label": [
-        "Barrow Hoard Records"
-      ],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/28053720--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/28053720",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 28019577,
-      "label": [
-        "Killer Cuts"
-      ],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/28019577--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/28019577",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27987219,
+      "id": 27942765,
       "label": [],
       "type": "release",
       "barcode": [],
@@ -581,200 +402,12 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/27987219--",
+      "uri": "/release/27942765--",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27987219",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "text": "colored cream white",
-          "descriptions": [
-            "LP",
-            "Limited Edition"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27968496,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27968496--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27968496",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27966129,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27966129--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27966129",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27960621,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27960621--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27960621",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "Ian Brown",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27913392,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27913392-Ian-Brown-",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27913392",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "DVDr",
-          "qty": "1",
-          "descriptions": [
-            "DVD-Video"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27898188,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27898188--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27898188",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27942765",
       "community": {
         "want": 0,
         "have": 0
@@ -786,8 +419,134 @@
           "qty": "1",
           "descriptions": [
             "LP",
-            "12\"",
             "33 ⅓ RPM",
+            "Record Store Day",
+            "Compilation",
+            "Reissue",
+            "Remastered",
+            "Test Pressing",
+            "White Label"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27835755,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27835755--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27835755",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27772944,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27772944-Bourn-Ultra--",
+      "catno": "",
+      "title": "Bourn Ultra - =[*-",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27772944",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "16\"",
+            "Album",
+            "Limited Edition",
+            "Numbered"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27747984,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27747984--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27747984",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Cassette",
+          "qty": "1",
+          "descriptions": [
             "Album"
           ]
         }
@@ -801,10 +560,8 @@
         "Vinyl"
       ],
       "style": [],
-      "id": 27891342,
-      "label": [
-        "Alicja"
-      ],
+      "id": 27745596,
+      "label": [],
       "type": "release",
       "barcode": [],
       "user_data": {
@@ -813,12 +570,120 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/27891342--",
+      "uri": "/release/27745596--",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27891342",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27745596",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Gord Girvan",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27681399,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27681399-Gord-Girvan-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27681399",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27673356,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27673356--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27673356",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Elio Bigliotto, Mafalda Francesi",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27665145,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27665145-Elio-Bigliotto-Mafalda-Francesi-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27665145",
       "community": {
         "want": 0,
         "have": 0
@@ -839,7 +704,7 @@
         "Vinyl"
       ],
       "style": [],
-      "id": 27874716,
+      "id": 27660918,
       "label": [],
       "type": "release",
       "barcode": [],
@@ -849,52 +714,12 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/27874716--",
+      "uri": "/release/27660918--",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27874716",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "CDr",
-          "qty": "1",
-          "descriptions": [
-            "Mini-Album",
-            "Remastered",
-            "Unofficial Release"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27737208,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27737208-Bee-Gees-Greatest",
-      "catno": "",
-      "title": "Bee Gees - Greatest",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27737208",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27660918",
       "community": {
         "want": 0,
         "have": 0
@@ -918,7 +743,7 @@
         "Vinyl"
       ],
       "style": [],
-      "id": 27707136,
+      "id": 27638010,
       "label": [],
       "type": "release",
       "barcode": [],
@@ -928,12 +753,83 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/27707136--",
+      "uri": "/release/27638010--",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27707136",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27638010",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27605109,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27605109-Groupe-Oulad-Cherif-Unknown-Title",
+      "catno": "",
+      "title": "Groupe Oulad Cherif - Unknown Title",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27605109",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Cassette",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Moussa Doumbia",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27568143,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27568143-Moussa-Doumbia-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27568143",
       "community": {
         "want": 0,
         "have": 0
@@ -944,22 +840,21 @@
           "name": "Vinyl",
           "qty": "1",
           "descriptions": [
-            "LP",
-            "33 ⅓ RPM",
-            "Album"
+            "7\"",
+            "45 RPM"
           ]
         }
       ]
     },
     {
       "country": "Unknown",
-      "artist_joined": "",
+      "artist_joined": "Slim Gaillard And His All Stars",
       "genre": [],
       "format": [
         "Vinyl"
       ],
       "style": [],
-      "id": 27687366,
+      "id": 27521634,
       "label": [],
       "type": "release",
       "barcode": [],
@@ -969,12 +864,12 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/27687366--",
+      "uri": "/release/27521634-Slim-Gaillard-And-His-All-Stars-",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27687366",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27521634",
       "community": {
         "want": 0,
         "have": 0
@@ -995,7 +890,7 @@
         "Vinyl"
       ],
       "style": [],
-      "id": 27686586,
+      "id": 27433686,
       "label": [],
       "type": "release",
       "barcode": [],
@@ -1005,12 +900,159 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/27686586--",
+      "uri": "/release/27433686--",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27686586",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27433686",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27411021,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27411021-Gregory-Isaacs-U-Brown-The-",
+      "catno": "",
+      "title": "Gregory Isaacs, U Brown - The ",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27411021",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27409995,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27409995--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27409995",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "2Pac",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27354006,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27354006-2Pac-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27354006",
+      "community": {
+        "want": 1,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Compilation",
+            "Unofficial Release"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27338646,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27338646--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27338646",
       "community": {
         "want": 0,
         "have": 0
@@ -1020,7 +1062,686 @@
         {
           "name": "Vinyl",
           "qty": "1",
-          "text": "Recorded at Blue Dog Studio",
+          "descriptions": [
+            "LP",
+            "45 RPM",
+            "Album"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27306390,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27306390--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27306390",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27284712,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27284712--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27284712",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27265554,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27265554--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27265554",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 4,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "4",
+          "descriptions": [
+            "Compilation"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "The Magic Numbers",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27085323,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27085323-The-Magic-Numbers-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27085323",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Blackwater Sniper",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27081630,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27081630-Blackwater-Sniper-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27081630",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 27003729,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/27003729--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/27003729",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26992932,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26992932--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26992932",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26990067,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26990067--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26990067",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26988705,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26988705--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26988705",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Dr Pickup",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26899397,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26899397-Dr-Pickup-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26899397",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "CDr",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26898188,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26898188--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26898188",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "33 ⅓ RPM",
+            "Album"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "the osmond brothers",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26868338,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26868338-the-osmond-brothers-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26868338",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Bovary (2)",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26844275,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26844275-Bovary-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26844275",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26817170,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26817170--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26817170",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "12\""
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26774270,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26774270--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26774270",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Cardenales Del Exito",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26771168,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26771168-Cardenales-Del-Exito-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26771168",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "12\"",
+            "33 ⅓ RPM"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26760245,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26760245--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26760245",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Black LP",
+          "descriptions": [
+            "LP",
+            "33 ⅓ RPM",
+            "Album"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "James Farnam",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26754149,
+      "label": [
+        "Jaguar Records"
+      ],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26754149-James-Farnam-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26754149",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
           "descriptions": [
             "7\"",
             "45 RPM",
@@ -1037,7 +1758,7 @@
         "Vinyl"
       ],
       "style": [],
-      "id": 27645255,
+      "id": 26750879,
       "label": [],
       "type": "release",
       "barcode": [],
@@ -1047,12 +1768,48 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/27645255--",
+      "uri": "/release/26750879--",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27645255",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26750879",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26694404,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26694404--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26694404",
       "community": {
         "want": 0,
         "have": 0
@@ -1070,14 +1827,90 @@
     },
     {
       "country": "Unknown",
+      "artist_joined": "",
       "genre": [],
       "format": [
         "Vinyl"
       ],
       "style": [],
-      "id": 27480834,
+      "id": 26686109,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26686109--",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26686109",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1"
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "Pink Floyd",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26648615,
+      "label": [],
+      "type": "release",
+      "barcode": [],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 0,
+      "master_url": null,
+      "uri": "/release/26648615-Pink-Floyd-",
+      "catno": "",
+      "title": "",
+      "thumb": "",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26648615",
+      "community": {
+        "want": 0,
+        "have": 0
+      },
+      "format_quantity": 1,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "7\""
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Unknown",
+      "artist_joined": "",
+      "genre": [],
+      "format": [
+        "Vinyl"
+      ],
+      "style": [],
+      "id": 26639276,
       "label": [
-        "FRONTAL"
+        "Stevens Enterprises"
       ],
       "type": "release",
       "barcode": [],
@@ -1087,210 +1920,12 @@
       },
       "master_id": 0,
       "master_url": null,
-      "uri": "/release/27480834-Low-G-Schijnheilig",
-      "catno": "none",
-      "title": "Low G,  - Schijnheilig",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27480834",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "12\"",
-            "Album",
-            "Stereo"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27431532,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27431532--",
+      "uri": "/release/26639276--",
       "catno": "",
       "title": "",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27431532",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "CD",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27399003,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27399003--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27399003",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Cassette",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27373338,
-      "label": [
-        "Rino Mari Produções"
-      ],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27373338--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27373338",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "12\"",
-            "Album",
-            "Stereo"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27362700,
-      "label": [
-        "Chade Records"
-      ],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27362700-The-Rolling-Stones-Undercover",
-      "catno": "",
-      "title": "The Rolling Stones - Undercover",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27362700",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "LP",
-            "Album",
-            "Stereo"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27349785,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27349785--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27349785",
+      "cover_image": "https://st.discogs.com/16dbf9c83097871482ac925c53c610a91dd46604/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/releases/26639276",
       "community": {
         "want": 0,
         "have": 0
@@ -1300,743 +1935,6 @@
         {
           "name": "Vinyl",
           "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27331032,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27331032--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27331032",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27311067,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27311067--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27311067",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27264480,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27264480--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27264480",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27263526,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27263526--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27263526",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "LP",
-            "33 ⅓ RPM"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27263376,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27263376--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27263376",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "12\""
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27255534,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27255534--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27255534",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "LP",
-            "45 RPM"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27235143,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27235143--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27235143",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "text": "Apple and Orange Crush Galaxy",
-          "descriptions": [
-            "LP",
-            "33 ⅓ RPM",
-            "Limited Edition",
-            "Reissue",
-            "Stereo"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27223671,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27223671--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27223671",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "LP"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27202188,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27202188--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27202188",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "Willie Johnson & His Band",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27196326,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27196326-Willie-Johnson-His-Band-",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27196326",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "10\"",
-            "78 RPM"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27138006,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27138006--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27138006",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27090633,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27090633--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27090633",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "text": "Orange & Purple",
-          "descriptions": [
-            "LP",
-            "Unofficial Release"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 27000732,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/27000732--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/27000732",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 26995062,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/26995062--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/26995062",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 26986739,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/26986739--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/26986739",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "7\"",
-            "45 RPM",
-            "Single",
-            "Stereo"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 26936564,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/26936564-Gehlektek-SPK-15-Mtl-Pozek-GOLDEN-RATIO-01",
-      "catno": "",
-      "title": "Gehlektek, SPK (15), Mtl Pozek - GOLDEN RATIO 01",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/26936564",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 26852678,
-      "label": [
-        "Wallop Recordings"
-      ],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/26852678--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/26852678",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "12\""
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "Porridge Radio",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 26842202,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/26842202-Porridge-Radio-",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/26842202",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 1,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "1",
-          "descriptions": [
-            "7\"",
-            "Record Store Day",
-            "Single",
-            "Limited Edition",
-            "Numbered"
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Unknown",
-      "artist_joined": "",
-      "genre": [],
-      "format": [
-        "Vinyl"
-      ],
-      "style": [],
-      "id": 26831855,
-      "label": [],
-      "type": "release",
-      "barcode": [],
-      "user_data": {
-        "in_wantlist": false,
-        "in_collection": false
-      },
-      "master_id": 0,
-      "master_url": null,
-      "uri": "/release/26831855--",
-      "catno": "",
-      "title": "",
-      "thumb": "",
-      "cover_image": "https://st.discogs.com/95ae76d3ad76ceaa5b74293cb710c4b6dd9f5921/images/spacer.gif",
-      "resource_url": "https://api.discogs.com/releases/26831855",
-      "community": {
-        "want": 0,
-        "have": 0
-      },
-      "format_quantity": 2,
-      "formats": [
-        {
-          "name": "Vinyl",
-          "qty": "2",
-          "descriptions": [
-            "LP",
-            "Compilation",
-            "Stereo"
-          ]
         }
       ]
     }
