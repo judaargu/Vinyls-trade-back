@@ -1,5 +1,4 @@
-import { Model, DataTypes, ForeignKey } from "sequelize";
-import { sequelize } from "../db";
+import { Model, DataTypes, ForeignKey, Sequelize } from "sequelize";
 
 class Order extends Model {
   declare id: string;
@@ -9,7 +8,8 @@ class Order extends Model {
   declare total: number;
 }
 
-Order.init(
+const initOrderModel =(sequelize: Sequelize) => {
+  Order.init(
   {
     id: {
       type: DataTypes.UUID,
@@ -35,6 +35,6 @@ Order.init(
     sequelize,
     timestamps: false,
   }
-);
+);}
 
-export default Order;
+export {initOrderModel, Order};

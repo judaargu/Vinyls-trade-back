@@ -1,7 +1,7 @@
-import {Model, DataTypes} from "sequelize";
-import {sequelize} from "../db";
+import {Model, DataTypes, Sequelize} from "sequelize";
+
 import { UUID } from "crypto";
-export class Vinyl extends Model {
+class Vinyl extends Model {
     public id!: UUID;
     public idApi!: number;
     public title!: string;
@@ -15,7 +15,8 @@ export class Vinyl extends Model {
     public readonly updatedAt!: Date;
 }
 
-Vinyl.init(
+const initVinylModel = (sequelize: Sequelize) => {
+    Vinyl.init(
     {
         id:{
             type: DataTypes.UUID,
@@ -23,14 +24,14 @@ Vinyl.init(
             defaultValue: DataTypes.UUIDV4
         },
         idApi:{
-            type: DataTypes.NUMBER
+            type: DataTypes.INTEGER
         },
         title:{
             type: DataTypes.STRING,
             allowNull: false
         },
         year:{
-            type: DataTypes.NUMBER
+            type: DataTypes.INTEGER
         },
         genre:{
             type: DataTypes.STRING,
@@ -42,10 +43,10 @@ Vinyl.init(
             type: DataTypes.STRING
         },
         stock:{
-            type: DataTypes.NUMBER
+            type: DataTypes.INTEGER
         },
         price:{
-            type: DataTypes.NUMBER
+            type: DataTypes.INTEGER
         }
     },
     {
@@ -54,3 +55,5 @@ Vinyl.init(
         timestamps: true,
     }
     )
+}
+    export {initVinylModel, Vinyl};
