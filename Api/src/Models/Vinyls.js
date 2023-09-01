@@ -3,6 +3,21 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Vinyl = exports.initVinylModel = void 0;
 const sequelize_1 = require("sequelize");
 class Vinyl extends sequelize_1.Model {
+    constructor(values, options) {
+        super(values, options);
+        if (values.stock) {
+            this.stock = values.stock;
+        }
+        else if (!values.stock) {
+            this.stock = Math.floor(Math.random() * (20 - 1 + 1)) + 1;
+        }
+        if (values.price) {
+            this.price = values.price;
+        }
+        else if (!values.price) {
+            this.price = Math.floor(Math.random() * (70 - 20 + 1)) + 20;
+        }
+    }
 }
 exports.Vinyl = Vinyl;
 const initVinylModel = (sequelize) => {
@@ -19,6 +34,10 @@ const initVinylModel = (sequelize) => {
             type: sequelize_1.DataTypes.STRING,
             allowNull: false
         },
+        artist: {
+            type: sequelize_1.DataTypes.STRING,
+            allowNull: false
+        },
         year: {
             type: sequelize_1.DataTypes.INTEGER
         },
@@ -32,10 +51,12 @@ const initVinylModel = (sequelize) => {
             type: sequelize_1.DataTypes.STRING
         },
         stock: {
-            type: sequelize_1.DataTypes.INTEGER
+            type: sequelize_1.DataTypes.INTEGER,
+            allowNull: false,
         },
         price: {
-            type: sequelize_1.DataTypes.INTEGER
+            type: sequelize_1.DataTypes.INTEGER,
+            allowNull: false,
         }
     }, {
         sequelize,
