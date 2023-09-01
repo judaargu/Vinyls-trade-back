@@ -8,20 +8,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const getVinyls_1 = __importDefault(require("../Controllers/Vinyls/getVinyls"));
+const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
 const usersRouter_1 = require("../Routes/usersRouter");
-const router = (0, express_1.Router)();
-router.get("/", getVinyls_1.default);
-router.post("/createUser", usersRouter_1.createUserHandler);
-
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
 const router = (0, express_1.Router)();
-router.get('/', getVinyls_1.default);
+router.get('/', getVinyls_1.getAllVinyls);
+router.post("/createUser", usersRouter_1.createUserHandler);
 router.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, postVinyl_1.postVinyl)(req.body);
@@ -31,4 +25,5 @@ router.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
         return res.status(404).json(error);
     }
 }));
+router.post("/vinyls", getVinyls_1.postVinylsController);
 exports.default = router;

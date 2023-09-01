@@ -25,42 +25,51 @@ const initVinylModel = (sequelize) => {
         id: {
             type: sequelize_1.DataTypes.UUID,
             primaryKey: true,
-            defaultValue: sequelize_1.DataTypes.UUIDV4
+            defaultValue: sequelize_1.DataTypes.UUIDV4,
         },
         idApi: {
-            type: sequelize_1.DataTypes.INTEGER
+            type: sequelize_1.DataTypes.INTEGER,
         },
         title: {
             type: sequelize_1.DataTypes.STRING,
-            allowNull: false
-        },
-        artist: {
-            type: sequelize_1.DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
         },
         year: {
-            type: sequelize_1.DataTypes.INTEGER
+            type: sequelize_1.DataTypes.INTEGER,
         },
         genre: {
             type: sequelize_1.DataTypes.STRING,
         },
         cover_image: {
-            type: sequelize_1.DataTypes.STRING
+            type: sequelize_1.DataTypes.STRING,
         },
         style: {
-            type: sequelize_1.DataTypes.STRING
+            type: sequelize_1.DataTypes.STRING,
         },
         stock: {
             type: sequelize_1.DataTypes.INTEGER,
-            allowNull: false,
         },
         price: {
             type: sequelize_1.DataTypes.INTEGER,
-            allowNull: false,
+        },
+        artists: {
+            type: sequelize_1.DataTypes.JSON,
+            allowNull: true
+        },
+        videos: {
+            type: sequelize_1.DataTypes.JSON,
+            allowNull: true
+        },
+        tracklist: {
+            type: sequelize_1.DataTypes.JSON,
+            allowNull: true
+        },
+        resource_url: {
+            type: sequelize_1.DataTypes.STRING
         }
     }, {
         sequelize,
-        tableName: 'Vinyl',
+        tableName: "Vinyl",
         timestamps: true,
     });
 };
