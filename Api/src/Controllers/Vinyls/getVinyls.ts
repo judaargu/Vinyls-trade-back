@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { Request, Response } from 'express';
-import {cleanData, cleanJson} from '../../utils/cleanData';
 import { Vinyl } from '../../Models/Vinyls';
 
 
