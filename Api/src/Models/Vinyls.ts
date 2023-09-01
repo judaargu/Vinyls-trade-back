@@ -4,8 +4,9 @@ import { UUID } from "crypto";
 
 class Vinyl extends Model {
     public id!: UUID;
-    public idApi!: number;
+    public idApi?: number;
     public title!: string;
+    public artist!: string; 
     public year!: number;
     public genre!: string;
     public cover_image!: string;
@@ -23,7 +24,7 @@ class Vinyl extends Model {
             this.stock = values.stock;
         } else if (!values.stock){
             this.stock = Math.floor(Math.random() * (20 - 1 + 1)) + 1; 
-
+            
         }
 
         if (values.price){
