@@ -1,11 +1,14 @@
 import { Router } from "express";
 import getAllVinyls from "../Controllers/Vinyls/getVinyls";
+import { createUserHandler } from "../Routes/usersRouter";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
 import { Request, Response } from "express";
 
 const router = Router();
 
-router.get('/', getAllVinyls);
+router.get("/", getAllVinyls);
+
+router.post("/createUser", createUserHandler);
 
 router.post('/', async (req: Request, res: Response) => {
     try {
@@ -17,5 +20,7 @@ router.post('/', async (req: Request, res: Response) => {
         
     }
 })
+
+export default router;
 
 export default router;
