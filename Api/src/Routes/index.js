@@ -8,4 +8,3 @@ router.get('/', getVinyls_1.getAllVinyls);
 router.post("/createUser", usersRouter_1.createUserHandler);
 router.post("/vinyls", getVinyls_1.postVinylsController);
 exports.default = router;
-
