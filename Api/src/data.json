@@ -1,0 +1,6831 @@
+{
+  "data":[
+    {
+    "id": "ab992997-5685-4fb7-9378-25a8bf13a73b",
+    "idApi": 1013265,
+    "title": "DJ Michel (4) & Kike DJ - Pokitato",
+    "year": 2006,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/Mp3iZbpDAtuKYfnQtmEKHPDnN5XZxgYv78DPev3vpWI/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTMy/NjUtMTI3MDYwNjkz/MC5qcGVn.jpeg",
+    "style": "Hard House",
+    "stock": 16,
+    "price": 57,
+    "artists": [
+      {
+        "name": "DJ Michel (4)"
+      },
+      {
+        "name": "Kike DJ"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Pokytato",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Don't Sleep",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1013265",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.554Z"
+  },
+  {
+    "id": "18a45bc2-9ac5-4f3b-bdb6-4f837fd8c7b4",
+    "idApi": 5373878,
+    "title": "Diamond Youth - Shake",
+    "year": 2014,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/_uByUf3uoIPN9mBX7tOPw4c0wZBBUOjjYXvL7rshxVc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzNzM4/NzgtMTM5ODg3MTYx/MC02NzY2LmpwZWc.jpeg",
+    "style": "",
+    "stock": 17,
+    "price": 61,
+    "artists": [
+      {
+        "name": "Diamond Youth"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=ot99sFasW20"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=caGQNLBdavE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=JKe_TOXQLcw"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Red Water",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Maryland Ice Cream",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Can't Shake The Feeling",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Don't Feel Real",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/5373878",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.561Z"
+  },
+  {
+    "id": "339c1373-a9bf-47d9-9057-082cd121b4fc",
+    "idApi": 3223073,
+    "title": "Thee Tee Pees - You're A Turd",
+    "year": 2011,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/dK311WhO8DGf6k2YNZvyu8kemiAkgyWmg6c2A3bFU5w/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMjMw/NzMtMTU0MzkxOTU1/MC04ODUxLmpwZWc.jpeg",
+    "style": "Garage Rock,Lo-Fi,Punk",
+    "stock": 18,
+    "price": 64,
+    "artists": [
+      {
+        "name": "Thee Tee Pees"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "You're A Turd",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Do The Smog",
+        "duration": ""
+      },
+      {
+        "position": "",
+        "type_": "track",
+        "title": "",
+        "duration": ""
+      },
+      {
+        "position": "",
+        "type_": "track",
+        "title": "",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/3223073",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.569Z"
+  },
+  {
+    "id": "a0abaee7-9e97-425f-b3dd-d4fecdd155ad",
+    "idApi": 956754,
+    "title": "Rushroom - Don't Give Up",
+    "year": 2007,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/6kLshR4rjCvC1zFnPdq5uejphrnaflzzERj80nYulAc/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk1Njc1/NC0xMjAxOTg0ODU3/LmpwZWc.jpeg",
+    "style": "Hands Up",
+    "stock": 10,
+    "price": 37,
+    "artists": [
+      {
+        "name": "Rushroom"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=upB0MlniVcw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=UCVVU88uFLM"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Don't Give Up (Original Mix)",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Don't Give Up (Rob Mayth Remix)",
+        "extraartists": [
+          {
+            "name": "Rob Mayth",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 207509,
+            "resource_url": "https://api.discogs.com/artists/207509"
+          }
+        ],
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/956754",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.579Z"
+  },
+  {
+    "id": "5346bdaa-ae13-44cd-84ae-46d92488cdde",
+    "idApi": 11013480,
+    "title": "Faze Action Feat. Nina Miranda - Vamos Pintar (Let's Paint)",
+    "year": 2017,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/opCTNd_hCiZG14NUIWeI9geH9YFdGs7PuOQYVUxiCBo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDEz/NDgwLTE1MDkwNTQx/MjAtMjAxMi5qcGVn.jpeg",
+    "style": "House,Disco",
+    "stock": 9,
+    "price": 32,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/11013480",
+    "createdAt": "2023-09-01T16:50:53.853Z",
+    "updatedAt": "2023-09-01T16:50:53.853Z"
+  },
+  {
+    "id": "59ba7c88-ddff-4913-ab83-7f56700d7314",
+    "idApi": 315534,
+    "title": "Progerik - 5",
+    "year": 1998,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/3XVpyDmBVv_QbsygQhS4n9gGFs9v_CxL7rYJzCsCskY/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTUz/NC0xMDkzNTA2OTMz/LmpwZw.jpeg",
+    "style": "Hardcore,Techno,Broken Beat",
+    "stock": 13,
+    "price": 46,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/315534",
+    "createdAt": "2023-09-01T16:50:53.853Z",
+    "updatedAt": "2023-09-01T16:50:53.853Z"
+  },
+  {
+    "id": "0a5752ba-841b-4c20-9280-4392435f2c16",
+    "idApi": 734424,
+    "title": "Sufferer Sound - I A Suffer",
+    "year": 1978,
+    "genre": "Reggae",
+    "cover_image": "https://i.discogs.com/V0nIwipg_AmfQiyfmpTLA7i7UljVBRJi8Aq8BS81whI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNDQy/NC0xMzU1NzQxMDEz/LTM5MTAuanBlZw.jpeg",
+    "style": "Dub",
+    "stock": 19,
+    "price": 67,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/734424",
+    "createdAt": "2023-09-01T16:50:53.855Z",
+    "updatedAt": "2023-09-01T16:50:53.855Z"
+  },
+  {
+    "id": "3ad9621a-c167-43b3-a63b-284a2e23e277",
+    "idApi": 1113522,
+    "title": "Control & Miss.E - Visible Souls",
+    "year": 2005,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/fBgoyNuyedDhiaQ9m-SMEQ8ICGS1eCO0CWdS8pqdh88/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTM1/MjItMTUwMTMyMzc0/Ni0xNjkyLmpwZWc.jpeg",
+    "style": "Happy Hardcore,Makina",
+    "stock": 11,
+    "price": 41,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/1113522",
+    "createdAt": "2023-09-01T16:50:53.856Z",
+    "updatedAt": "2023-09-01T16:50:53.856Z"
+  },
+  {
+    "id": "379c1d24-3e16-4526-8ce5-4428ae001e64",
+    "idApi": 403595,
+    "title": "Adam Jay / Greg Gow - Victims of Culture 2",
+    "year": 2004,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/IX-vDrYIXyTWXU14HmsJ044iZ93f3SVibKjng6efMWA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMzU5/NS0xNDE4NDgzMjg2/LTQ2NjguanBlZw.jpeg",
+    "style": "Techno",
+    "stock": 10,
+    "price": 38,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/403595",
+    "createdAt": "2023-09-01T16:50:53.857Z",
+    "updatedAt": "2023-09-01T16:50:53.857Z"
+  },
+  {
+    "id": "e9504aa6-0763-4eed-95d0-8d4852e17105",
+    "idApi": 2798348,
+    "title": "Lori McKenna - Unglamorous",
+    "year": 2007,
+    "genre": "Folk, World, & Country",
+    "cover_image": "https://i.discogs.com/x_uPFYhCu2EVo0_GnFqbrCEchY5t85-amjMwzPToynk/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3OTgz/NDgtMTMwMTUxMDUz/My5qcGVn.jpeg",
+    "style": "",
+    "stock": 18,
+    "price": 63,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/2798348",
+    "createdAt": "2023-09-01T16:50:53.857Z",
+    "updatedAt": "2023-09-01T16:50:53.857Z"
+  },
+  {
+    "id": "af4c5910-47d7-4725-b329-bd01283aea3d",
+    "idApi": 3101399,
+    "title": "The Hitmen (4) - Tora Tora D.T.K.",
+    "year": 1989,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/0O0HYrzO4NnG4fOCyGUMuEanm0jnQjsmrjJ7uLBam3g/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDEz/OTktMTMyMTg2NzQ1/OC5qcGVn.jpeg",
+    "style": "Rock & Roll",
+    "stock": 13,
+    "price": 45,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/3101399",
+    "createdAt": "2023-09-01T16:50:53.857Z",
+    "updatedAt": "2023-09-01T16:50:53.857Z"
+  },
+  {
+    "id": "158b06b4-bde2-427c-ba58-c78807626dd9",
+    "idApi": 1143347,
+    "title": "Ronald van Gelderen - Dirty Rocker",
+    "year": 2007,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/ZxSw1NM8qf9cyN4xRHxn09pLeiTBbZAqk4CEOZJH6DQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDMz/NDctMTE5Njg2Mjcx/My5qcGVn.jpeg",
+    "style": "Tribal,Techno,Hard Trance",
+    "stock": 10,
+    "price": 38,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/1143347",
+    "createdAt": "2023-09-01T16:50:53.857Z",
+    "updatedAt": "2023-09-01T16:50:53.857Z"
+  },
+  {
+    "id": "77971e43-d241-4fef-8ff4-fd515c8839c5",
+    "idApi": 44841,
+    "title": "Basement Jaxx - Jaxxapella's",
+    "year": 2001,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/hFbVRRYTv7pmTndRSK8cZVIfSGxsnD7eBsshgG1a_30/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0ODQx/LTAwMS5qcGc.jpeg",
+    "style": "House,Latin",
+    "stock": 17,
+    "price": 60,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/44841",
+    "createdAt": "2023-09-01T16:50:53.852Z",
+    "updatedAt": "2023-09-01T16:50:53.852Z"
+  },
+  {
+    "id": "6ea0ecae-8705-42f6-8b2e-5e5e396d38c1",
+    "idApi": 1257863,
+    "title": "S' Dolce - I'll Fly",
+    "year": 1996,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/aXWeWpWP48rvidp3RBNaj554LSOyLe4M6JHXbkh2eW8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTc4/NjMtMTM5MzU5MTcy/Ni00MjU5LmpwZWc.jpeg",
+    "style": "Italodance",
+    "stock": 15,
+    "price": 52,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/1257863",
+    "createdAt": "2023-09-01T16:50:53.853Z",
+    "updatedAt": "2023-09-01T16:50:53.853Z"
+  },
+  {
+    "id": "1738afd9-52cd-4d1b-8bb7-ee175f67681b",
+    "idApi": 352179,
+    "title": "Fast Food (10) - Hot Dog",
+    "year": 1999,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/XRy0uofTG7RN-GSHe1XVZUvephyYMSN5Q7FUBLHNbTA/rs:fit/g:sm/q:90/h:419/w:430/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MjE3/OS0xMTk5MTA3NzUy/LmpwZWc.jpeg",
+    "style": "Progressive House,Makina",
+    "stock": 5,
+    "price": 21,
+    "artists": [
+      {
+        "name": "Fast Food (10)"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=bxkySohWdRw"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Hot Dog",
+        "duration": "6:06"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "My Friend Benny",
+        "duration": "5:25"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/352179",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.517Z"
+  },
+  {
+    "id": "073eda7e-d8d4-449e-880f-a0f18768ca44",
+    "idApi": 3724867,
+    "title": "Laxmikant Pyarelal*, Anand Bakshi - Anurodh",
+    "year": 1976,
+    "genre": "Pop,Folk, World, & Country,Stage & Screen",
+    "cover_image": "https://i.discogs.com/gqa2h_53v7a3fDgsk8OidRZ75-38Lh6KzpvQYmLSru0/rs:fit/g:sm/q:90/h:622/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MjQ4/NjctMTYwOTg2MDg0/OS0yNTUyLmpwZWc.jpeg",
+    "style": "Soundtrack,Hindustani,Bollywood",
+    "stock": 7,
+    "price": 28,
+    "artists": [
+      {
+        "name": "Laxmikant-Pyarelal"
+      },
+      {
+        "name": "Anand Bakshi"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=ZUk9hjYJI0A"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=y2_JNn8gU2I"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Kishore Kumar",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 423761,
+            "resource_url": "https://api.discogs.com/artists/423761"
+          }
+        ],
+        "title": "Aapke Anurodh Pe",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Kishore Kumar",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 423761,
+            "resource_url": "https://api.discogs.com/artists/423761"
+          }
+        ],
+        "title": "Mere Dil Ne Tarap Ke",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Manna Dey",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 621203,
+            "resource_url": "https://api.discogs.com/artists/621203"
+          },
+          {
+            "name": "\"Anurodh\" Chorus",
+            "anv": "Chorus",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2829959,
+            "resource_url": "https://api.discogs.com/artists/2829959"
+          }
+        ],
+        "title": "Tum Besahara Ho (Sad)",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Kishore Kumar",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 423761,
+            "resource_url": "https://api.discogs.com/artists/423761"
+          }
+        ],
+        "title": "Aate Jate Khoobsurat",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Manna Dey",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 621203,
+            "resource_url": "https://api.discogs.com/artists/621203"
+          },
+          {
+            "name": "\"Anurodh\" Chorus",
+            "anv": "Chorus",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2829959,
+            "resource_url": "https://api.discogs.com/artists/2829959"
+          }
+        ],
+        "title": "Tum Besahara Ho (Happy)",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Kishore Kumar",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 423761,
+            "resource_url": "https://api.discogs.com/artists/423761"
+          }
+        ],
+        "title": "Na Hansna Mere Gham Pe",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/3724867",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.557Z"
+  },
+  {
+    "id": "b4d23024-30ff-4f1e-8e9d-7d3bf7baac87",
+    "idApi": 210080,
+    "title": "Groovemaster K. & 88 Keys - Get Up!",
+    "year": 2002,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/lGMO_YY7p67GX8JfxKHNUvpfDSf2jw0J3gqIVAi11Kg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMDA4/MC0xNjM1NzgzNjg5/LTgwMzcuanBlZw.jpeg",
+    "style": "House",
+    "stock": 19,
+    "price": 65,
+    "artists": [
+      {
+        "name": "Groovemaster K. & 88 Keys"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=JD10LvVmRws"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=-HE3jZc1SPg"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Get Up! (Original Club Mix)",
+        "duration": "6:26"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Get Up! (Keys & Groove Dub)",
+        "duration": "6:42"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/210080",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.573Z"
+  },
+  {
+    "id": "0399c9e8-afa5-4f94-a737-4fe09f2e029b",
+    "idApi": 301819,
+    "title": "Mastik Soul - South Tribal / North Tribal",
+    "year": 2004,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/STzfUUPtKFPi8Cd5qXcfvGDYpnbMZJrcUOV8GaJePyA/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMTgx/OS0xMDk2MjI3NTI5/LmpwZw.jpeg",
+    "style": "Tribal House,Tech House",
+    "stock": 9,
+    "price": 35,
+    "artists": [
+      {
+        "name": "Mastik Soul"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=eyRQx3wHnLU"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "South Tribal",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "North Tribal",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/301819",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.538Z"
+  },
+  {
+    "id": "7cbbcad4-be1d-4212-9df5-e639e1edd235",
+    "idApi": 289601,
+    "title": "Axel Break / DJ MakeUWet - Axel F / Are You Wet Yet",
+    "year": 2001,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/kop4ZbpNoOTqyRF7XKQS4GEa7OdDvaM_6tS9dKRmlGQ/rs:fit/g:sm/q:90/h:368/w:490/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4OTYw/MS0xMjgzNTk5OTc0/LmpwZWc.jpeg",
+    "style": "Breakbeat,Breaks",
+    "stock": 15,
+    "price": 52,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/289601",
+    "createdAt": "2023-09-01T16:50:53.853Z",
+    "updatedAt": "2023-09-01T16:50:53.853Z"
+  },
+  {
+    "id": "dcdbd6be-ae4d-4076-a4ac-60eb6f2d1e68",
+    "idApi": 193447,
+    "title": "Subliminal! - You Are The Only !",
+    "year": 1994,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/uXdYS-sjfrKxSVwXUAv8gEa42IJ2zeUO4UaNfD_le-E/rs:fit/g:sm/q:90/h:629/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MzQ0/Ny0xMzk3NDAwMDg1/LTQ1MjQuanBlZw.jpeg",
+    "style": "Progressive House",
+    "stock": 11,
+    "price": 40,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/193447",
+    "createdAt": "2023-09-01T16:50:53.853Z",
+    "updatedAt": "2023-09-01T16:50:53.853Z"
+  },
+  {
+    "id": "abb0a574-4934-427b-bcff-c714c01dff6a",
+    "idApi": 669349,
+    "title": "Halstone - Real Live",
+    "year": 2006,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/5FfSagYFP0XbqEocDnOHGvJZ661LFWfKXkWSqjWRAAk/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2OTM0/OS0xMTQ1NjI3MDA0/LmpwZWc.jpeg",
+    "style": "House,Electro",
+    "stock": 7,
+    "price": 27,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/669349",
+    "createdAt": "2023-09-01T16:50:53.856Z",
+    "updatedAt": "2023-09-01T16:50:53.856Z"
+  },
+  {
+    "id": "c8a73c95-27d1-4ec1-8e04-fac5289e9cd8",
+    "idApi": 777119,
+    "title": "Vooodu - Southern California Nites / Dark Regions",
+    "year": 1997,
+    "genre": "Hip Hop",
+    "cover_image": "https://i.discogs.com/qYFnbxF6Ijccyg_1O3PtStYBAkfXG6uhKxw31ExEoJg/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3NzEx/OS0xMzYyNjM5MTIy/LTEwMjkuanBlZw.jpeg",
+    "style": "",
+    "stock": 17,
+    "price": 60,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/777119",
+    "createdAt": "2023-09-01T16:50:53.856Z",
+    "updatedAt": "2023-09-01T16:50:53.856Z"
+  },
+  {
+    "id": "0d624cd4-565f-4df9-be42-497ce766f663",
+    "idApi": 1292783,
+    "title": "Don Dietrich - Dietrich",
+    "year": 2003,
+    "genre": "Electronic,Jazz",
+    "cover_image": "https://i.discogs.com/KT8x1sgxnqDDOZQ00yrExmo66dGin6bF2WpUH0GJV-4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTI3/ODMtMTI2OTQwNDE1/MS5qcGVn.jpeg",
+    "style": "Noise",
+    "stock": 11,
+    "price": 39,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/1292783",
+    "createdAt": "2023-09-01T16:50:53.857Z",
+    "updatedAt": "2023-09-01T16:50:53.857Z"
+  },
+  {
+    "id": "2b3e0ed8-e0a3-4289-95f3-8ee253a97fc4",
+    "idApi": 2463895,
+    "title": "Dance Disorder - Zusammen Remixes",
+    "year": 2010,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/CMQRSHlA3tQ8XVEB-FKDPyVCvYEikEYktsSA9ftKHYc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NjM4/OTUtMTQ1Njc4MDk0/MC03NTY3LmpwZWc.jpeg",
+    "style": "Tech House",
+    "stock": 18,
+    "price": 63,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/2463895",
+    "createdAt": "2023-09-01T16:50:53.857Z",
+    "updatedAt": "2023-09-01T16:50:53.857Z"
+  },
+  {
+    "id": "ae72dbd9-9fe2-47ae-9c14-659caaed4fe1",
+    "idApi": 8330607,
+    "title": "Les Wampas - Touche Pipi",
+    "year": 1988,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/-Lms6p-iDRt_zub1yNLBxrtsDZHZk1b7RQYyomyIZhw/rs:fit/g:sm/q:90/h:625/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzMzA2/MDctMTQ1OTUxMTA2/My01NTkzLmpwZWc.jpeg",
+    "style": "Garage Rock,Psychobilly,Punk",
+    "stock": 13,
+    "price": 46,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/8330607",
+    "createdAt": "2023-09-01T16:50:53.857Z",
+    "updatedAt": "2023-09-01T16:50:53.857Z"
+  },
+  {
+    "id": "721698e4-de6b-4a35-a4d1-76a9f107ca08",
+    "idApi": 1186954,
+    "title": "The Cuban Heels - Walk On Water",
+    "year": 1980,
+    "genre": "Rock,Pop",
+    "cover_image": "https://i.discogs.com/KtM55bbYVyfJDvrSxt2-4TWMxntgT7MdBAVT3if2O8U/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODY5/NTQtMTU3Mjc5MTM0/Mi0zODExLmpwZWc.jpeg",
+    "style": "New Wave",
+    "stock": 7,
+    "price": 29,
+    "artists": null,
+    "videos": null,
+    "tracklist": null,
+    "resource_url": "https://api.discogs.com/releases/1186954",
+    "createdAt": "2023-09-01T16:50:53.857Z",
+    "updatedAt": "2023-09-01T16:50:53.857Z"
+  },
+  {
+    "id": "2049e7f6-c1ec-41ec-ae36-085c9ea4a571",
+    "idApi": 3116001,
+    "title": "Monkey Safari - Liverpool",
+    "year": 2011,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/chJCnrcrf6CMXauMdSpmJ23OvnCGRm9EXuidabn680E/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMTYw/MDEtMTMxNjUyNTAy/Ni5qcGVn.jpeg",
+    "style": "Deep House,Tech House",
+    "stock": 13,
+    "price": 47,
+    "artists": [
+      {
+        "name": "Monkey Safari"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=tJthlNOPmJM"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Liverpool",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Berlin",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/3116001",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.532Z"
+  },
+  {
+    "id": "dff0871e-0fbc-45e4-afec-14cbc18d68d7",
+    "idApi": 1252392,
+    "title": "Danilo Vigorito - Napoli Underground Pt. 1",
+    "year": 2008,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/vJWyhh1qq_5T15j0pkzYPJ1Al6_8VRfE9pzLLwti9vU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTIz/OTItMTIwMzkwMzMw/NS5qcGVn.jpeg",
+    "style": "Techno,Minimal",
+    "stock": 18,
+    "price": 61,
+    "artists": [
+      {
+        "name": "Danilo Vigorito"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=-dHMTZlJTkE"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Breack Dance",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Chilly Motion",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1252392",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.575Z"
+  },
+  {
+    "id": "d316e2ca-6a39-4831-9d0c-a7330b0b92ab",
+    "idApi": 1212798,
+    "title": "A+ - Up Top NY / Boyz 2 Men",
+    "year": null,
+    "genre": "Hip Hop",
+    "cover_image": "https://i.discogs.com/YEoDtg2-53AtlVoDC6bjtss0IbF6c96xr_81MYM7iE8/rs:fit/g:sm/q:90/h:575/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTI3/OTgtMTQxODQ5OTU0/MC0zMDM1LmpwZWc.jpeg",
+    "style": "",
+    "stock": 14,
+    "price": 49,
+    "artists": [
+      {
+        "name": "A+"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=9AGh2CKamKQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=rHjlnJaBJhk"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Up Top NY (Edit)",
+        "duration": "4:05"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Up Top NY",
+        "duration": "5:00"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Boyz 2 Men (Edit)",
+        "extraartists": [
+          {
+            "name": "Canibus",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 126433,
+            "resource_url": "https://api.discogs.com/artists/126433"
+          },
+          {
+            "name": "Lost Boyz",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 48435,
+            "resource_url": "https://api.discogs.com/artists/48435"
+          }
+        ],
+        "duration": "4:01"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Boyz 2 Men",
+        "extraartists": [
+          {
+            "name": "Canibus",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 126433,
+            "resource_url": "https://api.discogs.com/artists/126433"
+          },
+          {
+            "name": "Lost Boyz",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 48435,
+            "resource_url": "https://api.discogs.com/artists/48435"
+          }
+        ],
+        "duration": "3:58"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1212798",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.592Z"
+  },
+  {
+    "id": "ff1b0ef5-a5a8-495d-b0a4-ab5a69de20df",
+    "idApi": 764806,
+    "title": "Chris Delay - A New Day",
+    "year": 2006,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/SpduwOyS6xzVNd2KVeL7IqrERciERY-Q3EDxkHZ9HO0/rs:fit/g:sm/q:90/h:323/w:317/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDgw/Ni0xMTU2NDQxMjYy/LmpwZWc.jpeg",
+    "style": "Techno,Tech House",
+    "stock": 7,
+    "price": 27,
+    "artists": [
+      {
+        "name": "Chris Delay"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=Y-lmM-OQ2D8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=e3oBGtfi0ro"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "A New Day",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Comeback",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/764806",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.599Z"
+  },
+  {
+    "id": "8410ecd2-e847-474c-a318-dbdd7cefd24d",
+    "idApi": 256521,
+    "title": "Musyka - Time Ticks Away / Sweetest",
+    "year": 2002,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/qBsTV_S45O2sdqoyXjSu_nD7vstYppgAfBzyco_jg70/rs:fit/g:sm/q:90/h:626/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NjUy/MS0xMjkzMzc1MTAx/LmpwZWc.jpeg",
+    "style": "Drum n Bass",
+    "stock": 6,
+    "price": 23,
+    "artists": [
+      {
+        "name": "Musyka"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=CBqNh5TP7zU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=P5fc9SIb6Wg"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Time Ticks Away",
+        "duration": "6:04"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Sweetest",
+        "duration": "5:55"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/256521",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.609Z"
+  },
+  {
+    "id": "c1d3babd-f9f0-4414-8435-44de1d9c0ebb",
+    "idApi": 13606296,
+    "title": "Greg Gow - Paradigm Shift EP",
+    "year": 2019,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/IdYCDfVtlL-0Y58G70Ui5Unm9Vur3NnX3_aCqzAbfpM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjA2/Mjk2LTE1NTczOTg5/MTUtMjc5OS5qcGVn.jpeg",
+    "style": "Techno,House,Tech House,Deep House",
+    "stock": 6,
+    "price": 23,
+    "artists": [
+      {
+        "name": "Greg Gow"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=xDHoaKDKOBw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=d4OyYYVNOiE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Iz-EWKjtRkg"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Ukp5q0sdAJg"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Transcendence",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Paradigm Shift",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Lantana",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/13606296",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.626Z"
+  },
+  {
+    "id": "b258c202-29d6-46c8-b986-6f88896cdba2",
+    "idApi": 7242046,
+    "title": "ishi vu* - Gryning ",
+    "year": 2015,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/RBQPtZYUK7UqbIu_vNfHHaC0Q8ZbSkbOcdtGHYYwD18/rs:fit/g:sm/q:90/h:578/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNDIw/NDYtMTQzNzU0MTM5/Ni03NDYxLmpwZWc.jpeg",
+    "style": "Deep House",
+    "stock": 7,
+    "price": 29,
+    "artists": [
+      {
+        "name": "Ishi Vu"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=I1JzHaiWfpE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=7OyVoSrDIvc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=ZcUrve9ZfUg"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Gryning",
+        "duration": "7:03"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Skymning",
+        "duration": "4:18"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Gryning (Matt Karmil Remix)",
+        "extraartists": [
+          {
+            "name": "Matt Karmil",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 914747,
+            "resource_url": "https://api.discogs.com/artists/914747"
+          }
+        ],
+        "duration": "7:11"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Gryning (Shakarchi & Straneus Remix)",
+        "extraartists": [
+          {
+            "name": "Shakarchi & Stranéus",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 2135362,
+            "resource_url": "https://api.discogs.com/artists/2135362"
+          }
+        ],
+        "duration": "6:19"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/7242046",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.644Z"
+  },
+  {
+    "id": "9f0f9a0f-6a7f-40f2-b75b-df5389a4c8ee",
+    "idApi": 18806755,
+    "title": "Dark Vektor - Back",
+    "year": 2021,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/YbueWBcCTScs_bzoVZrCSia4VqGAgpFhwZg7j0VIAS0/rs:fit/g:sm/q:90/h:611/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4ODA2/NzU1LTE2MjE1MjE1/MDAtNTQxMy5qcGVn.jpeg",
+    "style": "Electro,Abstract",
+    "stock": 10,
+    "price": 36,
+    "artists": [
+      {
+        "name": "Dark Vektor"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=gN7g2mqa3TU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=b4yCR0aIm7w"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=4gOJdU9JJLQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=ytTCg0WvIF8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=LkJoiWHsvlo"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Back (Original)",
+        "duration": "5:34"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Back (Instrumental)",
+        "duration": "5:34"
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Back (Vocals)",
+        "duration": "2:43"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Back (Agnès Pe Remix)",
+        "extraartists": [
+          {
+            "name": "Agnès Pe",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 3157580,
+            "resource_url": "https://api.discogs.com/artists/3157580"
+          }
+        ],
+        "duration": "4:37"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Back (DJ Overdose RotterHague Remix)",
+        "extraartists": [
+          {
+            "name": "DJ Overdose",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 13351,
+            "resource_url": "https://api.discogs.com/artists/13351"
+          }
+        ],
+        "duration": "5:41"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/18806755",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.664Z"
+  },
+  {
+    "id": "af37dadb-0d91-4b69-be46-21cfcef591f1",
+    "idApi": 127202,
+    "title": "Peter G. & The Clubjock* - Clubb Strings",
+    "year": 2001,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/HH4i8XSCrprRO29UNi9Q7bFYMCkKXM36Xmrl89cQcjw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzIw/Mi0xMjUyOTQ2NjY1/LmpwZWc.jpeg",
+    "style": "Trance",
+    "stock": 15,
+    "price": 53,
+    "artists": [
+      {
+        "name": "DJ Peter G. & The Clubjock"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=5MsvdGmyRYw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=f0MbHDOQ4ps"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=8hYV8GwfonY"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Klubb Strings (Original Mix)",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Klubb Strings (Clubmix)",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/127202",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.595Z"
+  },
+  {
+    "id": "db38f1e3-53f9-4fb5-9741-a79eb3171b63",
+    "idApi": 33397,
+    "title": "Slab - Sonic Grudge",
+    "year": 1996,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/GKaPNy3PiTtu2nw_fhr0Pg3J3KFyZFq2jk2Pfp5njMk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMzk3/LTEzODI1Njc2OTct/NTcxOC5qcGVn.jpeg",
+    "style": "House,Abstract",
+    "stock": 18,
+    "price": 64,
+    "artists": [
+      {
+        "name": "Slab"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=k_1BAp0TS-U"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=4CuWBIDA5Lg"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=DdJFuioV0Eg"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=8E3uWnnkEyo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=NhdD2C0cB7A"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Sonic Grudge (The Flying Vimanas Mix)",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Sonic Grudge (Radio Edit)",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Sonic Grudge (Roswell Rockers Mix)",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/33397",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.641Z"
+  },
+  {
+    "id": "3aa7f639-9609-47c5-9a48-63226c03b205",
+    "idApi": 139113,
+    "title": "Geezer - Puff In Me Sock",
+    "year": 2002,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/ZmBP-ewPqMqd__IrUuSvlZu9Sw7SJ1Z6Wl3u-O7FDO4/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTEx/My0xNjQ3MTc2ODgz/LTk1NDguanBlZw.jpeg",
+    "style": "Techno,Acid",
+    "stock": 14,
+    "price": 50,
+    "artists": [
+      {
+        "name": "Geezer"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=e7NN4OPoUIw"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Puff In Me Sock",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Fuck Censorship",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/139113",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.650Z"
+  },
+  {
+    "id": "80e5de2b-416e-4e25-90d8-1ec3c6d9c650",
+    "idApi": 1744134,
+    "title": "Freddy Bastone - It's Late",
+    "year": 1992,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/RepsEOnlmojBb2OwcwD8nOCVpbw9l7Nsrh9MkR1kohw/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NDQx/MzQtMTU4MjIyMzk2/Ny04OTc4LmpwZWc.jpeg",
+    "style": "House",
+    "stock": 8,
+    "price": 31,
+    "artists": [
+      {
+        "name": "Freddy Bastone"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=KBhdlUh0ZCs"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=RcJpi21YRQg"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "It's Late (Club Mix)",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "It's Late (After Hours Mix)",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "It's Late (Extended Pop Mix)\t",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "It's Late (Radio Mix)",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1744134",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.464Z"
+  },
+  {
+    "id": "50649bdf-1bd2-42fc-a3ca-762f5b33a323",
+    "idApi": 233040,
+    "title": "London Fever - Entering Groove",
+    "year": 2000,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/hnYtG_BhNNVUN6OjjAfJC2N7lfnB0tFYMGCaYJoQr1A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMzA0/MC0xMzk5NzQ5OTM2/LTY3NzYuanBlZw.jpeg",
+    "style": "Techno",
+    "stock": 15,
+    "price": 54,
+    "artists": [
+      {
+        "name": "London Fever"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=s52eFDjX55Y"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=eyhIWhVzPik"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=rs_m1TIN2ks"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Entering Groove",
+        "duration": "5:51"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Seismograph (Universal Prime Breaks Remix)",
+        "duration": "5:59"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "6th Ocean",
+        "duration": "6:00"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/233040",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.490Z"
+  },
+  {
+    "id": "c4ac86d2-63b9-4f19-8165-2d2a2ae2add4",
+    "idApi": 108292,
+    "title": "Motive - Please Don’t / Not Without Your Love",
+    "year": 2002,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/JA_wb-GbwjAWhmHsz18zYMzKrbc2_8ZZJS2CAVDKa7U/rs:fit/g:sm/q:90/h:559/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwODI5/Mi0xMjMzMDcyMDUy/LmpwZWc.jpeg",
+    "style": "Progressive House",
+    "stock": 8,
+    "price": 30,
+    "artists": [
+      {
+        "name": "Motive"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=1E45e9S_DgI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=1dLXi--a2zM"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Please Don't",
+        "extraartists": [
+          {
+            "name": "Astra (6)",
+            "anv": "",
+            "join": "",
+            "role": "Lyrics By",
+            "tracks": "",
+            "id": 1077497,
+            "resource_url": "https://api.discogs.com/artists/1077497"
+          },
+          {
+            "name": "Mark Hunt",
+            "anv": "M Hunt",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 17183,
+            "resource_url": "https://api.discogs.com/artists/17183"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Not Without Your Love",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/108292",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.492Z"
+  },
+  {
+    "id": "9964ef28-8c5b-43db-a7ec-4d27755cd570",
+    "idApi": 1557037,
+    "title": "Men In Trees - Rita Cala Pada / Planet Calypso",
+    "year": 2008,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/Sa6NQ3EIjFs7KW_sx4928hxAzxZb2vJIBx3BbkHlp90/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTcw/MzctMTIzMTQxNTQ5/Mi5qcGVn.jpeg",
+    "style": "Tech House,Minimal",
+    "stock": 8,
+    "price": 31,
+    "artists": [
+      {
+        "name": "Men In Trees"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=0MstSfOh5pA"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=H1q2s3amMkY"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Rita Cala Pada",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Planet Calypso",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1557037",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.565Z"
+  },
+  {
+    "id": "bd1f13af-9664-4bf2-ad6f-ac5398611688",
+    "idApi": 2183574,
+    "title": "The Ritchie Whites - Stop Me Before I Kill Again",
+    "year": 2000,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/7CW5GV-7rSGo8__SwIRSxVyTMgingF8NTYxjhSMHP8M/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxODM1/NzQtMTU5NTQzMzUy/OC02MjYxLmpwZWc.jpeg",
+    "style": "Garage Rock,Punk",
+    "stock": 7,
+    "price": 29,
+    "artists": [
+      {
+        "name": "The Ritchie Whites"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Stop Me Before I Kill Again",
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Walk Away",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/2183574",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.611Z"
+  },
+  {
+    "id": "fe11778e-afe4-4e14-8390-f8bb47fdeab4",
+    "idApi": 14395074,
+    "title": "andhim - The Remixes Part 1",
+    "year": 2019,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/ehY9PlCmFx1NxZauVBlqEf5iMDhtdLgrIFxEzNEpU-I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Mzk1/MDc0LTE1NzM2NTgw/OTktNzg2NS5qcGVn.jpeg",
+    "style": "Tech House,Neo Trance",
+    "stock": 8,
+    "price": 32,
+    "artists": [
+      {
+        "name": "andhim"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Windows 85 (Toto Chiavetta Retro Mono Remix)",
+        "extraartists": [
+          {
+            "name": "Toto Chiavetta",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1541978,
+            "resource_url": "https://api.discogs.com/artists/1541978"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Aires (Johannes Albert Remix)",
+        "extraartists": [
+          {
+            "name": "Johannes Albert",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1784040,
+            "resource_url": "https://api.discogs.com/artists/1784040"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Buenos (Kalupke Remix)",
+        "extraartists": [
+          {
+            "name": "kalupke",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 7286665,
+            "resource_url": "https://api.discogs.com/artists/7286665"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Duno (Dream Wave Neil Landstrumm Remix)",
+        "extraartists": [
+          {
+            "name": "Neil Landstrumm",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1118,
+            "resource_url": "https://api.discogs.com/artists/1118"
+          }
+        ],
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/14395074",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.501Z"
+  },
+  {
+    "id": "fb57917d-9daa-4c35-a485-427b5d23634a",
+    "idApi": 4260907,
+    "title": "Cold War (3) / Vöetsek - Cold War / Vöetsek",
+    "year": 2008,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/S4bK5OhsaRsFyoehpPGtpfW00MDTiDdRBdW5FRkT1uo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyNjA5/MDctMTM2MDAxNDA1/OS02MDEwLmpwZWc.jpeg",
+    "style": "Thrash,Hardcore",
+    "stock": 14,
+    "price": 50,
+    "artists": [
+      {
+        "name": "Cold War (3)"
+      },
+      {
+        "name": "Vöetsek"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Cold War (3)",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1529326,
+            "resource_url": "https://api.discogs.com/artists/1529326"
+          }
+        ],
+        "title": "Changes",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Cold War (3)",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1529326,
+            "resource_url": "https://api.discogs.com/artists/1529326"
+          }
+        ],
+        "title": "No Regrets",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Cold War (3)",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1529326,
+            "resource_url": "https://api.discogs.com/artists/1529326"
+          }
+        ],
+        "title": "Lost Control",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Cold War (3)",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1529326,
+            "resource_url": "https://api.discogs.com/artists/1529326"
+          }
+        ],
+        "title": "Legions Of The Lost",
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Cold War (3)",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1529326,
+            "resource_url": "https://api.discogs.com/artists/1529326"
+          }
+        ],
+        "title": "Cold War",
+        "extraartists": [
+          {
+            "name": "Siege (2)",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 261445,
+            "resource_url": "https://api.discogs.com/artists/261445"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Vöetsek",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1141625,
+            "resource_url": "https://api.discogs.com/artists/1141625"
+          }
+        ],
+        "title": "Bully With A Badge",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Vöetsek",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1141625,
+            "resource_url": "https://api.discogs.com/artists/1141625"
+          }
+        ],
+        "title": "Someone I Used To Know",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Vöetsek",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1141625,
+            "resource_url": "https://api.discogs.com/artists/1141625"
+          }
+        ],
+        "title": "Spent Shells Tell No Tales",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/4260907",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.504Z"
+  },
+  {
+    "id": "e4a4c81d-da61-474f-b624-623568885f50",
+    "idApi": 616933,
+    "title": "Do The Math / Andyskopes* - Search & Rescue / Just Call My Name",
+    "year": 2006,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/TZVOwW0Qcj1I9oR7zmcyyc8f6RsQcmPd7vx5lB1-IlE/rs:fit/g:sm/q:90/h:590/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNjkz/My0xMzAyOTAxNTUw/LmpwZWc.jpeg",
+    "style": "Drum n Bass",
+    "stock": 19,
+    "price": 65,
+    "artists": [
+      {
+        "name": "Do The Math"
+      },
+      {
+        "name": "Andy Skopes"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=ixYWJ1Dz0v0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Uv7t9S7Y4Ow"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Do The Math",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 403633,
+            "resource_url": "https://api.discogs.com/artists/403633"
+          }
+        ],
+        "title": "Search & Rescue",
+        "duration": ""
+      },
+      {
+        "position": "AA",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Andy Skopes",
+            "anv": "Andyskopes",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 305295,
+            "resource_url": "https://api.discogs.com/artists/305295"
+          }
+        ],
+        "title": "Just Call My Name",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/616933",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.510Z"
+  },
+  {
+    "id": "4514b353-ff05-4182-9561-6e583304a00a",
+    "idApi": 610202,
+    "title": "Tom Stephan & D. Ramirez - Shake It Baby",
+    "year": 2006,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/ijClfRODMrjSD_s4Jjuivh4Xuqfk0RlplU7-Uvxcpzw/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMDIw/Mi0xNTU1MzM0OTAz/LTI4NjQuanBlZw.jpeg",
+    "style": "House,Tribal,Tech House",
+    "stock": 13,
+    "price": 47,
+    "artists": [
+      {
+        "name": "Tom Stephan"
+      },
+      {
+        "name": "D. Ramirez"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=ysEwGJ3t5iw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=cOFDKRWbPwc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=k_R0ZPxK3z8"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Shake It Baby (Original Mix)",
+        "extraartists": [
+          {
+            "name": "Dean Marriott",
+            "anv": "",
+            "join": "",
+            "role": "Mixed By",
+            "tracks": "",
+            "id": 182123,
+            "resource_url": "https://api.discogs.com/artists/182123"
+          }
+        ],
+        "duration": "7:45"
+      },
+      {
+        "position": "AA",
+        "type_": "track",
+        "title": "Shake It Baby (René Amesz + Peter Gelderblöm Remix)",
+        "extraartists": [
+          {
+            "name": "René Amesz & Peter Gelderblom",
+            "anv": "René Amesz + Peter Gelderblöm",
+            "join": "",
+            "role": "Remix, Producer [Additional]",
+            "tracks": "",
+            "id": 756236,
+            "resource_url": "https://api.discogs.com/artists/756236"
+          }
+        ],
+        "duration": "7:35"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/610202",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.515Z"
+  },
+  {
+    "id": "94195f56-74ba-455c-8222-0c802f33fd4e",
+    "idApi": 1017318,
+    "title": "Datarock - I Used To Dance With My Daddy",
+    "year": 2007,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/Nzw_OUZtD0s2_e1id4jporNXnuSsPGn5NtBCTRwdwV4/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTcz/MTgtMTE4NjA3NjAz/OC5qcGVn.jpeg",
+    "style": "Alternative Rock,Electro,Synth-pop",
+    "stock": 13,
+    "price": 47,
+    "artists": [
+      {
+        "name": "Datarock"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=jgS5kw-d5AQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=0C2xZrkDbck"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=zbCiumbe8BM"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "I Used To Dance With My Daddy",
+        "extraartists": [
+          {
+            "name": "Fredrik Saroea",
+            "anv": "Saroea",
+            "join": "",
+            "role": "Performer",
+            "tracks": "",
+            "id": 64132,
+            "resource_url": "https://api.discogs.com/artists/64132"
+          },
+          {
+            "name": "Ketil Mosnes",
+            "anv": "Mosnes",
+            "join": "",
+            "role": "Performer",
+            "tracks": "",
+            "id": 603800,
+            "resource_url": "https://api.discogs.com/artists/603800"
+          },
+          {
+            "name": "Datarock",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 70887,
+            "resource_url": "https://api.discogs.com/artists/70887"
+          }
+        ],
+        "duration": "4:52"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "I Used To Dance With My Daddy (Subsource Remix)",
+        "duration": "3:56"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1017318",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.534Z"
+  },
+  {
+    "id": "5d70192a-a4fa-4651-b16c-5b23af99eb17",
+    "idApi": 4908054,
+    "title": "Roberto Vecchioni - Blumùn",
+    "year": 1993,
+    "genre": "Rock,Pop",
+    "cover_image": "https://i.discogs.com/svY7tF4-0HqN_pFYtFU_3m59MmoHrHvBW_toINCOFEs/rs:fit/g:sm/q:90/h:225/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5MDgw/NTQtMTM3OTEwMzIy/Ni00NTI1LmpwZWc.jpeg",
+    "style": "",
+    "stock": 20,
+    "price": 69,
+    "artists": [
+      {
+        "name": "Roberto Vecchioni"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=wVAvkiqBHBY"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Blumùn",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "5:38"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Angeli(*)",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni/M.Paoluzzi,R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "5:32"
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Euridice",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "4:33"
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "Rossana Rossana (Berg E Rac)",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "4:44"
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "Paco",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "4:48"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Saggio Di Danza Classica E Moderna",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "4:37"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Gli Amici Miei",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "5:00"
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Il Mago Della Pioggia",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni/M.Paoluzzi,R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "4:55"
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Tornado A Casa (Nostalgia Di Ordiare)",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "4:32"
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "Fammi Vedere Tu",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "3:25"
+      },
+      {
+        "position": "B6",
+        "type_": "track",
+        "title": "Blumùn (Reprise)",
+        "extraartists": [
+          {
+            "name": "(R.Vecchioni)",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "0:50"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/4908054",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.542Z"
+  },
+  {
+    "id": "0125eb48-f794-42f0-9f85-74d3c92994f7",
+    "idApi": 224141,
+    "title": "Riot303 vs. Observer - Alive And Kickin'",
+    "year": 2003,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/jWZctmBODKVba19dvbVVN4KsSJX_yg3G5OEUBz7gb8Y/rs:fit/g:sm/q:90/h:444/w:444/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNDE0/MS0xMTc5NTcyMDky/LmpwZWc.jpeg",
+    "style": "Hard Trance,Progressive Trance",
+    "stock": 19,
+    "price": 64,
+    "artists": [
+      {
+        "name": "Riot303 vs. Observer"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=_wNQKRyjvq0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=BtqB9fmBn6s"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Alive And Kickin' (Vengeance Mix)",
+        "extraartists": [
+          {
+            "name": "Vengeance",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 42868,
+            "resource_url": "https://api.discogs.com/artists/42868"
+          }
+        ],
+        "duration": "7:54"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Summer Of 94",
+        "duration": "8:01"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/224141",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.548Z"
+  },
+  {
+    "id": "0873b8e1-d8f7-4616-9371-baa4e7001dd0",
+    "idApi": 9273693,
+    "title": "Tingsek - Amygdala",
+    "year": 2016,
+    "genre": "Funk / Soul",
+    "cover_image": "https://i.discogs.com/m7KXfImqigW1jxxYUZV9VacvztX77mtwmcRiCSqkpuo/rs:fit/g:sm/q:90/h:580/w:580/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyNzM2/OTMtMTQ3Nzc1NDY2/MS01MjUzLmpwZWc.jpeg",
+    "style": "",
+    "stock": 6,
+    "price": 25,
+    "artists": [
+      {
+        "name": "Tingsek"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "1",
+        "type_": "track",
+        "title": "Rust",
+        "duration": ""
+      },
+      {
+        "position": "2",
+        "type_": "track",
+        "title": "Original Splendor / Amygdala",
+        "duration": ""
+      },
+      {
+        "position": "3",
+        "type_": "track",
+        "title": "Gas Station Gus",
+        "duration": ""
+      },
+      {
+        "position": "4",
+        "type_": "track",
+        "title": "The Fiddlers",
+        "duration": ""
+      },
+      {
+        "position": "5",
+        "type_": "track",
+        "title": "Fool",
+        "duration": ""
+      },
+      {
+        "position": "6",
+        "type_": "track",
+        "title": "Mothers Maker",
+        "duration": ""
+      },
+      {
+        "position": "7",
+        "type_": "track",
+        "title": "Maggie & Al (feat. Allen Stone)",
+        "duration": ""
+      },
+      {
+        "position": "8",
+        "type_": "track",
+        "title": "Miss Brand New",
+        "duration": ""
+      },
+      {
+        "position": "9",
+        "type_": "track",
+        "title": "Let That Go",
+        "duration": ""
+      },
+      {
+        "position": "10",
+        "type_": "track",
+        "title": "The Change (Part 2)",
+        "duration": ""
+      },
+      {
+        "position": "11",
+        "type_": "track",
+        "title": "Where You Gonna Go?",
+        "duration": ""
+      },
+      {
+        "position": "12",
+        "type_": "track",
+        "title": "Comfortably Distorted",
+        "duration": ""
+      },
+      {
+        "position": "13",
+        "type_": "track",
+        "title": "My Turn To Fall (feat. Bernhoft)",
+        "duration": ""
+      },
+      {
+        "position": "14",
+        "type_": "track",
+        "title": "Emotional Translation",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/9273693",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.550Z"
+  },
+  {
+    "id": "b146e6e6-a5da-4f9a-9c9f-ad4c9a633404",
+    "idApi": 12026442,
+    "title": "The Roves - The Roves",
+    "year": 2018,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/wxwtBZhKoVfOuPsxkxQU1PWEjaRDeU_Khkg1kINeicE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDI2/NDQyLTE1MjY4MjEw/MDEtNzU0OS5qcGVn.jpeg",
+    "style": "",
+    "stock": 17,
+    "price": 59,
+    "artists": [
+      {
+        "name": "The Roves"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=e3uDKuG4S_A"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=E2Nk4DALM6Y"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Head Is Changed",
+        "extraartists": [
+          {
+            "name": "Rhys Kempley",
+            "anv": "",
+            "join": "",
+            "role": "Organ [Vox]",
+            "tracks": "",
+            "id": 3349693,
+            "resource_url": "https://api.discogs.com/artists/3349693"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Thelonious On Monk Street",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "I'm Not The Only One",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "Chinese Magazine",
+        "extraartists": [
+          {
+            "name": "James Kempley",
+            "anv": "",
+            "join": "",
+            "role": "Musician [Additional], Drums",
+            "tracks": "",
+            "id": 3349694,
+            "resource_url": "https://api.discogs.com/artists/3349694"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "Oh! What A Pity",
+        "extraartists": [
+          {
+            "name": "Tom H. Wing",
+            "anv": "Tom Wing",
+            "join": "",
+            "role": "Backing Vocals",
+            "tracks": "",
+            "id": 3349692,
+            "resource_url": "https://api.discogs.com/artists/3349692"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "A6",
+        "type_": "track",
+        "title": "Return Of The Monkey Boy",
+        "extraartists": [
+          {
+            "name": "James Kempley",
+            "anv": "",
+            "join": "",
+            "role": "Musician [Additional], Drums",
+            "tracks": "",
+            "id": 3349694,
+            "resource_url": "https://api.discogs.com/artists/3349694"
+          },
+          {
+            "name": "Tom Kempley",
+            "anv": "",
+            "join": "",
+            "role": "Musician [Additional], Electric Guitar [Additional]",
+            "tracks": "",
+            "id": 3349690,
+            "resource_url": "https://api.discogs.com/artists/3349690"
+          },
+          {
+            "name": "Tom H. Wing",
+            "anv": "Tom Wing",
+            "join": "",
+            "role": "Tambourine",
+            "tracks": "",
+            "id": 3349692,
+            "resource_url": "https://api.discogs.com/artists/3349692"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Green Beret",
+        "extraartists": [
+          {
+            "name": "Tom H. Wing",
+            "anv": "Tom Wing",
+            "join": "",
+            "role": "Backing Vocals",
+            "tracks": "",
+            "id": 3349692,
+            "resource_url": "https://api.discogs.com/artists/3349692"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Murder Outside",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "All Doom & Gloom",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Down By The Parade",
+        "duration": ""
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "Golly, What A Day",
+        "duration": ""
+      },
+      {
+        "position": "B6",
+        "type_": "track",
+        "title": "Insanity Goes Searching",
+        "duration": ""
+      },
+      {
+        "position": "B7",
+        "type_": "track",
+        "title": "Times That I've Wasted (Times Yet To Come)",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/12026442",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.581Z"
+  },
+  {
+    "id": "2ad0e0e4-3674-4509-90e5-bb885264e4ec",
+    "idApi": 713517,
+    "title": "Unknown Artist - Electric Boogie Breakdance 2",
+    "year": 1984,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/_JvS2Y8KQOAHlj26UPm0s7ZHBmTpC1iuwwkZJDrDyU4/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzUx/Ny0xNTUyMTM4NTYz/LTg3MzYuanBlZw.jpeg",
+    "style": "Italo-Disco,Electro",
+    "stock": 18,
+    "price": 64,
+    "artists": [
+      {
+        "name": "Unknown Artist"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Breakdance - Electric Boogie",
+        "extraartists": [
+          {
+            "name": "Lordan",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 527337,
+            "resource_url": "https://api.discogs.com/artists/527337"
+          }
+        ],
+        "duration": "5:04"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "B-Boys Beware",
+        "extraartists": [
+          {
+            "name": "W.T. Smith / R.A. Rodriquez",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "3:50"
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "People Are People",
+        "extraartists": [
+          {
+            "name": "M.L. Gore",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 1692454,
+            "resource_url": "https://api.discogs.com/artists/1692454"
+          }
+        ],
+        "duration": "3:48"
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "What Do I Do",
+        "extraartists": [
+          {
+            "name": "P. Fearon",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "3:22"
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "Give Me Tonight",
+        "extraartists": [
+          {
+            "name": "C. Barbosa / E. Chisolm",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "3:53"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Crazy Cuts",
+        "extraartists": [
+          {
+            "name": "D. Howard",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 2122897,
+            "resource_url": "https://api.discogs.com/artists/2122897"
+          }
+        ],
+        "duration": "5:40"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Holiday",
+        "extraartists": [
+          {
+            "name": "C. Hudson / L. Stevens",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "3:43"
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Din Daa Daa",
+        "extraartists": [
+          {
+            "name": "George Kranz",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 16963,
+            "resource_url": "https://api.discogs.com/artists/16963"
+          }
+        ],
+        "duration": "3:18"
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Happy Children",
+        "extraartists": [
+          {
+            "name": "P. Pelandi",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 566944,
+            "resource_url": "https://api.discogs.com/artists/566944"
+          }
+        ],
+        "duration": "3:37"
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "Hypnotic Tango",
+        "extraartists": [
+          {
+            "name": "Ginko / Tayx",
+            "anv": "",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 0,
+            "resource_url": ""
+          }
+        ],
+        "duration": "3:45"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/713517",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.585Z"
+  },
+  {
+    "id": "c1b666da-d43d-471b-bd98-2064eee42b7a",
+    "idApi": 1647042,
+    "title": "Povel Ramel • Martin Ljung • Brita Borg • Lissi Alandh - En Kväll På Idéon: Glimtar Ur Knäppupp III (Tillstymmelser)",
+    "year": 1957,
+    "genre": "Jazz,Non-Music,Stage & Screen",
+    "cover_image": "https://i.discogs.com/gen--v-xdZXF2N_U0omgvLTEvDsl3MxN5-af9nf2vb8/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NDcw/NDItMTMwMzAyNDc0/NC5qcGVn.jpeg",
+    "style": "Comedy,Spoken Word",
+    "stock": 12,
+    "price": 42,
+    "artists": [
+      {
+        "name": "Povel Ramel"
+      },
+      {
+        "name": "Martin Ljung"
+      },
+      {
+        "name": "Brita Borg"
+      },
+      {
+        "name": "Lissi Alandh"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Tosse Bark",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1091658,
+            "resource_url": "https://api.discogs.com/artists/1091658"
+          }
+        ],
+        "title": "Jubileon På Idéon",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Martin Ljung",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 962958,
+            "resource_url": "https://api.discogs.com/artists/962958"
+          }
+        ],
+        "title": "Kromosomtalaren",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Lissi Alandh",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1360586,
+            "resource_url": "https://api.discogs.com/artists/1360586"
+          }
+        ],
+        "title": "Liten Kines",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Brita Borg",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 803332,
+            "resource_url": "https://api.discogs.com/artists/803332"
+          }
+        ],
+        "title": "Stackars Lilla Hua Ching",
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Povel Ramel",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 573576,
+            "resource_url": "https://api.discogs.com/artists/573576"
+          }
+        ],
+        "title": "Bladbergeri Hurra!",
+        "duration": ""
+      },
+      {
+        "position": "A6",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Lissi Alandh",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1360586,
+            "resource_url": "https://api.discogs.com/artists/1360586"
+          }
+        ],
+        "title": "Den Sexiga Adjunkten",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Povel Ramel",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 573576,
+            "resource_url": "https://api.discogs.com/artists/573576"
+          }
+        ],
+        "title": "Jaha – Nähä!",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Brita Borg",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 803332,
+            "resource_url": "https://api.discogs.com/artists/803332"
+          },
+          {
+            "name": "Povel Ramel",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 573576,
+            "resource_url": "https://api.discogs.com/artists/573576"
+          }
+        ],
+        "title": "Sorglösa Brunn",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Martin Ljung",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 962958,
+            "resource_url": "https://api.discogs.com/artists/962958"
+          }
+        ],
+        "title": "Lektion I Komedi",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Povel Ramel",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 573576,
+            "resource_url": "https://api.discogs.com/artists/573576"
+          }
+        ],
+        "title": "Naturbarn",
+        "duration": ""
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Brita Borg",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 803332,
+            "resource_url": "https://api.discogs.com/artists/803332"
+          }
+        ],
+        "title": "Fat Mammy Brown",
+        "duration": ""
+      },
+      {
+        "position": "B6",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Povel Ramel",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 573576,
+            "resource_url": "https://api.discogs.com/artists/573576"
+          }
+        ],
+        "title": "Sjung Jazz",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1647042",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.590Z"
+  },
+  {
+    "id": "93414f87-45be-4218-87bc-8986f8938f15",
+    "idApi": 4842443,
+    "title": "Albinoni*, Kammerorchester Des Saarländischen Rundfunks, Saarbrücken, Karl Ristenpart - Adagio, Sonata, Concerti & Sinfonie für Trompete, Oboe, Streicher und Basso continuo",
+    "year": null,
+    "genre": "Classical",
+    "cover_image": "https://i.discogs.com/f_nVvtOuw-XBo5R7zW_PSkdgoaaX-5-u69ueUbynixQ/rs:fit/g:sm/q:90/h:581/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4NDI0/NDMtMTYyMjU4ODU5/NS01OTM5LmpwZWc.jpeg",
+    "style": "Baroque",
+    "stock": 11,
+    "price": 39,
+    "artists": [
+      {
+        "name": "Tomaso Albinoni"
+      },
+      {
+        "name": "Kammerorchester Des Saarländischen Rundfunks, Saarbrücken"
+      },
+      {
+        "name": "Karl Ristenpart"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=ZXXHqyHsSec"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=NNs9srtTkFU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=OB7ar67VtAw"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Adagio Für Violine, Streicher Und Basso Continuo G-moll",
+        "duration": ""
+      },
+      {
+        "position": "",
+        "type_": "index",
+        "title": "Concerto à 5 Für Oboe, Streicher Und Basso Continuo D-moll Op 9 Nr. 2",
+        "duration": "",
+        "sub_tracks": [
+          {
+            "position": "A2",
+            "type_": "track",
+            "title": "Allegro E Non Presto",
+            "duration": ""
+          },
+          {
+            "position": "A3",
+            "type_": "track",
+            "title": "Adagio",
+            "duration": ""
+          },
+          {
+            "position": "A4",
+            "type_": "track",
+            "title": "Allegro",
+            "duration": ""
+          }
+        ]
+      },
+      {
+        "position": "",
+        "type_": "index",
+        "title": "Concerto Für Trompete, Streicher Und Basso Continuo D-dur Op. 7 Nr. 6",
+        "duration": "",
+        "sub_tracks": [
+          {
+            "position": "B1",
+            "type_": "track",
+            "title": "Allegro",
+            "duration": ""
+          },
+          {
+            "position": "B2",
+            "type_": "track",
+            "title": "Adagio",
+            "duration": ""
+          },
+          {
+            "position": "B3",
+            "type_": "track",
+            "title": "Allegro",
+            "duration": ""
+          }
+        ]
+      },
+      {
+        "position": "",
+        "type_": "index",
+        "title": "Sinfonia à 4 Für Streicher, Und Basso Continuo B-dur",
+        "duration": "",
+        "sub_tracks": [
+          {
+            "position": "B4",
+            "type_": "track",
+            "title": "Allegro",
+            "duration": ""
+          },
+          {
+            "position": "B5",
+            "type_": "track",
+            "title": "Adagio",
+            "duration": ""
+          },
+          {
+            "position": "B6",
+            "type_": "track",
+            "title": "Allegro",
+            "duration": ""
+          }
+        ]
+      },
+      {
+        "position": "",
+        "type_": "index",
+        "title": "Sonata à 5 Für Streicher Und Basso Continuo G-moll",
+        "duration": "",
+        "sub_tracks": [
+          {
+            "position": "B7",
+            "type_": "track",
+            "title": "Adagio",
+            "duration": ""
+          },
+          {
+            "position": "B8",
+            "type_": "track",
+            "title": "Allegro",
+            "duration": ""
+          },
+          {
+            "position": "B9",
+            "type_": "track",
+            "title": "Grave",
+            "duration": ""
+          },
+          {
+            "position": "B10",
+            "type_": "track",
+            "title": "Allegro",
+            "duration": ""
+          }
+        ]
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/4842443",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.612Z"
+  },
+  {
+    "id": "c0fd0c58-f2fe-471f-95dc-862e1bdfb8f3",
+    "idApi": 1743447,
+    "title": "Various - Reggaeton Traxx 14",
+    "year": null,
+    "genre": "Hip Hop,Latin",
+    "cover_image": "https://i.discogs.com/bbjsY_5ipp3DxtiOi88t0a39qbTKtL1JJC85moZWdHs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NDM0/NDctMTI0MDUxMTA5/OS5qcGVn.jpeg",
+    "style": "Reggaeton",
+    "stock": 6,
+    "price": 25,
+    "artists": [
+      {
+        "name": "Various"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=nXHcs-HhPN4"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=FgCchERdmW8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=8_fHFgTaekM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=NDL39Wshv1A"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=NKVVC4ks5f4"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=6B_wzhgJMgI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=CcxHc9b7RzA"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Baby Ranks",
+            "anv": "",
+            "join": ",",
+            "role": "",
+            "tracks": "",
+            "id": 831817,
+            "resource_url": "https://api.discogs.com/artists/831817"
+          },
+          {
+            "name": "Daddy Yankee",
+            "anv": "",
+            "join": ",",
+            "role": "",
+            "tracks": "",
+            "id": 256399,
+            "resource_url": "https://api.discogs.com/artists/256399"
+          },
+          {
+            "name": "Tonny Tún Tún",
+            "anv": "Tonny Tun Tun",
+            "join": ",",
+            "role": "",
+            "tracks": "",
+            "id": 2518729,
+            "resource_url": "https://api.discogs.com/artists/2518729"
+          },
+          {
+            "name": "Wisin Y Yandel",
+            "anv": "Wisin & Yandel",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2393941,
+            "resource_url": "https://api.discogs.com/artists/2393941"
+          }
+        ],
+        "title": "Mayor Que Yo",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Don Omar",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 320920,
+            "resource_url": "https://api.discogs.com/artists/320920"
+          },
+          {
+            "name": "Wiso G",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1434896,
+            "resource_url": "https://api.discogs.com/artists/1434896"
+          }
+        ],
+        "title": "Quimica",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Wisin Y Yandel",
+            "anv": "Wisin & Yandel",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2393941,
+            "resource_url": "https://api.discogs.com/artists/2393941"
+          }
+        ],
+        "title": "Rakata",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Yaviah",
+            "anv": "Javiah",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2273743,
+            "resource_url": "https://api.discogs.com/artists/2273743"
+          }
+        ],
+        "title": "Contacto",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Don Omar",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 320920,
+            "resource_url": "https://api.discogs.com/artists/320920"
+          }
+        ],
+        "title": "Donqueo",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Don Omar",
+            "anv": "",
+            "join": "feat.",
+            "role": "",
+            "tracks": "",
+            "id": 320920,
+            "resource_url": "https://api.discogs.com/artists/320920"
+          },
+          {
+            "name": "N.O.R.E.",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 126073,
+            "resource_url": "https://api.discogs.com/artists/126073"
+          },
+          {
+            "name": "Fat Joe",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 51988,
+            "resource_url": "https://api.discogs.com/artists/51988"
+          }
+        ],
+        "title": "Reggaeton Latino Remix",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Tego Calderón",
+            "anv": "Tego Calderon",
+            "join": ",",
+            "role": "",
+            "tracks": "",
+            "id": 966702,
+            "resource_url": "https://api.discogs.com/artists/966702"
+          },
+          {
+            "name": "Daddy Yankee",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 256399,
+            "resource_url": "https://api.discogs.com/artists/256399"
+          },
+          {
+            "name": "Deevani",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1434898,
+            "resource_url": "https://api.discogs.com/artists/1434898"
+          }
+        ],
+        "title": "Mirame Pt. 2",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1743447",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.619Z"
+  },
+  {
+    "id": "900ba469-3b9a-4b31-b0a9-f39652e3e5f0",
+    "idApi": 2035622,
+    "title": "Piero Umiliani E La Sua Orchestra - Gli Archi Raccontano.....",
+    "year": 1978,
+    "genre": "Stage & Screen",
+    "cover_image": "https://i.discogs.com/WaXkgr8VlwcL4BADxQ46PM3euZleUVdoFNxnIBRVZTI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMzU2/MjItMTQ1MTIzMjI4/MC00NTQ1LmpwZWc.jpeg",
+    "style": "Theme",
+    "stock": 10,
+    "price": 36,
+    "artists": [
+      {
+        "name": "Piero Umiliani E La Sua Orchestra"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=RRm_DJDEUiM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Av_PcuLYsuI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=YmP5ljSzaJk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=9ExWAbgRIMs"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=9sFmxfbtD2g"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "Carattere Classico",
+        "duration": ""
+      },
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Solitudine",
+        "duration": "2:08"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Panorama Romantico",
+        "duration": "3:45"
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Panorama Romantico",
+        "duration": "4:17"
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "A Misura D'Uomo",
+        "duration": "2:15"
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "Episodio",
+        "duration": "2:38"
+      },
+      {
+        "position": "A6",
+        "type_": "track",
+        "title": "Castello Solitario",
+        "duration": "4:26"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Alba Sul Mare",
+        "duration": "3:10"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Pace",
+        "duration": "1:44"
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Non Violenza",
+        "duration": "3:42"
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Epilogo",
+        "duration": "3:02"
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "Profughi",
+        "duration": "5:15"
+      },
+      {
+        "position": "B6",
+        "type_": "track",
+        "title": "Crepuscolo Sul Mare",
+        "duration": "3:42"
+      },
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "Carattere Moderno",
+        "duration": ""
+      },
+      {
+        "position": "C1",
+        "type_": "track",
+        "title": "Il Risveglio Della Metropoli",
+        "duration": "4:03"
+      },
+      {
+        "position": "C2",
+        "type_": "track",
+        "title": "Nostalgia",
+        "duration": "3:16"
+      },
+      {
+        "position": "C3",
+        "type_": "track",
+        "title": "La Nostra Casetta",
+        "duration": "2:22"
+      },
+      {
+        "position": "C4",
+        "type_": "track",
+        "title": "Mare Aperto",
+        "duration": "3:57"
+      },
+      {
+        "position": "C5",
+        "type_": "track",
+        "title": "Folk Time",
+        "duration": "2:38"
+      },
+      {
+        "position": "C6",
+        "type_": "track",
+        "title": "Questo Mondo Meraviglioso",
+        "duration": "2:37"
+      },
+      {
+        "position": "C7",
+        "type_": "track",
+        "title": "Citta' Industriale",
+        "duration": "1:37"
+      },
+      {
+        "position": "D1",
+        "type_": "track",
+        "title": "Palme Selvage",
+        "duration": "3:04"
+      },
+      {
+        "position": "D2",
+        "type_": "track",
+        "title": "Le Ragazze Dell' Arcipelago",
+        "duration": "3:05"
+      },
+      {
+        "position": "D3",
+        "type_": "track",
+        "title": "Pella Di Luna",
+        "duration": "3:22"
+      },
+      {
+        "position": "D4",
+        "type_": "track",
+        "title": "Addio All' Isola Felice",
+        "duration": "3:20"
+      },
+      {
+        "position": "D5",
+        "type_": "track",
+        "title": "La Foresta Incanta",
+        "duration": "3:53"
+      },
+      {
+        "position": "D6",
+        "type_": "track",
+        "title": "Volto Di Donna",
+        "duration": "3:27"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/2035622",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.624Z"
+  },
+  {
+    "id": "684990cf-f723-4e29-ac32-aa0bece10961",
+    "idApi": 4045929,
+    "title": "Jan Jankeje - Mlada Muzika Sokol",
+    "year": 1979,
+    "genre": "Jazz,Rock,Funk / Soul",
+    "cover_image": "https://i.discogs.com/NJ_cfgJWGVtDc7CTSCaPVXerqijYGa9QAk4get6OA9M/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwNDU5/MjktMTQ2MTg0OTgz/MC05NjAxLmpwZWc.jpeg",
+    "style": "Fusion",
+    "stock": 11,
+    "price": 39,
+    "artists": [
+      {
+        "name": "Jan Jankeje"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=tY7kZMwgZ_c"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=wVlJNKZfNL4"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=N9869m6azuo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=zM7QSEJhDpM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=_TbN6SWAMcg"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Sokol",
+        "duration": "9:05"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Padarliadadi \"Roger Kiste\"",
+        "duration": "8:27"
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Gertuska",
+        "duration": "6:26"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Elsa Marie",
+        "duration": "4:55"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Vyskoc Janko",
+        "duration": "9:10"
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Fujara-Fujara",
+        "duration": "8:15"
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "South Indian Line",
+        "extraartists": [
+          {
+            "name": "Charlie Mariano",
+            "anv": "",
+            "join": "",
+            "role": "Composed By",
+            "tracks": "",
+            "id": 252611,
+            "resource_url": "https://api.discogs.com/artists/252611"
+          }
+        ],
+        "duration": "3:10"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/4045929",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.630Z"
+  },
+  {
+    "id": "93b08289-6ed2-4e87-a4b0-7255b2eb6850",
+    "idApi": 751974,
+    "title": "BassXpander* - Spanish Feeling / Belle Tenerife",
+    "year": 1997,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/sFPmas8jrf3b5zi6c7YblmteicixIt_ERDP-3tFMSzo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MTk3/NC0xMzcxNDg0NTcx/LTM3NDguanBlZw.jpeg",
+    "style": "Breakbeat,Techno,Drum n Bass",
+    "stock": 6,
+    "price": 24,
+    "artists": [
+      {
+        "name": "Bass Xpander"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=_HUIS-V9GHY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=2JMDhHqRr4I"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=eEAEcNR-sfc"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Spanish Feeling",
+        "duration": "6:46"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Belle Tenerife",
+        "duration": "7:20"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Belle Tenerife (Drum & Bass Rollin' Edit)",
+        "duration": "3:24"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/751974",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.631Z"
+  },
+  {
+    "id": "121781cc-8d18-4500-9813-57c4b81a1417",
+    "idApi": 3409769,
+    "title": "PVP (3) - Eifach Nüt",
+    "year": 2004,
+    "genre": "Hip Hop",
+    "cover_image": "https://i.discogs.com/jAutyVwuQJVaY6Qx9OgSSEqe9e824ssw6-brN5TyE94/rs:fit/g:sm/q:90/h:297/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MDk3/NjktMTMyOTMxMDM3/Ny5qcGVn.jpeg",
+    "style": "",
+    "stock": 15,
+    "price": 55,
+    "artists": [
+      {
+        "name": "PVP (3)"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=j1Lb6mcp4Rg"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=FzaOvlUCdc0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Z-1rHIGGvi4"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Fründ U Find",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Figg Mit",
+        "extraartists": [
+          {
+            "name": "Wurzel 5",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 1497164,
+            "resource_url": "https://api.discogs.com/artists/1497164"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Zrügg Zum Glück",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "Gängschterhymne",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "1 Line",
+        "extraartists": [
+          {
+            "name": "A-Man (2)",
+            "anv": "Aman",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 412368,
+            "resource_url": "https://api.discogs.com/artists/412368"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Mini Promo",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Mit Em Didge A Dim Eso-Fescht",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Monumänt",
+        "duration": ""
+      },
+      {
+        "position": "C1",
+        "type_": "track",
+        "title": "Nüt",
+        "duration": ""
+      },
+      {
+        "position": "C2",
+        "type_": "track",
+        "title": "Ab Id Schlacht",
+        "duration": ""
+      },
+      {
+        "position": "C3",
+        "type_": "track",
+        "title": "How We Do",
+        "extraartists": [
+          {
+            "name": "Buckshot",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 93616,
+            "resource_url": "https://api.discogs.com/artists/93616"
+          },
+          {
+            "name": "Sean Price",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 181644,
+            "resource_url": "https://api.discogs.com/artists/181644"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "C4",
+        "type_": "track",
+        "title": "Sellout",
+        "duration": ""
+      },
+      {
+        "position": "C5",
+        "type_": "track",
+        "title": "Land Im Füür",
+        "duration": ""
+      },
+      {
+        "position": "D1",
+        "type_": "track",
+        "title": "Build And Destroy",
+        "duration": ""
+      },
+      {
+        "position": "D2",
+        "type_": "track",
+        "title": "Bravo- PV",
+        "duration": ""
+      },
+      {
+        "position": "D3",
+        "type_": "track",
+        "title": "Strick",
+        "extraartists": [
+          {
+            "name": "Gaugehill",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 2393203,
+            "resource_url": "https://api.discogs.com/artists/2393203"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "D4",
+        "type_": "track",
+        "title": "Ä Stei A Di Stadt",
+        "extraartists": [
+          {
+            "name": "Kalmoo",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 412373,
+            "resource_url": "https://api.discogs.com/artists/412373"
+          }
+        ],
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/3409769",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.647Z"
+  },
+  {
+    "id": "5a5c12e8-4f29-41dd-859c-9e11ed96816c",
+    "idApi": 3934707,
+    "title": "Various - Classic Label Sampler Volume VI",
+    "year": 2012,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/MFkGc-YisuY-SNlg1OlLDqNekuj-CQ4ZzyGl6BIsAmc/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5MzQ3/MDctMTM3MDQyMTY1/Ny01Mjg0LmpwZWc.jpeg",
+    "style": "House",
+    "stock": 18,
+    "price": 62,
+    "artists": [
+      {
+        "name": "Various"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=HsL-DGbT_80"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=yV9WgeADy_E"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=xCXV0HTn1Yw"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Knights Of The Hunted",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 3791073,
+            "resource_url": "https://api.discogs.com/artists/3791073"
+          }
+        ],
+        "title": "X The Beat",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BiteOfire",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 2353935,
+            "resource_url": "https://api.discogs.com/artists/2353935"
+          },
+          {
+            "name": "Antonio Del Prete",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2555776,
+            "resource_url": "https://api.discogs.com/artists/2555776"
+          }
+        ],
+        "title": "- It's Alright (Kris Wadsworth Illin Like A Villain Remix)",
+        "extraartists": [
+          {
+            "name": "Kris Wadsworth",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 932802,
+            "resource_url": "https://api.discogs.com/artists/932802"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "DJ Ali",
+            "anv": "",
+            "join": "Feat.",
+            "role": "",
+            "tracks": "",
+            "id": 67369,
+            "resource_url": "https://api.discogs.com/artists/67369"
+          },
+          {
+            "name": "Tim Fuller",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 91708,
+            "resource_url": "https://api.discogs.com/artists/91708"
+          }
+        ],
+        "title": "You Don't Know (Honey Dijon's Get To Know Me Mix)",
+        "extraartists": [
+          {
+            "name": "Honey Dijon",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 60141,
+            "resource_url": "https://api.discogs.com/artists/60141"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "The Narcoleptic",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 284323,
+            "resource_url": "https://api.discogs.com/artists/284323"
+          }
+        ],
+        "title": "A Lucid Dream",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/3934707",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.653Z"
+  },
+  {
+    "id": "006a42f6-5892-42d7-a6d3-2b8feb2c8227",
+    "idApi": 525400,
+    "title": "Junk Project - Different World",
+    "year": 2000,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/-2z-UcdKwXlPseSDBXC8EMNLW7R2PvrvBgtH6hkJri8/rs:fit/g:sm/q:90/h:411/w:387/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNTQw/MC0xMzQyNDYxOTc3/LTQ0MjAuanBlZw.jpeg",
+    "style": "Trance,Hard Trance",
+    "stock": 9,
+    "price": 34,
+    "artists": [
+      {
+        "name": "Junk Project"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=1O2pZr4VIqU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=s-hZpz0ew7I"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=z75I5edPONU"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Different World (Club Mix)",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Different World (Radio Cut)",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Rumble Creek",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Push + Go",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/525400",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.661Z"
+  },
+  {
+    "id": "167acd5d-679c-4e56-be55-04da4a42b015",
+    "idApi": 5268779,
+    "title": "Joe White & Chuck*, Baba Brooks Band* / Baba Brooks And His Band* - Every Night / First Session",
+    "year": 1966,
+    "genre": "Reggae",
+    "cover_image": "https://i.discogs.com/3EIaHftxsaJ7FMN8Y_ZAfqdwgmXJmca5U5Xw-sCkMPw/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNjg3/NzktMTU3NzgzOTA1/OC0yODgxLmpwZWc.jpeg",
+    "style": "Ska",
+    "stock": 9,
+    "price": 35,
+    "artists": [
+      {
+        "name": "Joe White and Chuck"
+      },
+      {
+        "name": "The Baba Brooks Band"
+      },
+      {
+        "name": "The Baba Brooks Band"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=DOh_x9r4hYc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=E0BGP2W_nbI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=e08-87GJ8PE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=lMhvhG_Vsz0"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Every Night",
+        "extraartists": [
+          {
+            "name": "Joe White",
+            "anv": "White",
+            "join": "",
+            "role": "Written By",
+            "tracks": "",
+            "id": 156086,
+            "resource_url": "https://api.discogs.com/artists/156086"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "First Session",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/5268779",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.684Z"
+  },
+  {
+    "id": "c59f64df-0ab8-49e7-b860-49817fd009de",
+    "idApi": 14376653,
+    "title": "Various - Confluence 01",
+    "year": 2019,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/WwvwB8lXxtQRJD4yQNy6-H-s4tjVImAE6uWNsyX642w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Mzc2/NjUzLTE1NzM5Mzc4/MjUtNzk1NS5qcGVn.jpeg",
+    "style": "Ambient,Deep Techno,Dub Techno",
+    "stock": 6,
+    "price": 24,
+    "artists": [
+      {
+        "name": "Various"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=Lpj985w67QQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=JslPHxYg7GI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=E26DLhKtw4I"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=idIYSbIT0JA"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Dycide",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 6206234,
+            "resource_url": "https://api.discogs.com/artists/6206234"
+          }
+        ],
+        "title": "Raijin",
+        "duration": "7:43"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daniel[i]",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4832535,
+            "resource_url": "https://api.discogs.com/artists/4832535"
+          }
+        ],
+        "title": "A Moment Of Confidence",
+        "duration": "6:02"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Cyspe",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4695154,
+            "resource_url": "https://api.discogs.com/artists/4695154"
+          }
+        ],
+        "title": "Morning Revelations",
+        "duration": "6:56"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Atomic Moog",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4436346,
+            "resource_url": "https://api.discogs.com/artists/4436346"
+          }
+        ],
+        "title": "Floating Motion",
+        "duration": "6:44"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/14376653",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.686Z"
+  },
+  {
+    "id": "bc4255f9-8c8d-4ce1-9f6a-199943358633",
+    "idApi": 976859,
+    "title": "Mauro Picotto - Pulsar Part 1",
+    "year": 1999,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/crXwL2a0u9ArTSobGwInJ9vlXnZ7-K-JmNQHY8QS58w/rs:fit/g:sm/q:90/h:610/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3Njg1/OS0xMzA1ODE1NjQ4/LmpwZWc.jpeg",
+    "style": "Trance",
+    "stock": 19,
+    "price": 66,
+    "artists": [
+      {
+        "name": "Mauro Picotto"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=fwFozYaUFE8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=G9DSbGhsBkY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=1GZmXDaXCh0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=7iuWhBedA-Q"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=kaKAvasY9JU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=1roigKEG6l0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=jCKjhFr2ybk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=W8AjmRUyWaM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=PiNH4xKrf14"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Z3_3c8fkEK0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=C_Sk14SSat8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=NxA7YEuZa9E"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Pulsar (Megavoices Mix)",
+        "extraartists": [
+          {
+            "name": "Megavoices",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 38889,
+            "resource_url": "https://api.discogs.com/artists/38889"
+          }
+        ],
+        "duration": "6:30"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Pulsar (Picotto Mix)",
+        "duration": "6:26"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/976859",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.691Z"
+  },
+  {
+    "id": "1710288e-fa73-477d-9323-ed86c63f1ff9",
+    "idApi": 5525171,
+    "title": "Rock Hudson (2) With The Stanyan Strings - Rock, Gently: Rock Hudson Sings The Songs Of Rod McKuen",
+    "year": 1970,
+    "genre": "Pop",
+    "cover_image": "https://i.discogs.com/H2grjiuUAfE0VF76zKKyucl0vrmHTNrgQEC3px6uELs/rs:fit/g:sm/q:90/h:450/w:454/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1MjUx/NzEtMTM5NTYxMzYx/Mi0xNDkxLmpwZWc.jpeg",
+    "style": "",
+    "stock": 14,
+    "price": 48,
+    "artists": [
+      {
+        "name": "Rock Hudson (2)"
+      },
+      {
+        "name": "The Stanyan Strings"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=zCS0F8-xCdk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=BoRZVTV0ZLw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=5pYM9DRi6M8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=GJkjuGrYuqo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=tmIBxlo7R6E"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=4kKmtFDCRjo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=amwNub3Zwvc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=GPw8X3bFNAE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=IwgC75eX4IU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=O7JWE5f5SMg"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=t1TbKM3susA"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=log95QXWgTQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=29BoVEZZLyA"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=P7u7boB0F-0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=MffIDc4yjg0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=bFnJ8Buk_m8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=0P_pLPlq_jk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=SlT4I5DSp3s"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Pt3a5KZ3yAY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=1BQDDfT8DFQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=gWYidgtgeHc"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Open All The Windows And See All The Clown",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:28"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "I'll Say Goodbye",
+        "extraartists": [
+          {
+            "name": "Gilbert Bécaud",
+            "anv": "Becaud",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 282608,
+            "resource_url": "https://api.discogs.com/artists/282608"
+          },
+          {
+            "name": "Rod McKuen",
+            "anv": "McKuen",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:54"
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "I've Been To Town",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:24"
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "Things Bright And Beautiful",
+        "extraartists": [
+          {
+            "name": "Al Grant",
+            "anv": "Grant",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 1664871,
+            "resource_url": "https://api.discogs.com/artists/1664871"
+          },
+          {
+            "name": "Petula Clark",
+            "anv": "Clark",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 22334,
+            "resource_url": "https://api.discogs.com/artists/22334"
+          },
+          {
+            "name": "Rod McKuen",
+            "anv": "McKuen",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:55"
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "As I Love My Own",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:55"
+      },
+      {
+        "position": "A6",
+        "type_": "track",
+        "title": "Gone With The Cowboys",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "3:10"
+      },
+      {
+        "position": "A7",
+        "type_": "track",
+        "title": "Love's Been Good To Me",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "3:15"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Meantime",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:38"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "You Pass Me By",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:04"
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "So Long, Stay Well",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "1:33"
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Blessings In Shades Of Green",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "3:00"
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "Happy Birthday To Me",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:26"
+      },
+      {
+        "position": "B6",
+        "type_": "track",
+        "title": "Jean",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "3:00"
+      },
+      {
+        "position": "B7",
+        "type_": "track",
+        "title": "Lonesome Cities",
+        "extraartists": [
+          {
+            "name": "Rod McKuen",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 283844,
+            "resource_url": "https://api.discogs.com/artists/283844"
+          }
+        ],
+        "duration": "2:45"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/5525171",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.494Z"
+  },
+  {
+    "id": "eb69ac4e-5f13-4049-9ef8-1a2aea171630",
+    "idApi": 1127533,
+    "title": "Quadrophonic Progressive - The Sound Of Priveé Vol. 2",
+    "year": 1996,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/faHqeOtbluuyJUAIGZjX-VjQmJXEjxZJwHgopu4Jo7I/rs:fit/g:sm/q:90/h:404/w:404/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMjc1/MzMtMTMxMzc3NTI4/My5qcGVn.jpeg",
+    "style": "Progressive Trance",
+    "stock": 11,
+    "price": 40,
+    "artists": [
+      {
+        "name": "Quadrophonic Progressive"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=NAqj-OaWY1Q"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Tribalog / Luke Traz Jr.",
+        "duration": "5:00"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Warning Zone / Logical Style",
+        "duration": "4:45"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Echo-Lab / Radical Deep",
+        "duration": "4:00"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Love Sound / The Land Of E",
+        "duration": "4:55"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1127533",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.507Z"
+  },
+  {
+    "id": "8e45f475-9942-4a75-a60e-4862e43e9193",
+    "idApi": 56831,
+    "title": "K-Sobajima - Multipliez",
+    "year": 2001,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/jDV-b_3DfaHNfsaaVC5QeZyq0yETplxHkos4XM7g8F4/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2ODMx/LTEzODg5Mzg4MDEt/OTE0OS5qcGVn.jpeg",
+    "style": "Techno,Tech House",
+    "stock": 19,
+    "price": 67,
+    "artists": [
+      {
+        "name": "K-Sobajima"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Multipliez (With Guitar)",
+        "extraartists": [
+          {
+            "name": "Masahiro Obara",
+            "anv": "",
+            "join": "",
+            "role": "Guitar",
+            "tracks": "",
+            "id": 437369,
+            "resource_url": "https://api.discogs.com/artists/437369"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Multipliez (Purple Fog)",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Multipliez (Kagami Remix)",
+        "extraartists": [
+          {
+            "name": "Kagami",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 9225,
+            "resource_url": "https://api.discogs.com/artists/9225"
+          }
+        ],
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/56831",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.512Z"
+  },
+  {
+    "id": "dfa8eb91-d32a-48c2-9482-181a1cc0109e",
+    "idApi": 550132,
+    "title": "Lee Prentiss - U + Me (The Einstein Song)",
+    "year": 1987,
+    "genre": "Electronic,Funk / Soul",
+    "cover_image": "https://i.discogs.com/js0_JSUYsjt5md01skeMgrO2f8eWHtJxKHCILcrGfPg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1MDEz/Mi0xNDIxMjc2NTkw/LTMxOTAuanBlZw.jpeg",
+    "style": "Synth-pop",
+    "stock": 5,
+    "price": 20,
+    "artists": [
+      {
+        "name": "Lee Prentiss"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=nr3_QySo8zI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=8ouOqlIbxq0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=33oPZo6KU1s"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=gve1PaiLTMg"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "U + Me (The Einstein Song)",
+        "extraartists": [
+          {
+            "name": "George Hargreaves & Mick Parker",
+            "anv": "James George Hargreaves And Mick Parker",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 1560206,
+            "resource_url": "https://api.discogs.com/artists/1560206"
+          }
+        ],
+        "duration": "6:14"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Love This Way",
+        "extraartists": [
+          {
+            "name": "Mark Berry",
+            "anv": "Mark S. Berry",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 392350,
+            "resource_url": "https://api.discogs.com/artists/392350"
+          }
+        ],
+        "duration": "6:34"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "U + Me (The Einstein Dub)",
+        "extraartists": [
+          {
+            "name": "George Hargreaves & Mick Parker",
+            "anv": "James Harves And Mick Parker",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 1560206,
+            "resource_url": "https://api.discogs.com/artists/1560206"
+          }
+        ],
+        "duration": "4:33"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/550132",
+    "createdAt": "2023-09-01T16:50:53.858Z",
+    "updatedAt": "2023-09-01T17:54:40.523Z"
+  },
+  {
+    "id": "61212cff-f114-4c23-865f-e2eb6493a7bc",
+    "idApi": 8486222,
+    "title": "SIMIAH - Diamonds ",
+    "year": 2016,
+    "genre": "Hip Hop",
+    "cover_image": "https://i.discogs.com/NLLdfNhf4Mp8OfstOfHxnfDyzyPeobXbnhKm30fggC0/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg0ODYy/MjItMTQ2MjU1NjU0/My04NzU0LmpwZWc.jpeg",
+    "style": "",
+    "stock": 12,
+    "price": 44,
+    "artists": [
+      {
+        "name": "SIMIAH"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Diamonds",
+        "duration": "2:36"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Floating",
+        "duration": "0:58"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Love Fusion",
+        "duration": "3:45"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/8486222",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.526Z"
+  },
+  {
+    "id": "faa8e119-90b1-402e-9fb8-4dc01b3a5e85",
+    "idApi": 4378395,
+    "title": "Slumstormerne - Det Kan Blive Bedre Kammerat",
+    "year": 1971,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/pw_HV022XgJ8P0LdPFA7j2JmUokqVXXQhuToEMDbhfQ/rs:fit/g:sm/q:90/h:537/w:537/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzNzgz/OTUtMTM2MzI5MzYw/My0xNjEyLmpwZWc.jpeg",
+    "style": "",
+    "stock": 19,
+    "price": 65,
+    "artists": [
+      {
+        "name": "Slumstormerne"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Balladen Om Bandit",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Fanden Ta´",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Uropatruljen",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "Fru Andersen",
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "Loushan-passet",
+        "extraartists": [
+          {
+            "name": "Mao Zedong",
+            "anv": "Mao Tse-Tung",
+            "join": "",
+            "role": "Lyrics By",
+            "tracks": "",
+            "id": 1565964,
+            "resource_url": "https://api.discogs.com/artists/1565964"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "A6",
+        "type_": "track",
+        "title": "Den Sorte Firkant",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Al Magt Til Folket",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Balladen Om Beatrice Smith",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Hvordan Er Dine Drømme, Nixon?",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Vind Freden",
+        "duration": ""
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "Det Kan Blive Bedre, Kammerat",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/4378395",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.529Z"
+  },
+  {
+    "id": "494a7fc2-ef11-4269-a160-40548f7aca00",
+    "idApi": 3556541,
+    "title": "John Valby - Sit On A Happy Face",
+    "year": 1982,
+    "genre": "Pop",
+    "cover_image": "https://i.discogs.com/DtNT0DoN6FYq3hmd_TP1-SLbwyTbJjUDXWhKeFGbhD0/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NTY1/NDEtMTMzNTEyOTky/Ni5qcGVn.jpeg",
+    "style": "Comedy,Novelty",
+    "stock": 18,
+    "price": 64,
+    "artists": [
+      {
+        "name": "John Valby"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=LMmz0O6dHeE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=diwh7_L96Qo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=EhbZ_aiqNTY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=tgnM2UDiTGM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=lxyBvGc6rOw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=-Gn1I7447lY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=I48Q_DNWiGo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=crEPd1eqHnA"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=xxY167qWNyo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Sfyc87OAAT8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=WgC_X6ssaks"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=a2rDA3RU7IE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=EcrXbr9VLRw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=w7mKDhcaR04"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=KQ3ifAqCAqM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Df8rMhUAlY0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=03fFEz7JF7g"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=tEj9R0OYAn8"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Philosophical Bullshit",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Stroking Off In Silence",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Do-Wah-Diddy",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "When I Slipped Out",
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "I Am Pussy",
+        "duration": ""
+      },
+      {
+        "position": "A6",
+        "type_": "track",
+        "title": "Gang Bang II",
+        "duration": ""
+      },
+      {
+        "position": "A7",
+        "type_": "track",
+        "title": "Revenge Of Big Ass Lil",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Sit On A Happy Face",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Fucking U.S.A.",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Hey Lade",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Niggers In The Night",
+        "duration": ""
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "Irish Assholes",
+        "duration": ""
+      },
+      {
+        "position": "B6",
+        "type_": "track",
+        "title": "Pounding Your Pud",
+        "duration": ""
+      },
+      {
+        "position": "B7",
+        "type_": "track",
+        "title": "Glory, Glory",
+        "duration": ""
+      },
+      {
+        "position": "B8",
+        "type_": "track",
+        "title": "Was It You",
+        "duration": ""
+      },
+      {
+        "position": "B9",
+        "type_": "track",
+        "title": "Pubic Hair",
+        "duration": ""
+      },
+      {
+        "position": "B10",
+        "type_": "track",
+        "title": "Carolina",
+        "duration": ""
+      },
+      {
+        "position": "B11",
+        "type_": "track",
+        "title": "American Poem",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/3556541",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.544Z"
+  },
+  {
+    "id": "420b3c6a-f065-4f34-8c3a-13ce6f06493a",
+    "idApi": 662040,
+    "title": "Neurotic Drum Band - We're Gonna Rock New York",
+    "year": 2005,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/EItEkGKNKsewkb0MgphHGj8mpQSoUv0h1UaTMKUegTA/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2MjA0/MC0xNTY1MDgwOTY5/LTIxNzMuanBlZw.jpeg",
+    "style": "Electro,Tech House",
+    "stock": 8,
+    "price": 30,
+    "artists": [
+      {
+        "name": "Neurotic Drum Band"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=8Dh5BdL4V4U"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=fTpHoyoAlBs"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=ebIj9oKlG6s"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "We're Gonna Rock New York (Original Mix)",
+        "duration": "6:32"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "We're Gonna Rock New York (The Glass Remix)",
+        "extraartists": [
+          {
+            "name": "The Glass",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 165134,
+            "resource_url": "https://api.discogs.com/artists/165134"
+          }
+        ],
+        "duration": "5:38"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "We're Gonna Rock New York (Selway And Ulysses Take Acid In The Club Mix)",
+        "duration": "6:55"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/662040",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.559Z"
+  },
+  {
+    "id": "fd95c031-2b1c-4620-9219-4212b96213ef",
+    "idApi": 1167717,
+    "title": "Kaleb / Contour - Forgive Me / Desire",
+    "year": 2007,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/SxwsAG4W3tsPQs6DKbTYzPJT2H5MTbauvskdVm1fa_c/rs:fit/g:sm/q:90/h:160/w:158/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjc3/MTctMTMyMTk2MjU3/OC5qcGVn.jpeg",
+    "style": "Drum n Bass",
+    "stock": 18,
+    "price": 62,
+    "artists": [
+      {
+        "name": "Kaleb"
+      },
+      {
+        "name": "Contour"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=t2r-Rs0lmlY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=mC3L4ccUoYc"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Kaleb",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 89109,
+            "resource_url": "https://api.discogs.com/artists/89109"
+          }
+        ],
+        "title": "Forgive Me",
+        "duration": ""
+      },
+      {
+        "position": "AA",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Contour",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 148040,
+            "resource_url": "https://api.discogs.com/artists/148040"
+          }
+        ],
+        "title": "Desire",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/1167717",
+    "createdAt": "2023-09-01T16:50:53.859Z",
+    "updatedAt": "2023-09-01T17:54:40.567Z"
+  },
+  {
+    "id": "8b133615-f1ca-4930-beff-51dd0b66dc37",
+    "idApi": 560154,
+    "title": "Justine Earp - Ganja Feeling",
+    "year": 1996,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/agk3bOG0KQ9ql4pwRjspdZJV6VPx5KzhyT6ccIBrHH0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MDE1/NC0xNjQ0MTk4MDEx/LTQ4MTkuanBlZw.jpeg",
+    "style": "House,Progressive Trance",
+    "stock": 6,
+    "price": 23,
+    "artists": [
+      {
+        "name": "Justine Earp"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=BM9SJ3mLNaI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=KodIBRcnQLc"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Ganja Feeling (Andrés Voodooclub Mix)",
+        "extraartists": [
+          {
+            "name": "André Schild",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 44282,
+            "resource_url": "https://api.discogs.com/artists/44282"
+          }
+        ],
+        "duration": "7:30"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Ganja Feeling (Dr. Lunatics Video Mix)",
+        "extraartists": [
+          {
+            "name": "Dr. Lunatic",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 114433,
+            "resource_url": "https://api.discogs.com/artists/114433"
+          }
+        ],
+        "duration": "3:20"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Ganja Feeling (Time Traxx Club Mix)",
+        "extraartists": [
+          {
+            "name": "Time Traxx",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 320993,
+            "resource_url": "https://api.discogs.com/artists/320993"
+          }
+        ],
+        "duration": "5:40"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Ooo La La La (Premier's Bootleg Mix)",
+        "duration": "5:40"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/560154",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.577Z"
+  },
+  {
+    "id": "2fc74f5f-3d43-4c89-849d-79a25dbf20fc",
+    "idApi": 3349285,
+    "title": "Frontkick, Radio Dead Ones - Frontkick / Radio Dead Ones",
+    "year": 2006,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/kFqEUhSUf8TB5jDz3LqDlt12aSEvu0Scw8AyM6yjl8Q/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNDky/ODUtMTQ1NzgyNzEy/NS0zMTAwLmpwZWc.jpeg",
+    "style": "Punk",
+    "stock": 17,
+    "price": 58,
+    "artists": [
+      {
+        "name": "Frontkick"
+      },
+      {
+        "name": "Radio Dead Ones"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=naEmuCdiJjs"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=AWc_EHRPZRg"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=18Qpdo8jDvw"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Frontkick",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 547935,
+            "resource_url": "https://api.discogs.com/artists/547935"
+          }
+        ],
+        "title": "Out Of Tune",
+        "extraartists": [
+          {
+            "name": "Radio Dead Ones",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 1703725,
+            "resource_url": "https://api.discogs.com/artists/1703725"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Frontkick",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 547935,
+            "resource_url": "https://api.discogs.com/artists/547935"
+          }
+        ],
+        "title": "She's A Heartache",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Radio Dead Ones",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1703725,
+            "resource_url": "https://api.discogs.com/artists/1703725"
+          }
+        ],
+        "title": "Broken Skull",
+        "extraartists": [
+          {
+            "name": "Frontkick",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 547935,
+            "resource_url": "https://api.discogs.com/artists/547935"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Radio Dead Ones",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1703725,
+            "resource_url": "https://api.discogs.com/artists/1703725"
+          }
+        ],
+        "title": "Deadly Democracy",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/3349285",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.583Z"
+  },
+  {
+    "id": "f781f236-941d-46e9-bf35-e23faf9c74ff",
+    "idApi": 6413982,
+    "title": "Prince (20) - Prince",
+    "year": null,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/syDw1wozSb7lvbz_EifkshtWs5ksDgGv2uvBX6oP1ok/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY0MTM5/ODItMTQxODYwMzI2/MS02NDg2LmpwZWc.jpeg",
+    "style": "Punk,Pop Punk",
+    "stock": 9,
+    "price": 34,
+    "artists": [
+      {
+        "name": "Prince (20)"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "In The Living Room",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Tips From Margarita",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Dusting Off The Firs",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Not Fair",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/6413982",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.601Z"
+  },
+  {
+    "id": "f8b48191-ffae-4ba0-9969-06155993ce42",
+    "idApi": 14139069,
+    "title": "Knud Odde* - Nu Flyver Mørket / I Deserve It",
+    "year": 2019,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/Q8ufzBcUN-wRd6UicESn2PDwxmcDHtgT6RpNAKxZFZA/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MTM5/MDY5LTE1NzkzMzQ2/MjgtMzMwMy5qcGVn.jpeg",
+    "style": "Alternative Rock",
+    "stock": 18,
+    "price": 64,
+    "artists": [
+      {
+        "name": "Knud Odde Sørensen"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=GWISw78Jb_k"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=9Ei8OHuOl0g"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Nu Flyver Mørket",
+        "extraartists": [
+          {
+            "name": "Jens Grünberger-Lützen",
+            "anv": "Jens Grünberger",
+            "join": "",
+            "role": "Bass",
+            "tracks": "",
+            "id": 5894757,
+            "resource_url": "https://api.discogs.com/artists/5894757"
+          },
+          {
+            "name": "Mia Olsen",
+            "anv": "",
+            "join": "",
+            "role": "Drums",
+            "tracks": "",
+            "id": 2048499,
+            "resource_url": "https://api.discogs.com/artists/2048499"
+          },
+          {
+            "name": "Sam Brox",
+            "anv": "",
+            "join": "",
+            "role": "Guitar",
+            "tracks": "",
+            "id": 6113977,
+            "resource_url": "https://api.discogs.com/artists/6113977"
+          },
+          {
+            "name": "Peter Peter",
+            "anv": "",
+            "join": "",
+            "role": "Lead Guitar, Guitar [Solo]",
+            "tracks": "",
+            "id": 341201,
+            "resource_url": "https://api.discogs.com/artists/341201"
+          },
+          {
+            "name": "Nils Lassen",
+            "anv": "",
+            "join": "",
+            "role": "Mellotron",
+            "tracks": "",
+            "id": 441616,
+            "resource_url": "https://api.discogs.com/artists/441616"
+          },
+          {
+            "name": "Jørgen Bo Behrensdorff",
+            "anv": "Jørgen Bo",
+            "join": "",
+            "role": "Mixed By, Mastered By",
+            "tracks": "",
+            "id": 1866768,
+            "resource_url": "https://api.discogs.com/artists/1866768"
+          },
+          {
+            "name": "Nils Lassen",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 441616,
+            "resource_url": "https://api.discogs.com/artists/441616"
+          }
+        ],
+        "duration": "3:33"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "I Derserve It",
+        "extraartists": [
+          {
+            "name": "Peter Sandorff",
+            "anv": "",
+            "join": "",
+            "role": "Guitar, Choir",
+            "tracks": "",
+            "id": 444755,
+            "resource_url": "https://api.discogs.com/artists/444755"
+          },
+          {
+            "name": "Jeppe B. Jessen",
+            "anv": "Jeppe Bjerregaard",
+            "join": "",
+            "role": "Keyboards",
+            "tracks": "",
+            "id": 4015453,
+            "resource_url": "https://api.discogs.com/artists/4015453"
+          },
+          {
+            "name": "Richard Plougmann",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 467440,
+            "resource_url": "https://api.discogs.com/artists/467440"
+          },
+          {
+            "name": "Madonna",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 8760,
+            "resource_url": "https://api.discogs.com/artists/8760"
+          },
+          {
+            "name": "Mirwais Ahmadzaï",
+            "anv": "Ahmadzaï",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 1586395,
+            "resource_url": "https://api.discogs.com/artists/1586395"
+          }
+        ],
+        "duration": "2:32"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/14139069",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.606Z"
+  },
+  {
+    "id": "deaa737c-17f2-4a03-a9cc-195e2365e15f",
+    "idApi": 6013619,
+    "title": "Morton Gould And His Orchestra, Ferde Grofé, Maurice Ravel - Grofe's Grand Canyon And Ravel's Bolero",
+    "year": 1977,
+    "genre": "Classical",
+    "cover_image": "https://i.discogs.com/h7xdZCevoUZJpfl0moJ3_xUvLw0ZVDex2nA2UgssjhQ/rs:fit/g:sm/q:90/h:225/w:224/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMTM2/MTktMTQzMDU5MzQx/MC01MTQxLmpwZWc.jpeg",
+    "style": "",
+    "stock": 7,
+    "price": 29,
+    "artists": [
+      {
+        "name": "Morton Gould And His Orchestra"
+      },
+      {
+        "name": "Ferde Grofé"
+      },
+      {
+        "name": "Maurice Ravel"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "No videos"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Bolero",
+        "extraartists": [
+          {
+            "name": "Maurice Ravel",
+            "anv": "",
+            "join": "",
+            "role": "Composed By",
+            "tracks": "",
+            "id": 216140,
+            "resource_url": "https://api.discogs.com/artists/216140"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "",
+        "type_": "index",
+        "title": "Grand Canyon Suite",
+        "extraartists": [
+          {
+            "name": "Ferde Grofé",
+            "anv": "",
+            "join": "",
+            "role": "Composed By",
+            "tracks": "",
+            "id": 524182,
+            "resource_url": "https://api.discogs.com/artists/524182"
+          }
+        ],
+        "duration": "",
+        "sub_tracks": [
+          {
+            "position": "A2",
+            "type_": "track",
+            "title": "Sunrise",
+            "duration": ""
+          },
+          {
+            "position": "A3",
+            "type_": "track",
+            "title": "Painted Desert",
+            "duration": ""
+          },
+          {
+            "position": "B1",
+            "type_": "track",
+            "title": "On The Trial",
+            "duration": ""
+          },
+          {
+            "position": "B2",
+            "type_": "track",
+            "title": "Sunset",
+            "duration": ""
+          },
+          {
+            "position": "B3",
+            "type_": "track",
+            "title": "Cloudburst",
+            "duration": ""
+          }
+        ]
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/6013619",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.614Z"
+  },
+  {
+    "id": "213ebee3-b6e6-4b85-807c-f83f86018e6e",
+    "idApi": 593009,
+    "title": "Celeda - The Underground",
+    "year": 2002,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/PZ82Yct-Kj-Yk8wJ9ZEGJ7BbnaEbQ0GtbrLSlJTdphc/rs:fit/g:sm/q:90/h:415/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5MzAw/OS0xMjQwMzE0OTM0/LmpwZWc.jpeg",
+    "style": "Progressive House,House",
+    "stock": 5,
+    "price": 22,
+    "artists": [
+      {
+        "name": "Celeda"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=2cg0bAIYB3k"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=VYIb7j6Q7Jk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Soba6TS0VQU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=MXwLcenZIRM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=uVaJbnAHn3I"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=tscVvCrALVs"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Zx_qir48FwE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=C_5kc9Ok_Zs"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=YL2cGVlRX7g"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=NwlMCacYNDk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=kyMXIg4MNCQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=R2WaeXCSSWc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=0TjWzGUPfO8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=spUN3RojIZI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=ljMYxuHhLwI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=iVo6m2oQq_8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=ydkUwXbxc1k"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=a_YPGl2Wymw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Jt7wG3ZA2Iw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=VvLTdeffEuM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=qooMRCFGzCw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=x-1o_HoINgM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=BGK9wTWWBNE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=iYsS0EEe6Oc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=3F32QpNxh54"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=IPEXauDrRn8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=L_9B53c2zIs"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=PoEwFEMI3hE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Qk0hvkWikAk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=kIg4LX2E-9E"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=gBa4YGmPtak"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=ITFKbsH8J54"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=3UvWSkpGeNY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=hQrcPgqclDs"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=C2Uut_Ifrck"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=_WPLxqmz1kk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=U01NabwBkNo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=LqREj7t0_-Y"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=7N60Fm6rTcw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=dZOOBraYxxQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=5cneiWNW0VY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=MvuxAaYqOyk"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=6i_KTO3VHoU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=2mLGwTyRtRA"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "The Underground (Wingwalker-Trippydub Remix)",
+        "duration": "6:43"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "The Underground (Accapella)",
+        "duration": "2:02"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "The Underground (Addictive Trip By Saeed & Palash)",
+        "extraartists": [
+          {
+            "name": "Saeed & Palash",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 17126,
+            "resource_url": "https://api.discogs.com/artists/17126"
+          }
+        ],
+        "duration": "9:32"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "The Underground (John Creamer & Stephane K. Remix)",
+        "extraartists": [
+          {
+            "name": "John Creamer & Stephane K",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 11829,
+            "resource_url": "https://api.discogs.com/artists/11829"
+          }
+        ],
+        "duration": "7:08"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/593009",
+    "createdAt": "2023-09-01T16:50:53.860Z",
+    "updatedAt": "2023-09-01T17:54:40.616Z"
+  },
+  {
+    "id": "78e56d28-43e3-4dfb-91df-9f439f8364bb",
+    "idApi": 673071,
+    "title": "Louis Moholo / Larry Stabbins / Keith Tippett - Tern",
+    "year": 1983,
+    "genre": "Jazz",
+    "cover_image": "https://i.discogs.com/Hi4KeqoCl-nX7i7i_f0VbZVsv4a_zEXDLGuJj43qhlU/rs:fit/g:sm/q:90/h:251/w:251/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3MzA3/MS0xMTQ2MTI4MTgx/LmpwZWc.jpeg",
+    "style": "Free Jazz",
+    "stock": 11,
+    "price": 41,
+    "artists": [
+      {
+        "name": "Louis Moholo"
+      },
+      {
+        "name": "Larry Stabbins"
+      },
+      {
+        "name": "Keith Tippett"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=6FBDK_J669k"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=9iYr7UBwXXc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=qGSzZV_Jfw0"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=YVzaw0Un2q8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=RXF35lzqrls"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A",
+        "type_": "track",
+        "title": "Tern (First Part)",
+        "duration": "21:53"
+      },
+      {
+        "position": "B",
+        "type_": "track",
+        "title": "Tern (Second Part)",
+        "duration": "24:32"
+      },
+      {
+        "position": "C",
+        "type_": "track",
+        "title": "Mania / Dance",
+        "duration": "19:08"
+      },
+      {
+        "position": "D1",
+        "type_": "track",
+        "title": "Shield",
+        "duration": "10:07"
+      },
+      {
+        "position": "D2",
+        "type_": "track",
+        "title": "The Greatest Service",
+        "duration": "8:36"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/673071",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.628Z"
+  },
+  {
+    "id": "791a8285-8e7a-4252-95b0-cb2f85f2343f",
+    "idApi": 4852599,
+    "title": "Firestarter (4) - Livin' On The Heat",
+    "year": 2003,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/LytIRPMN-_cyr8dWFf4dqLOE1YkbMhRgmrv-cqopFqU/rs:fit/g:sm/q:90/h:300/w:298/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4NTI1/OTktMTM4OTg2NDY2/MS02MzA4LmpwZWc.jpeg",
+    "style": "Rock & Roll,Punk",
+    "stock": 14,
+    "price": 49,
+    "artists": [
+      {
+        "name": "Firestarter (4)"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=JCScZlnqBBE"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "The Beat Goes On",
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "She's Red",
+        "duration": ""
+      },
+      {
+        "position": "A3",
+        "type_": "track",
+        "title": "Judy Judy Judy",
+        "duration": ""
+      },
+      {
+        "position": "A4",
+        "type_": "track",
+        "title": "Automatic Heroes",
+        "duration": ""
+      },
+      {
+        "position": "A5",
+        "type_": "track",
+        "title": "Flying Guillotine",
+        "duration": ""
+      },
+      {
+        "position": "A6",
+        "type_": "track",
+        "title": "Keen Reaction",
+        "duration": ""
+      },
+      {
+        "position": "A7",
+        "type_": "track",
+        "title": "Livin' On The Heat",
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Modern Raids",
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Radio Are Dead",
+        "duration": ""
+      },
+      {
+        "position": "B3",
+        "type_": "track",
+        "title": "Rich's Eyes",
+        "duration": ""
+      },
+      {
+        "position": "B4",
+        "type_": "track",
+        "title": "Hard Games",
+        "duration": ""
+      },
+      {
+        "position": "B5",
+        "type_": "track",
+        "title": "Don't Mind",
+        "duration": ""
+      },
+      {
+        "position": "B6",
+        "type_": "track",
+        "title": "Johnny Moped Was Right",
+        "duration": ""
+      },
+      {
+        "position": "B7",
+        "type_": "track",
+        "title": "Pretty Number",
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/4852599",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.636Z"
+  },
+  {
+    "id": "dcdb8c30-719c-44e5-af48-86217a4fbe41",
+    "idApi": 3747753,
+    "title": "Skeleton Key - Gravity Is The Enemy",
+    "year": 2012,
+    "genre": "Rock",
+    "cover_image": "https://i.discogs.com/VxBVav1fVNb_Sz167I_rmytkJbVl_SfDoKMhbshXVg4/rs:fit/g:sm/q:90/h:280/w:280/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDc3/NTMtMTM0MjczNzcy/Ni01OTMzLmpwZWc.jpeg",
+    "style": "Hardcore,Grunge,Indie Rock",
+    "stock": 8,
+    "price": 32,
+    "artists": [
+      {
+        "name": "Skeleton Key"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=1nV1h9I6JSU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=tebJVQvcyDg"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=U3D-wKI1JlM"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=qwRDc6BLgxY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=L1szfUjfhSQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=N8FfwLoCXyQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=vGmdbWr-i_k"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=zOsupJeZ7DQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=f6R94C_lrEI"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=f-qbLZ9e_S8"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Enl8tVXoNVo"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=d1ckPQY30FE"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=mu33QPoo5yQ"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=Cb9BCM_7eVw"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "1",
+        "type_": "track",
+        "title": "Gravity Is The Enemy",
+        "duration": ""
+      },
+      {
+        "position": "2",
+        "type_": "track",
+        "title": "Museum Glass",
+        "duration": ""
+      },
+      {
+        "position": "3",
+        "type_": "track",
+        "title": "Human Pin Cushion",
+        "duration": ""
+      },
+      {
+        "position": "4",
+        "type_": "track",
+        "title": "Little Monster",
+        "duration": ""
+      },
+      {
+        "position": "5",
+        "type_": "track",
+        "title": "Iron Fist Alchemist",
+        "duration": ""
+      },
+      {
+        "position": "6",
+        "type_": "track",
+        "title": "I'll Walk You To The Door",
+        "duration": ""
+      },
+      {
+        "position": "7",
+        "type_": "track",
+        "title": "The Mowing Devil",
+        "duration": ""
+      },
+      {
+        "position": "8",
+        "type_": "track",
+        "title": "Everybody's Crutch",
+        "duration": ""
+      },
+      {
+        "position": "9",
+        "type_": "track",
+        "title": "Fear Of Stalling",
+        "duration": ""
+      },
+      {
+        "position": "10",
+        "type_": "track",
+        "title": "The Denialist",
+        "extraartists": [
+          {
+            "name": "Andy Green (5)",
+            "anv": "",
+            "join": "",
+            "role": "Mixed By",
+            "tracks": "",
+            "id": 1187647,
+            "resource_url": "https://api.discogs.com/artists/1187647"
+          },
+          {
+            "name": "John Lakes",
+            "anv": "",
+            "join": "",
+            "role": "Recorded By",
+            "tracks": "",
+            "id": 2702482,
+            "resource_url": "https://api.discogs.com/artists/2702482"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "11",
+        "type_": "track",
+        "title": "Machine Screw",
+        "extraartists": [
+          {
+            "name": "Andy Agenbroad",
+            "anv": "",
+            "join": "",
+            "role": "Recorded By",
+            "tracks": "",
+            "id": 1885911,
+            "resource_url": "https://api.discogs.com/artists/1885911"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "12",
+        "type_": "track",
+        "title": "Every Hero",
+        "extraartists": [
+          {
+            "name": "Andy Agenbroad",
+            "anv": "",
+            "join": "",
+            "role": "Recorded By",
+            "tracks": "",
+            "id": 1885911,
+            "resource_url": "https://api.discogs.com/artists/1885911"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "13",
+        "type_": "track",
+        "title": "Spineless",
+        "duration": ""
+      },
+      {
+        "position": "14",
+        "type_": "track",
+        "title": "Roses",
+        "extraartists": [
+          {
+            "name": "Andy Green (5)",
+            "anv": "",
+            "join": "",
+            "role": "Mixed By",
+            "tracks": "",
+            "id": 1187647,
+            "resource_url": "https://api.discogs.com/artists/1187647"
+          },
+          {
+            "name": "John Lakes",
+            "anv": "",
+            "join": "",
+            "role": "Recorded By",
+            "tracks": "",
+            "id": 2702482,
+            "resource_url": "https://api.discogs.com/artists/2702482"
+          }
+        ],
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/3747753",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.658Z"
+  },
+  {
+    "id": "47637b9c-e731-4d45-b755-d55c0210dc36",
+    "idApi": 12251565,
+    "title": "Mathew Jonson - The Decompression Remixes Vol. 2",
+    "year": 2018,
+    "genre": "Electronic",
+    "cover_image": "https://i.discogs.com/EyTfSa2hyGeUB7dLd9ymqtWY9YNxLWIqa3rT3vFxRJc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjUx/NTY1LTE1MzE0NTI0/NjYtOTk3Ny5qcGVn.jpeg",
+    "style": "Minimal Techno,House",
+    "stock": 11,
+    "price": 41,
+    "artists": [
+      {
+        "name": "Mathew Jonson"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=uWaLoliO5qc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=lv4vH-lkiGY"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=4wrwz_c1vkU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=-nMMEXUzMes"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=fPVCkbiUOoc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=q20QX2_4G0g"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=EkSRx9e7VZ4"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=HaBCya-JhZw"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=RE6zHziA_FU"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=qmbNicWfCNA"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Decompression (GMT Remix)",
+        "extraartists": [
+          {
+            "name": "Guy Gerber",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer",
+            "tracks": "",
+            "id": 73456,
+            "resource_url": "https://api.discogs.com/artists/73456"
+          },
+          {
+            "name": "Phil Moffa",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer",
+            "tracks": "",
+            "id": 1061809,
+            "resource_url": "https://api.discogs.com/artists/1061809"
+          },
+          {
+            "name": "Seth Troxler",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer",
+            "tracks": "",
+            "id": 410990,
+            "resource_url": "https://api.discogs.com/artists/410990"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Decompression (Mike Shannon's Re-compression Mix)",
+        "extraartists": [
+          {
+            "name": "Mike Shannon",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer",
+            "tracks": "",
+            "id": 8055,
+            "resource_url": "https://api.discogs.com/artists/8055"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Decompression (Deadbeat Remix)",
+        "extraartists": [
+          {
+            "name": "Deadbeat",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer",
+            "tracks": "",
+            "id": 15056,
+            "resource_url": "https://api.discogs.com/artists/15056"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Decompression (Natalia Escobar's Coral Caisson Mix)",
+        "extraartists": [
+          {
+            "name": "Natalia Escobar",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer",
+            "tracks": "",
+            "id": 5432573,
+            "resource_url": "https://api.discogs.com/artists/5432573"
+          }
+        ],
+        "duration": ""
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/12251565",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.680Z"
+  },
+  {
+    "id": "bbab4486-bb9d-49d1-bdbb-5e1d60537553",
+    "idApi": 2448179,
+    "title": "Usher - Love In This Club",
+    "year": 2008,
+    "genre": "Electronic,Hip Hop",
+    "cover_image": "https://i.discogs.com/cY3EUeflasHbmyXzf2mn0eCvgOhU99xHU8zTrmynr2g/rs:fit/g:sm/q:90/h:299/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NDgx/NzktMTQ0NzQzNDM5/Ny05MjYwLmpwZWc.jpeg",
+    "style": "RnB/Swing,House,Pop Rap",
+    "stock": 15,
+    "price": 54,
+    "artists": [
+      {
+        "name": "Usher"
+      }
+    ],
+    "videos": [
+      {
+        "uri": "https://www.youtube.com/watch?v=-xebpn4WBA4"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=cB5e0zHRzHc"
+      },
+      {
+        "uri": "https://www.youtube.com/watch?v=qH1wbp-FASo"
+      }
+    ],
+    "tracklist": [
+      {
+        "position": "A1",
+        "type_": "track",
+        "title": "Love In This Club (Main Version)",
+        "duration": "4:23"
+      },
+      {
+        "position": "A2",
+        "type_": "track",
+        "title": "Love In This Club (Reavers Remix)",
+        "extraartists": [
+          {
+            "name": "Reavers",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1407016,
+            "resource_url": "https://api.discogs.com/artists/1407016"
+          }
+        ],
+        "duration": "4:21"
+      },
+      {
+        "position": "B1",
+        "type_": "track",
+        "title": "Love In This Club (Stonebridge Remix)",
+        "extraartists": [
+          {
+            "name": "Stonebridge",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 426668,
+            "resource_url": "https://api.discogs.com/artists/426668"
+          }
+        ],
+        "duration": "9:03"
+      },
+      {
+        "position": "B2",
+        "type_": "track",
+        "title": "Love In This Club (J Sweet Remix)",
+        "extraartists": [
+          {
+            "name": "J-Sweet",
+            "anv": "J Sweet",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 53117,
+            "resource_url": "https://api.discogs.com/artists/53117"
+          }
+        ],
+        "duration": "5:08"
+      }
+    ],
+    "resource_url": "https://api.discogs.com/releases/2448179",
+    "createdAt": "2023-09-01T16:50:53.861Z",
+    "updatedAt": "2023-09-01T17:54:40.682Z"
+  }
+]}
