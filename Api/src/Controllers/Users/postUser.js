@@ -17,7 +17,7 @@ const bcrypt_1 = __importDefault(require("bcrypt"));
 const Users_1 = require("../../Models/Users");
 const createUser = (userData) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { name, email, password } = userData;
+        const { name, email, password, codArea, phoneNumber, city, country } = userData;
         const userFound = yield Users_1.Users.findOne({ where: { email } });
         if (userFound) {
             return {
@@ -31,6 +31,10 @@ const createUser = (userData) => __awaiter(void 0, void 0, void 0, function* () 
             name,
             email,
             password: encryptedPassword,
+            codArea,
+            phoneNumber,
+            city,
+            country
         });
         return {
             status: 201,

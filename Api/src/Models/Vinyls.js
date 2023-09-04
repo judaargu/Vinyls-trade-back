@@ -69,7 +69,7 @@ const initVinylModel = (sequelize) => {
         }
     }, {
         sequelize,
-        tableName: "Vinyl",
+        tableName: 'Vinyl',
         timestamps: true,
         paranoid: true,
     });

@@ -10,9 +10,14 @@ export const createUser = async (userData: {
     name: string;
     email: string;
     password: string;
+    codArea: string;
+    phoneNumber: string;
+    city: string;
+    country: string;
+
 }): Promise<CreateUserResponse> => {
     try {
-        const { name, email, password } = userData;
+        const { name, email, password, codArea, phoneNumber, city, country } = userData;
 
         const userFound = await Users.findOne({ where: { email } });
         if (userFound) {
@@ -29,6 +34,10 @@ export const createUser = async (userData: {
             name,
             email,
             password: encryptedPassword,
+            codArea,
+            phoneNumber,
+            city,
+            country
         });
 
         return {
@@ -45,4 +54,3 @@ export const createUser = async (userData: {
 };
 
 export default createUser;
-
