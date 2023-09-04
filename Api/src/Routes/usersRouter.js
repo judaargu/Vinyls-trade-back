@@ -9,21 +9,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = require("express");
-const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
-const usersRouter_1 = require("../Routes/usersRouter");
-const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
-const router = (0, express_1.Router)();
-router.get('/', getVinyls_1.getAllVinyls);
-router.post("/createUser", usersRouter_1.createUserHandler);
-router.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    try {
-        const vinyl = yield (0, postVinyl_1.postVinyl)(req.body);
-        return res.status(vinyl.status).json(vinyl.json);
-    }
-    catch (error) {
-        return res.status(404).json(error);
-    }
-}));
-router.post("/vinyls", getVinyls_1.postVinylsController);
-exports.default = router;
+exports.createUserHandler = void 0;
+const postUser_1 = require("../Controllers/Users/postUser");
+const createUserHandler = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const userData = req.body;
+    const result = yield (0, postUser_1.createUser)(userData);
+    return res.status(result.status).json(result.data);
+});
+exports.createUserHandler = createUserHandler;

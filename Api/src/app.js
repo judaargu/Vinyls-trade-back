@@ -10,6 +10,7 @@ const morgan_1 = __importDefault(require("morgan"));
 require("./db"); // Import your database setup
 const Routes_1 = __importDefault(require("./Routes"));
 const server = (0, express_1.default)();
+server.use(express_1.default.static("src"));
 server.use(body_parser_1.default.urlencoded({ extended: true, limit: '50mb' }));
 server.use(body_parser_1.default.json({ limit: '50mb' }));
 server.use((0, cookie_parser_1.default)());
