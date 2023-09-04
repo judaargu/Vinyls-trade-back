@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.postVinylsController = exports.getAllVinyls = void 0;
+exports.getVinylById = exports.postVinylsController = exports.getAllVinyls = void 0;
 const axios_1 = __importDefault(require("axios"));
 const Vinyls_1 = require("../../Models/Vinyls");
 const postVinylsController = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -43,3 +43,14 @@ const getAllVinyls = (req, res) => __awaiter(void 0, void 0, void 0, function* (
     }
 });
 exports.getAllVinyls = getAllVinyls;
+const getVinylById = (param) => __awaiter(void 0, void 0, void 0, function* () {
+    const { id } = param;
+    try {
+        let vinyl = yield Vinyls_1.Vinyl.findAll({ where: { id } });
+        return { status: 200, json: vinyl };
+    }
+    catch (error) {
+        return { status: 500, json: 'El vinilo no existe' };
+    }
+});
+exports.getVinylById = getVinylById;
