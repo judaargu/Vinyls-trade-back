@@ -53,6 +53,7 @@ const initVinylModel = (sequelize: Sequelize) => {
         sequelize,
         tableName: 'Vinyl',
         timestamps: true,
+        paranoid: true,
     }
     )
 }

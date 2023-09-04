@@ -3,10 +3,10 @@
     "page": 100,
     "pages": 100,
     "per_page": 100,
-    "items": 8437558,
+    "items": 8437726,
     "urls": {
-      "first": "https://api.discogs.com/database/search?format=Vinyl&token=cKjjmQbUYYfoXNXWJYyQNrweoHywfppPnMKHoVZT&page=1&per_page=100",
-      "prev": "https://api.discogs.com/database/search?format=Vinyl&token=cKjjmQbUYYfoXNXWJYyQNrweoHywfppPnMKHoVZT&page=99&per_page=100"
+      "first": "https://api.discogs.com/database/search?format=Vinyl&token=htKmiOHvbGaWbhXLlwkxutoEdLodnwVSbcGsictP&page=1&per_page=100",
+      "prev": "https://api.discogs.com/database/search?format=Vinyl&token=htKmiOHvbGaWbhXLlwkxutoEdLodnwVSbcGsictP&page=99&per_page=100"
     }
   },
   "results": [
@@ -468,7 +468,7 @@
       "catno": "XPRESS011",
       "title": "Various - Step Express 11",
       "thumb": "",
-      "cover_image": "https://st.discogs.com/c670511d719518b2298aecf1242a7d02b27a5242/images/spacer.gif",
+      "cover_image": "https://st.discogs.com/4556166a7e240aa1bcedd6d0dba11affac7bb58b/images/spacer.gif",
       "resource_url": "https://api.discogs.com/releases/1547384",
       "community": {
         "want": 40,
@@ -1425,7 +1425,7 @@
       "resource_url": "https://api.discogs.com/releases/2987798",
       "community": {
         "want": 27,
-        "have": 61
+        "have": 62
       },
       "format_quantity": 1,
       "formats": [
