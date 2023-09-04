@@ -15,6 +15,15 @@ const usersRouter_1 = require("../Routes/usersRouter");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
 const router = (0, express_1.Router)();
 router.get('/', getVinyls_1.getAllVinyls);
+router.get('/:id', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
+        return res.status(vinyl.status).json(vinyl.json);
+    }
+    catch (error) {
+        return res.status(404).json(error);
+    }
+}));
 router.post("/createUser", usersRouter_1.createUserHandler);
 router.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
