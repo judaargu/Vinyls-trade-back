@@ -11,10 +11,37 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
-const usersRouter_1 = require("../Routes/usersRouter");
+const postUser_1 = require("../Controllers/Users/postUser");
+const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
 const router = (0, express_1.Router)();
-router.get('/', getVinyls_1.getAllVinyls);
+
+router.get("/", getVinyls_1.getAllVinyls);
+//! Ruta para registrar un nuevo usuario
+router.post("/createUser", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const user = yield (0, postUser_1.createUser)(req.body);
+        return res.status(user.status).json(user.data);
+    }
+    catch (error) {
+        return res.status(500).json({ message: 'Error interno del servidor' });
+    }
+}));
+//! Ruta para iniciar sesión
+router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const user = yield (0, postUser_1.loginUser)(req.body);
+        return res.status(user.status).json(user.data);
+    }
+    catch (error) {
+        return res.status(500).json({ message: 'Error interno del servidor' });
+    }
+}));
+router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
+    res.json({ message: 'Ruta protegida' });
+});
+router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+
 router.get('/:id', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
@@ -24,8 +51,7 @@ router.get('/:id', (req, res) => __awaiter(void 0, void 0, void 0, function* () 
         return res.status(404).json(error);
     }
 }));
-router.post("/createUser", usersRouter_1.createUserHandler);
-router.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+
     try {
         const vinyl = yield (0, postVinyl_1.postVinyl)(req.body);
         return res.status(vinyl.status).json(vinyl.json);
