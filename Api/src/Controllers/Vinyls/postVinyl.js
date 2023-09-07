@@ -12,14 +12,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.postVinyl = void 0;
 const Vinyls_1 = require("../../Models/Vinyls");
 const postVinyl = (body) => __awaiter(void 0, void 0, void 0, function* () {
-    const { artist, title, year, genre, cover_image, style, price } = body;
+    const { artists, title, year, genre, cover_image, style, price } = body;
     try {
-        if (!artist || !title || !year || !genre || !cover_image || !style || !price) {
+        if (!artists || !title || !year || !genre || !cover_image || !style || !price) {
             return { status: 404, json: "Faltan datos" };
         }
         yield Vinyls_1.Vinyl.findOrCreate({
             where: { title },
-            defaults: { artist, title, year, genre, cover_image, style, price },
+            defaults: { artists, title, year, genre, cover_image, style, price },
         });
         const vinyls = yield Vinyls_1.Vinyl.findAll();
         return { status: 200, json: vinyls };

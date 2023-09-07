@@ -19,6 +19,17 @@ router.post("/createUser", async (req: Request, res: Response) => {
   }
 });
 
+router.get('/:id', async (req: Request, res: Response) => {
+    try {
+        const vinyl = await getVinylById(req.params);
+        return res.status(vinyl.status).json(vinyl.json);
+
+    } catch (error) {
+        return res.status(404).json(error);
+        
+    }
+});
+
 //! Ruta para iniciar sesión
 router.post("/login", async (req: Request, res: Response) => {
   try {
