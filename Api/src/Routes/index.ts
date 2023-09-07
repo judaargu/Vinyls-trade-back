@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getAllVinyls, postVinylsController } from "../Controllers/Vinyls/getVinyls";
+import { getAllVinyls, postVinylsController, getVinylById} from "../Controllers/Vinyls/getVinyls";
 import { createUser, loginUser } from "../Controllers/Users/postUser"; 
 import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
