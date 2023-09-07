@@ -9,12 +9,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.routerAuth = exports.router = void 0;
 const express_1 = require("express");
 const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
 const postUser_1 = require("../Controllers/Users/postUser");
 const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
 const router = (0, express_1.Router)();
+exports.router = router;
+const routerAuth = (0, express_1.Router)();
+exports.routerAuth = routerAuth;
 router.get("/", getVinyls_1.getAllVinyls);
 //! Ruta para registrar un nuevo usuario
 router.post("/createUser", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -45,6 +49,8 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
         return res.status(500).json({ message: 'Error interno del servidor' });
     }
 }));
+//! Ruta para autenticación con google
+routerAuth.get('/google', (req, res) => res.send(req.user));
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
     res.json({ message: 'Ruta protegida' });
 });
@@ -58,4 +64,3 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 router.post("/vinyls", getVinyls_1.postVinylsController);
-exports.default = router;

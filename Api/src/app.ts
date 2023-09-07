@@ -2,10 +2,10 @@ import express, { Request, Response, NextFunction } from 'express';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
-
-
-import './db'; // Import your database setup
-import router from './Routes';
+import { router, routerAuth } from './Routes';
+import passport from 'passport';
+import "./Middlewares/authGoogle";
+import './db';
 
 const server = express();
 
@@ -26,6 +26,13 @@ server.use((req: Request, res: Response, next: NextFunction) => {
 // server.use('/recipes', routerRecipes);
 // server.use('/diets', routerDiets);
 server.use(router);
+server.use("/auth", passport.authenticate("Auth-google", {
+  scope: [
+    "https://www.googleapis.com/auth/userinfo.profile",
+    "https://www.googleapis.com/auth/userinfo.email",
+  ],
+  session: false,
+}), routerAuth);
 
 server.use((err: any, req: Request, res: Response, next: NextFunction) => {
   const status = err.status || 500;
