@@ -40,4 +40,4 @@ const getVinylById = async (param: any) => {
     }
 }
 
-export { getAllVinyls, postVinylsController, getVinylById};
+export { getAllVinyls, postVinylsController, getVinylById, getVinylsController};

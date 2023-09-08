@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getVinylById = exports.postVinylsController = exports.getAllVinyls = void 0;
+exports.getVinylsController = exports.getVinylById = exports.postVinylsController = exports.getAllVinyls = void 0;
 const axios_1 = __importDefault(require("axios"));
 const Vinyls_1 = require("../../Models/Vinyls");
 const postVinylsController = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -32,6 +32,7 @@ const getVinylsController = () => __awaiter(void 0, void 0, void 0, function* ()
     const findVinyl = yield Vinyls_1.Vinyl.findAll();
     return findVinyl;
 });
+exports.getVinylsController = getVinylsController;
 const getAllVinyls = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const response = yield getVinylsController();

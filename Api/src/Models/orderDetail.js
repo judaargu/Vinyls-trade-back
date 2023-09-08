@@ -39,7 +39,7 @@ const initOrderDetail = (sequelize) => {
     }, {
         sequelize,
         modelName: "OrderDetail",
-        timestamps: false,
+        paranoid: true,
     });
 };
 exports.initOrderDetail = initOrderDetail;
