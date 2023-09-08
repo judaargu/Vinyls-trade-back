@@ -53,7 +53,7 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
 //! Ruta para autenticación con google
 routerAuth.get('/google', (req, res) => res.send(req.user));
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
-    res.json({ message: "Ruta protegida" });
+    res.json({ message: 'Ruta protegida' });
 });
 router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -65,7 +65,6 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 router.post("/vinyls", getVinyls_1.postVinylsController);
-
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -89,5 +88,3 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
         res.status(407).json(error);
     }
 }));
-
-
