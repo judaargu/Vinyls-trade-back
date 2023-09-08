@@ -27,5 +27,17 @@ const getAllVinyls = async (req: Request, res: Response) => {
         res.status(500).json({ error: error instanceof Error ? error.message : 'Something went wrong' })
     }
 }
+const getVinylById = async (param: any) => {
+    const { id } = param;
 
-export { getAllVinyls, postVinylsController};
+    try {
+        let vinyl = await Vinyl.findAll({where: {id}});
+
+        return {status: 200, json: vinyl};
+        
+    } catch (error) {
+        return {status: 500, json: 'El vinilo no existe'};
+    }
+}
+
+export { getAllVinyls, postVinylsController, getVinylById, getVinylsController};

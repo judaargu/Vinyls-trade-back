@@ -85,12 +85,12 @@ const initVinylModel = (sequelize: Sequelize) => {
                 type: DataTypes.STRING
             }
         },
-        {
-            sequelize,
-            tableName: "Vinyl",
-            timestamps: true,
-            paranoid: true
-        }
-    );}
-
+    {
+        sequelize,
+        tableName: 'Vinyl',
+        timestamps: true,
+        paranoid: true,
+    }
+    )
+}
     export {initVinylModel, Vinyl};

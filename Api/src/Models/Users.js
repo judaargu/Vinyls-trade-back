@@ -22,9 +22,22 @@ const initUsersModel = (sequelize) => {
         password: {
             type: sequelize_1.DataTypes.STRING,
         },
+        codArea: {
+            type: sequelize_1.DataTypes.STRING,
+        },
+        phoneNumber: {
+            type: sequelize_1.DataTypes.STRING,
+        },
+        city: {
+            type: sequelize_1.DataTypes.STRING,
+        },
+        country: {
+            type: sequelize_1.DataTypes.STRING,
+        },
     }, {
         sequelize,
         modelName: "Users",
+        timestamps: true,
         paranoid: true,
     });
 };
