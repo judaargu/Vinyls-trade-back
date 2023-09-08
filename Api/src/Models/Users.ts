@@ -45,7 +45,7 @@ const initUsersModel = (sequelize: Sequelize) => {
     {
       sequelize,
       modelName: "Users",
-      timestamps: true,
+      timestamps: false,
       paranoid: true,
     }
   );
