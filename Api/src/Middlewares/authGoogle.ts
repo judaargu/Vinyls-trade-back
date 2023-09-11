@@ -6,7 +6,7 @@ import { Users } from "../Models/Users";
 passport.use("Auth-google", new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID || '',
     clientSecret: GOOGLE_CLIENT_SECRET || '',
-    callbackURL: "https://vinyls-trade-back-production.up.railway.app/auth/google" || "http://localhost:5173"
+    callbackURL: "https://vinyls-trade-back-production.up.railway.app/auth/google" || "http://localhost:3001/auth/google"
 },
     async (accessToken, refreshToken, profile, cb) => {
         try {
