@@ -65,7 +65,4 @@ router.post("/vinyls", postVinylsController);
 //! Ruta para agregar una reseña
 router.post('/reviews', createReview);
 
-//! Ruta para obtener todas las reseñas de un vinilo
-router.get('/vinyls/:vinylId/reviews', getReviewsByVinylId);
-
 export default router;

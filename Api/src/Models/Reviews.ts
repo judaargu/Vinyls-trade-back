@@ -2,9 +2,9 @@ import { DataTypes, Model, Sequelize } from 'sequelize';
 
 class Review extends Model {
   public id!: number;
-  public userId!: number;
-  public vinylId!: number;
-  public rating!: number;
+  public name!: string; 
+  public email!: string;     
+  public country!: string;   
   public comment!: string | null;
   public createdAt!: Date;
 }
@@ -12,16 +12,16 @@ class Review extends Model {
 const initReview = (sequelize: Sequelize) => {
   Review.init(
     {
-      userId: {
-        type: DataTypes.INTEGER,
+      name: {             
+        type: DataTypes.STRING, 
         allowNull: false,
       },
-      vinylId: {
-        type: DataTypes.INTEGER,
+      email: {                
+        type: DataTypes.STRING, 
         allowNull: false,
       },
-      rating: {
-        type: DataTypes.INTEGER,
+      country: {               
+        type: DataTypes.STRING, 
         allowNull: false,
       },
       comment: {

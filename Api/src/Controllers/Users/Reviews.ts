@@ -3,8 +3,8 @@ import { Review } from '../../Models/Reviews';
 
 export const createReview = async (req: Request, res: Response) => {
   try {
-    const { userId, vinylId, rating, comment } = req.body;
-    const newReview = await Review.create({ userId, vinylId, rating, comment });
+    const { name, email, country, comment } = req.body;
+    const newReview = await Review.create({ name, email, country, comment });
     res.status(201).json(newReview);
   } catch (error) {
     res.status(500).json({ error: 'Error interno del servidor' });

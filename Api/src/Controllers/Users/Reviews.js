@@ -13,8 +13,8 @@ exports.getReviewsByVinylId = exports.createReview = void 0;
 const Reviews_1 = require("../../Models/Reviews");
 const createReview = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { userId, vinylId, rating, comment } = req.body;
-        const newReview = yield Reviews_1.Review.create({ userId, vinylId, rating, comment });
+        const { name, email, country, comment } = req.body;
+        const newReview = yield Reviews_1.Review.create({ name, email, country, comment });
         res.status(201).json(newReview);
     }
     catch (error) {

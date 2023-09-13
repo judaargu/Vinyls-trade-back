@@ -61,6 +61,4 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
 router.post("/vinyls", getVinyls_1.postVinylsController);
 //! Ruta para agregar una reseña
 router.post('/reviews', Reviews_1.createReview);
-//! Ruta para obtener todas las reseñas de un vinilo
-router.get('/vinyls/:vinylId/reviews', Reviews_1.getReviewsByVinylId);
 exports.default = router;

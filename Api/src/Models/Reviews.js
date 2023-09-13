@@ -7,16 +7,16 @@ class Review extends sequelize_1.Model {
 exports.Review = Review;
 const initReview = (sequelize) => {
     Review.init({
-        userId: {
-            type: sequelize_1.DataTypes.INTEGER,
+        name: {
+            type: sequelize_1.DataTypes.STRING,
             allowNull: false,
         },
-        vinylId: {
-            type: sequelize_1.DataTypes.INTEGER,
+        email: {
+            type: sequelize_1.DataTypes.STRING,
             allowNull: false,
         },
-        rating: {
-            type: sequelize_1.DataTypes.INTEGER,
+        country: {
+            type: sequelize_1.DataTypes.STRING,
             allowNull: false,
         },
         comment: {
