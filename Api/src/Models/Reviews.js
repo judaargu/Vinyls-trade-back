@@ -30,6 +30,7 @@ const initReview = (sequelize) => {
     }, {
         sequelize,
         modelName: 'Review',
+        timestamps: false
     });
 };
 exports.initReview = initReview;

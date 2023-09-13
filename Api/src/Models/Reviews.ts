@@ -36,6 +36,7 @@ const initReview = (sequelize: Sequelize) => {
     {
       sequelize,
       modelName: 'Review',
+      timestamps: false
     }
   );
 };
