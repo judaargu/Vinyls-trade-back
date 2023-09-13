@@ -15,6 +15,7 @@ import {
 import { ParsedQs } from "qs";
 
 const router = Router();
+const routerAuth = Router();
 
 router.get("/", getAllVinyls);
 
@@ -47,13 +48,14 @@ router.post("/login", async (req: Request, res: Response) => {
   }
 });
 
-router.get(
-  "/protectedResource",
-  authenticateJWT,
-  (req: Request, res: Response) => {
-    res.json({ message: "Ruta protegida" });
-  }
-);
+
+//! Ruta para autenticación con google
+routerAuth.get('/google', (req:Request, res:Response) => res.send(req.user));
+
+router.get("/protectedResource", authenticateJWT, (req: Request, res: Response) => {
+  res.json({message: 'Ruta protegida'})
+})
+
 
 router.post("/", async (req: Request, res: Response) => {
   try {
@@ -65,6 +67,7 @@ router.post("/", async (req: Request, res: Response) => {
 });
 
 router.post("/vinyls", postVinylsController);
+
 
 //Mercado Pago
 router.post("/create_order", async (req: Request, res: Response) => {
@@ -97,4 +100,6 @@ router.post("/webhook", async (req: Request, res: Response) => {
   }
 });
 
-export default router;
+
+export {router, routerAuth};
+

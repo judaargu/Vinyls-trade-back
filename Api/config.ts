@@ -8,7 +8,9 @@ export const {
     DB_HOST,
     DB_NAME,
     TOKEN,
-    URL
+    URL,
+    GOOGLE_CLIENT_ID, 
+    GOOGLE_CLIENT_SECRET
 
 
 
