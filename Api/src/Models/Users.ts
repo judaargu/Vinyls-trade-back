@@ -9,6 +9,7 @@ class Users extends Model {
   public phoneNumber?: string;
   public city?: string;
   public country?: string;
+  public isAdmin!: boolean;
 }
 
 const initUsersModel = (sequelize: Sequelize) => {
@@ -41,6 +42,10 @@ const initUsersModel = (sequelize: Sequelize) => {
       country: {
         type: DataTypes.STRING,
       },
+      isAdmin: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false,
+      }
     },
     {
       sequelize,

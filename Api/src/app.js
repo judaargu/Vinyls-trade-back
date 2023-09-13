@@ -35,6 +35,7 @@ server.use("/auth", passport_1.default.authenticate("Auth-google", {
     ],
     session: false,
 }), Routes_1.routerAuth);
+server.use("/get", Routes_1.routerUsers);
 server.use((err, req, res, next) => {
     const status = err.status || 500;
     const message = err.message || 'Internal Server Error';
