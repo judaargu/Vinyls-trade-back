@@ -47,7 +47,7 @@ const initOrderDetail = (sequelize: Sequelize) => {
   {
     sequelize,
     modelName: "OrderDetail",
-    timestamps: false,
+    paranoid: true,
   }
 );
 }

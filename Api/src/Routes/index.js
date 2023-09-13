@@ -9,13 +9,24 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.routerUsers = exports.routerAuth = exports.router = void 0;
 const express_1 = require("express");
 const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
 const postUser_1 = require("../Controllers/Users/postUser");
 const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
+
 const Reviews_1 = require("../Controllers/Users/Reviews");
+
+const payment_1 = require("../Controllers/MercadoPago/payment");
+const getUsers_1 = require("../Controllers/Users/getUsers");
+
 const router = (0, express_1.Router)();
+exports.router = router;
+const routerAuth = (0, express_1.Router)();
+exports.routerAuth = routerAuth;
+const routerUsers = (0, express_1.Router)();
+exports.routerUsers = routerUsers;
 router.get("/", getVinyls_1.getAllVinyls);
 //! Ruta para registrar un nuevo usuario
 router.post("/createUser", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -27,6 +38,25 @@ router.post("/createUser", (req, res) => __awaiter(void 0, void 0, void 0, funct
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
+routerUsers.get("/users", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const users = yield (0, getUsers_1.getUsers)();
+        return res.status(users.status).json(users.json);
+    }
+    catch (error) {
+        return res.status(500).json({ message: "Error interno del servidor" });
+    }
+}));
+routerUsers.get("/admins", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const users = yield (0, getUsers_1.getAdmins)();
+        return res.status(users.status).json(users.json);
+    }
+    catch (error) {
+        return res.status(500).json({ message: "Error interno del servidor" });
+    }
+}));
+
 router.get("/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
@@ -46,6 +76,8 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
+//! Ruta para autenticación con google
+routerAuth.get('/google', (req, res) => res.send(req.user));
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
     res.json({ message: "Ruta protegida" });
 });
@@ -59,6 +91,32 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 router.post("/vinyls", getVinyls_1.postVinylsController);
+
 //! Ruta para agregar una reseña
 router.post('/reviews', Reviews_1.createReview);
 exports.default = router;
+
+//Mercado Pago
+router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const payment = yield (0, payment_1.createOrder)(req.body);
+        return res.status(206).json(payment);
+    }
+    catch (error) {
+        return res.status(406).json(error);
+    }
+}));
+router.get("/success", (req, res) => res.status(200).send("success"));
+router.get("/failure", (req, res) => res.status(200).send("failure"));
+router.get("/pending", (req, res) => res.status(200).send("pending"));
+router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const queryParams = req.query;
+    try {
+        const webhook = yield (0, payment_1.recieveWebhook)(queryParams);
+        res.status(207).json(webhook);
+    }
+    catch (error) {
+        res.status(407).json(error);
+    }
+}));
+

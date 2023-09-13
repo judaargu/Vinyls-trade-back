@@ -34,10 +34,15 @@ const initUsersModel = (sequelize) => {
         country: {
             type: sequelize_1.DataTypes.STRING,
         },
+        isAdmin: {
+            type: sequelize_1.DataTypes.BOOLEAN,
+            defaultValue: false,
+        }
     }, {
         sequelize,
         modelName: "Users",
         timestamps: false,
+        paranoid: true,
     });
 };
 exports.initUsersModel = initUsersModel;
