@@ -2,7 +2,7 @@ import express, { Request, Response, NextFunction } from 'express';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
-import { router, routerAuth } from './Routes';
+import { router, routerAuth, routerUsers } from './Routes';
 import passport from 'passport';
 import "./Middlewares/authGoogle";
 import './db';
@@ -33,6 +33,7 @@ server.use("/auth", passport.authenticate("Auth-google", {
   ],
   session: false,
 }), routerAuth);
+server.use("/get", routerUsers);
 
 server.use((err: any, req: Request, res: Response, next: NextFunction) => {
   const status = err.status || 500;

@@ -8,6 +8,7 @@ const secretKey = crypto.randomBytes(32).toString('hex');
 interface CreateUserResponse {
   status: number;
   data: any;
+
 }
 
 export const createUser = async (userData: {
@@ -18,9 +19,10 @@ export const createUser = async (userData: {
   phoneNumber: string;
   city: string;
   country: string;
+  isAdmin: boolean;
 }): Promise<CreateUserResponse> => {
   try {
-    const { name, email, password, codArea, phoneNumber, city, country } =
+    const { name, email, password, codArea, phoneNumber, city, country, isAdmin } =
       userData;
 
     const userFound = await Users.findOne({ where: { email } });
@@ -42,6 +44,7 @@ export const createUser = async (userData: {
       phoneNumber,
       city,
       country,
+      isAdmin,
     });
 
     const token = jwt.sign({ userId: newUser.id }, secretKey, {
@@ -50,7 +53,7 @@ export const createUser = async (userData: {
 
     return {
       status: 201,
-      data: { ...newUser.toJSON(), token },
+      data: { ...newUser.toJSON() },
     };
   } catch (error) {
     console.error("Ha ocurrido un error al crear el usuario:", error);
