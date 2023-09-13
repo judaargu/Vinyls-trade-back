@@ -16,6 +16,7 @@ const postUser_1 = require("../Controllers/Users/postUser");
 const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
 const payment_1 = require("../Controllers/MercadoPago/payment");
+const putVinyls_1 = require("../Controllers/Vinyls/putVinyls");
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
@@ -53,8 +54,9 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
 //! Ruta para autenticación con google
 routerAuth.get('/google', (req, res) => res.send(req.user));
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
-    res.json({ message: "Ruta protegida" });
+    res.json({ message: 'Ruta protegida' });
 });
+//Vinilos
 router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, postVinyl_1.postVinyl)(req.body);
@@ -65,7 +67,15 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 router.post("/vinyls", getVinyls_1.postVinylsController);
-
+router.put("/upgrade_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield (0, putVinyls_1.changeVinyls)(req.body, req.params);
+        res.status(200).send(`se han realizado los cambios en el vinilo ${req.params.id}`);
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -90,5 +100,3 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
         res.status(407).json(error);
     }
 }));
-
-

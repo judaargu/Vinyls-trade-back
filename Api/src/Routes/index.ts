@@ -13,6 +13,7 @@ import {
   recieveWebhook,
 } from "../Controllers/MercadoPago/payment";
 import { ParsedQs } from "qs";
+import { changeVinyls } from "../Controllers/Vinyls/putVinyls";
 
 const router = Router();
 const routerAuth = Router();
@@ -56,7 +57,7 @@ router.get("/protectedResource", authenticateJWT, (req: Request, res: Response) 
   res.json({message: 'Ruta protegida'})
 })
 
-
+//Vinilos
 router.post("/", async (req: Request, res: Response) => {
   try {
     const vinyl = await postVinyl(req.body);
@@ -67,6 +68,16 @@ router.post("/", async (req: Request, res: Response) => {
 });
 
 router.post("/vinyls", postVinylsController);
+
+router.put("/upgrade_vinyls/:id",async (req: Request, res: Response) => {
+  
+  try {
+    const response = await changeVinyls(req.body, req.params);
+    res.status(200).send(`se han realizado los cambios en el vinilo ${req.params.id}`)
+  } catch (error) {
+    res.status(400).json(error);
+  }
+})
 
 
 //Mercado Pago
