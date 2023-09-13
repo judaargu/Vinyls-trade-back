@@ -76,6 +76,7 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
     const queryParams = req.query;
     try {
         const webhook = yield (0, payment_1.recieveWebhook)(queryParams);
+        console.log(req.query);
         res.status(207).json(webhook);
     }
     catch (error) {

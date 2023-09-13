@@ -30,11 +30,12 @@ const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* ()
             },
         ],
         back_urls: {
-            success: "http://localhost:3001/success",
+            success: "http://localhost:3001",
             failure: "http://localhost:3001/failure",
             pending: "http://localhost:3001/pending",
         },
-        notification_url: "https://a2bf-191-81-181-155.ngrok.io/webhook",
+        notification_url: "https://5f7e-191-81-164-140.ngrok.io/webhook",
+        auto_return: 'approved',
     });
     return result.body.init_point;
 });

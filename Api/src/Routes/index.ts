@@ -90,6 +90,7 @@ router.post("/webhook", async (req: Request, res: Response) => {
   const queryParams: ParsedQs = req.query;
   try {
     const webhook = await recieveWebhook(queryParams);
+    console.log(req.query)
     res.status(207).json(webhook);
   } catch (error) {
     res.status(407).json(error);
