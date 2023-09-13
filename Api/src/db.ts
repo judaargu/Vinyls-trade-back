@@ -1,11 +1,15 @@
 import { Sequelize } from 'sequelize';
-import { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME } from '../config'; // Asegúrate de que tienes tu archivo config.ts con los valores de entorno
+import { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_DEPLOY } from '../config'; // Asegúrate de que tienes tu archivo config.ts con los valores de entorno
 import {initOrderModel, Order} from './Models/Order';
 import {initUsersModel ,Users} from './Models/Users';
 import {initVinylModel ,Vinyl} from './Models/Vinyls';
 import {initOrderDetail ,OrderDetail} from './Models/orderDetail';
 
-const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
+// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
+//     logging: false, 
+//     native: false, 
+// });
+const sequelize = new Sequelize(`${DB_DEPLOY}`, {
     logging: false, 
     native: false, 
 });

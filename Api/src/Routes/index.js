@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.routerAuth = exports.router = void 0;
+exports.routerUsers = exports.routerAuth = exports.router = void 0;
 const express_1 = require("express");
 const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
 const postUser_1 = require("../Controllers/Users/postUser");
@@ -17,16 +17,37 @@ const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
 const payment_1 = require("../Controllers/MercadoPago/payment");
 const putVinyls_1 = require("../Controllers/Vinyls/putVinyls");
+const getUsers_1 = require("../Controllers/Users/getUsers");
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
 exports.routerAuth = routerAuth;
+const routerUsers = (0, express_1.Router)();
+exports.routerUsers = routerUsers;
 router.get("/", getVinyls_1.getAllVinyls);
 //! Ruta para registrar un nuevo usuario
 router.post("/createUser", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const user = yield (0, postUser_1.createUser)(req.body);
         return res.status(user.status).json(user.data);
+    }
+    catch (error) {
+        return res.status(500).json({ message: "Error interno del servidor" });
+    }
+}));
+routerUsers.get("/users", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const users = yield (0, getUsers_1.getUsers)();
+        return res.status(users.status).json(users.json);
+    }
+    catch (error) {
+        return res.status(500).json({ message: "Error interno del servidor" });
+    }
+}));
+routerUsers.get("/admins", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const users = yield (0, getUsers_1.getAdmins)();
+        return res.status(users.status).json(users.json);
     }
     catch (error) {
         return res.status(500).json({ message: "Error interno del servidor" });

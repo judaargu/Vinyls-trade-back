@@ -14,9 +14,11 @@ import {
 } from "../Controllers/MercadoPago/payment";
 import { ParsedQs } from "qs";
 import { changeVinyls } from "../Controllers/Vinyls/putVinyls";
+import { getAdmins, getUsers } from "../Controllers/Users/getUsers";
 
 const router = Router();
 const routerAuth = Router();
+const routerUsers = Router();
 
 router.get("/", getAllVinyls);
 
@@ -27,6 +29,24 @@ router.post("/createUser", async (req: Request, res: Response) => {
     return res.status(user.status).json(user.data);
   } catch (error) {
     return res.status(500).json({ message: "Error interno del servidor" });
+  }
+});
+
+routerUsers.get("/users", async (req: Request, res: Response) => {
+  try {
+    const users = await getUsers();
+    return res.status(users.status).json(users.json);
+  } catch (error) {
+    return res.status(500).json({message: "Error interno del servidor"});
+  }
+});
+
+routerUsers.get("/admins", async (req: Request, res: Response) => {
+  try {
+    const users = await getAdmins();
+    return res.status(users.status).json(users.json);
+  } catch (error) {
+    return res.status(500).json({message: "Error interno del servidor"});
   }
 });
 
@@ -112,5 +132,5 @@ router.post("/webhook", async (req: Request, res: Response) => {
 });
 
 
-export {router, routerAuth};
+export {router, routerAuth, routerUsers};
 

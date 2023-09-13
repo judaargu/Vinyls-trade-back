@@ -18,7 +18,7 @@ server.use(body_parser_1.default.json({ limit: '50mb' }));
 server.use((0, cookie_parser_1.default)());
 server.use((0, morgan_1.default)('dev'));
 server.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'http://localhost:5173');
+    res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Credentials', 'true');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
@@ -35,6 +35,7 @@ server.use("/auth", passport_1.default.authenticate("Auth-google", {
     ],
     session: false,
 }), Routes_1.routerAuth);
+server.use("/get", Routes_1.routerUsers);
 server.use((err, req, res, next) => {
     const status = err.status || 500;
     const message = err.message || 'Internal Server Error';

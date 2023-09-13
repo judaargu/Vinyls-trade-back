@@ -20,7 +20,7 @@ const Users_1 = require("../../Models/Users");
 const secretKey = crypto_1.default.randomBytes(32).toString('hex');
 const createUser = (userData) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { name, email, password, codArea, phoneNumber, city, country } = userData;
+        const { name, email, password, codArea, phoneNumber, city, country, isAdmin } = userData;
         const userFound = yield Users_1.Users.findOne({ where: { email } });
         if (userFound) {
             return {
@@ -38,6 +38,7 @@ const createUser = (userData) => __awaiter(void 0, void 0, void 0, function* () 
             phoneNumber,
             city,
             country,
+            isAdmin,
         });
         const token = jsonwebtoken_1.default.sign({ userId: newUser.id }, secretKey, {
             expiresIn: '1h',

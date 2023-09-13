@@ -7,7 +7,11 @@ const Order_1 = require("./Models/Order");
 const Users_1 = require("./Models/Users");
 const Vinyls_1 = require("./Models/Vinyls");
 const orderDetail_1 = require("./Models/orderDetail");
-const sequelize = new sequelize_1.Sequelize(`postgres://${config_1.DB_USER}:${config_1.DB_PASSWORD}@${config_1.DB_HOST}/${config_1.DB_NAME}`, {
+// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
+//     logging: false, 
+//     native: false, 
+// });
+const sequelize = new sequelize_1.Sequelize(`${config_1.DB_DEPLOY}`, {
     logging: false,
     native: false,
 });

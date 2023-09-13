@@ -19,7 +19,7 @@ const Users_1 = require("../Models/Users");
 passport_1.default.use("Auth-google", new passport_google_oauth20_1.Strategy({
     clientID: config_1.GOOGLE_CLIENT_ID || '',
     clientSecret: config_1.GOOGLE_CLIENT_SECRET || '',
-    callbackURL: "http://localhost:3001/auth/google"
+    callbackURL: "https://vinyls-trade-back-production.up.railway.app/auth/google" || "http://localhost:3001/auth/google"
 }, (accessToken, refreshToken, profile, cb) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         if (profile.emails && profile.emails[0] && profile.emails[0].value) {
