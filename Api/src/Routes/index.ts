@@ -7,6 +7,7 @@ import {
 import { createUser, loginUser } from "../Controllers/Users/postUser";
 import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
+import { createReview, getReviewsByVinylId } from "../Controllers/Users/Reviews";
 import { Request, Response } from "express";
 import {
   createOrder,
@@ -49,6 +50,7 @@ routerUsers.get("/admins", async (req: Request, res: Response) => {
   }
 });
 
+
 router.get("/:id", async (req: Request, res: Response) => {
   try {
     const vinyl = await getVinylById(req.params);
@@ -77,6 +79,7 @@ router.get("/protectedResource", authenticateJWT, (req: Request, res: Response) 
 })
 
 
+
 router.post("/", async (req: Request, res: Response) => {
   try {
     const vinyl = await postVinyl(req.body);
@@ -87,6 +90,10 @@ router.post("/", async (req: Request, res: Response) => {
 });
 
 router.post("/vinyls", postVinylsController);
+
+//! Ruta para agregar una reseña
+router.post('/reviews', createReview);
+
 
 
 //Mercado Pago

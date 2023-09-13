@@ -15,8 +15,12 @@ const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
 const postUser_1 = require("../Controllers/Users/postUser");
 const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
+
+const Reviews_1 = require("../Controllers/Users/Reviews");
+
 const payment_1 = require("../Controllers/MercadoPago/payment");
 const getUsers_1 = require("../Controllers/Users/getUsers");
+
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
@@ -52,6 +56,7 @@ routerUsers.get("/admins", (req, res) => __awaiter(void 0, void 0, void 0, funct
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
+
 router.get("/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
@@ -74,7 +79,7 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
 //! Ruta para autenticación con google
 routerAuth.get('/google', (req, res) => res.send(req.user));
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
-    res.json({ message: 'Ruta protegida' });
+    res.json({ message: "Ruta protegida" });
 });
 router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -86,6 +91,11 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 router.post("/vinyls", getVinyls_1.postVinylsController);
+
+//! Ruta para agregar una reseña
+router.post('/reviews', Reviews_1.createReview);
+exports.default = router;
+
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -109,3 +119,4 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
         res.status(407).json(error);
     }
 }));
+

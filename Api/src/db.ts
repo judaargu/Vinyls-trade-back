@@ -4,6 +4,7 @@ import {initOrderModel, Order} from './Models/Order';
 import {initUsersModel ,Users} from './Models/Users';
 import {initVinylModel ,Vinyl} from './Models/Vinyls';
 import {initOrderDetail ,OrderDetail} from './Models/orderDetail';
+import { initReview } from './Models/Reviews';
 
 // const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
 //     logging: false, 
@@ -18,6 +19,8 @@ initOrderModel(sequelize)
 initUsersModel(sequelize)
 initVinylModel(sequelize)
 initOrderDetail(sequelize)
+initReview(sequelize)
+
 // * Relaciones
 const UserVinyls = sequelize.define("UserVinyls",{});
 
