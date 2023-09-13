@@ -53,7 +53,7 @@ export const createUser = async (userData: {
 
     return {
       status: 201,
-      data: { ...newUser.toJSON() },
+      data: { ...newUser.toJSON(), token },
     };
   } catch (error) {
     console.error("Ha ocurrido un error al crear el usuario:", error);
