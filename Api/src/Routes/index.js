@@ -14,6 +14,7 @@ const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
 const postUser_1 = require("../Controllers/Users/postUser");
 const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
+const Reviews_1 = require("../Controllers/Users/Reviews");
 const router = (0, express_1.Router)();
 router.get("/", getVinyls_1.getAllVinyls);
 //! Ruta para registrar un nuevo usuario
@@ -23,10 +24,10 @@ router.post("/createUser", (req, res) => __awaiter(void 0, void 0, void 0, funct
         return res.status(user.status).json(user.data);
     }
     catch (error) {
-        return res.status(500).json({ message: 'Error interno del servidor' });
+        return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
-router.get('/:id', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+router.get("/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
         return res.status(vinyl.status).json(vinyl.json);
@@ -42,11 +43,11 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
         return res.status(user.status).json(user.data);
     }
     catch (error) {
-        return res.status(500).json({ message: 'Error interno del servidor' });
+        return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
-    res.json({ message: 'Ruta protegida' });
+    res.json({ message: "Ruta protegida" });
 });
 router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -58,4 +59,8 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 router.post("/vinyls", getVinyls_1.postVinylsController);
+//! Ruta para agregar una reseña
+router.post('/reviews', Reviews_1.createReview);
+//! Ruta para obtener todas las reseñas de un vinilo
+router.get('/vinyls/:vinylId/reviews', Reviews_1.getReviewsByVinylId);
 exports.default = router;
