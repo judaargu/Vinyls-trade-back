@@ -1,26 +1,23 @@
-import passport from "passport";
-import { Strategy as GoogleStrategy } from "passport-google-oauth20";
-import { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET } from "../../config";
-import { Users } from "../Models/Users";
+import { NextFunction, Request, Response } from "express";
+import admin from "../ConfigGoogleAuth/firebase-config";
 
-passport.use("Auth-google", new GoogleStrategy({
-    clientID: GOOGLE_CLIENT_ID || '',
-    clientSecret: GOOGLE_CLIENT_SECRET || '',
-    callbackURL: "https://vinyls-trade-back-production.up.railway.app/auth/google" || "http://localhost:3001/auth/google"
-},
-    async (accessToken, refreshToken, profile, cb) => {
-        try {
-            if (profile.emails && profile.emails[0] && profile.emails[0].value) {
-                const user = await Users.findOne({ where: { email: profile.emails[0].value } });
-                if (user) {
-                    return cb(null, user);
-                } else {
-                    return cb(new Error('No se encontró un correo electrónico válido en el perfil.'), undefined);
-                }
-            }
+const decodeToken =async (req: Request, res: Response, next: NextFunction) => {
 
-        } catch (error) {
-            return cb(new Error('Algo salió mal en el servidor'), undefined);
+    try {
+        const token: any = req.headers.authorization?.split(' ')[1];
+        const decodeValue = await admin.auth().verifyIdToken(token);
+        
+        if (decodeValue) {
+            req.user = decodeValue;
+            return next();
         }
+
+        return res.json({message: "Sin permiso"});
+
+    } catch (error) {
+        return res.json({message: "Error en el servidor"});
     }
-));
+
+};
+
+export default decodeToken;

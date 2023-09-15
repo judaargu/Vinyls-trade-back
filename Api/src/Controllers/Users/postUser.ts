@@ -3,33 +3,58 @@ import jwt from "jsonwebtoken";
 import crypto from "crypto";
 import { Users } from "../../Models/Users";
 
-const secretKey = crypto.randomBytes(32).toString('hex');
+const secretKey = crypto.randomBytes(32).toString("hex");
 
 interface CreateUserResponse {
   status: number;
   data: any;
-
 }
 
 export const createUser = async (userData: {
   name: string;
   email: string;
-  password: string;
-  codArea: string;
-  phoneNumber: string;
-  city: string;
-  country: string;
+  password?: string;
+  codArea?: string;
+  phoneNumber?: string;
+  city?: string;
+  country?: string;
   isAdmin: boolean;
 }): Promise<CreateUserResponse> => {
   try {
-    const { name, email, password, codArea, phoneNumber, city, country, isAdmin } =
-      userData;
+    const {
+      name,
+      email,
+      password,
+      codArea,
+      phoneNumber,
+      city,
+      country,
+      isAdmin,
+    } = userData;
 
     const userFound = await Users.findOne({ where: { email } });
     if (userFound) {
       return {
-        status: 400,
+        status: 200,
         data: { message: "El correo electrónico ya está registrado" },
+      };
+    }
+
+  // ! Si el usuario re registra con google no viene con toda la información
+    if (!password) {
+      const newUser = await Users.create({
+        name,
+        email,
+        isAdmin,
+      });
+
+      const token = jwt.sign({ userId: newUser.id }, secretKey, {
+        expiresIn: "1h",
+      });
+
+      return {
+        status: 201,
+        data: { ...newUser.toJSON(), token },
       };
     }
 
@@ -48,7 +73,7 @@ export const createUser = async (userData: {
     });
 
     const token = jwt.sign({ userId: newUser.id }, secretKey, {
-      expiresIn: '1h', 
+      expiresIn: "1h",
     });
 
     return {
@@ -99,13 +124,13 @@ export const loginUser = async (loginData: {
       };
     }
 
-    const token = jwt.sign({userId: user.id}, secretKey, {
-      expiresIn:'1h',
-    })
+    const token = jwt.sign({ userId: user.id }, secretKey, {
+      expiresIn: "1h",
+    });
 
     return {
       status: 200,
-      data: { message: "Inicio de sesión exitoso", token},
+      data: { message: "Inicio de sesión exitoso", token },
     };
   } catch (error) {
     console.error("Ha ocurrido un error al iniciar sesión:", error);

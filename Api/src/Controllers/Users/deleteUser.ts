@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { Users } from "../../Models/Users";
 
-export const deleteUser = async (req: Request, res: Response) => {
+const deleteUser = async (req: Request, res: Response) => {
     try {
         const {name} = req.body;
 
@@ -26,4 +26,22 @@ export const deleteUser = async (req: Request, res: Response) => {
     }
 }
 
-export default deleteUser;
+// ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
+
+const deleteAllUsers = async () => {
+
+    try {
+        await Users.destroy({
+        where: {
+            isAdmin: false,
+        },
+        });
+    
+        return {status: 200, data: 'Todos los usuarios han sido eliminados correctamente.'};
+    } catch (error) {
+        return {status: 500, data: 'Error al eliminar los usuarios:', error};
+    }
+}
+
+export {deleteUser, deleteAllUsers};
+// export default deleteUser;
