@@ -1,23 +1,74 @@
 import { Request, Response } from "express";
 import { Users } from "../../Models/Users";
 
-const deleteUser = async (req: Request, res: Response) => {
+ const inhabilityDeleteUser = async (req: Request, res: Response) => {
     try {
-        const {name} = req.body;
+        const {id} = req.body;
 
 
         const userFind = await Users.findOne({
             where : {
-                name
+                id
             }
         })
         if(userFind) {
             await Users.destroy({
                 where: {
-                    name,
+                    id,
                 }
             });
-            res.status(200).send(`se ha eliminado al usuario ${name}`)
+            res.status(200).send(`se ha eliminado al usuario ${id}`)
+        } else {
+            res.status(400).json({message: 'No se ha encontrado el usuario para eliminar'})
+        }
+    } catch (error) {
+        res.status(401).json({message: 'Ha fallado la eliminación del usuario'})
+    }
+}
+
+const deleteUser = async (req: Request, res: Response) => {
+    try {
+        const {id} = req.body;
+
+
+        const userFind = await Users.findOne({
+            where : {
+                id
+            }
+        })
+        if(userFind) {
+            await Users.destroy({
+                where: {
+                    id,
+                },
+                force: true,
+            });
+            res.status(200).send(`se ha eliminado al usuario ${id}`)
+        } else {
+            res.status(400).json({message: 'No se ha encontrado el usuario para eliminar'})
+        }
+    } catch (error) {
+        res.status(401).json({message: 'Ha fallado la eliminación del usuario'})
+    }
+}
+
+const restoreUser = async (req: Request, res: Response) => {
+    try {
+        const {id} = req.body;
+
+
+        const userFind = await Users.findOne({
+            where : {
+                id
+            }
+        })
+        if(userFind) {
+            await Users.restore({
+                where: {
+                    id,
+                }
+            });
+            res.status(200).send(`se ha eliminado al usuario ${id}`)
         } else {
             res.status(400).json({message: 'No se ha encontrado el usuario para eliminar'})
         }
@@ -43,5 +94,5 @@ const deleteAllUsers = async () => {
     }
 }
 
-export {deleteUser, deleteAllUsers};
+export {deleteUser, deleteAllUsers, restoreUser, inhabilityDeleteUser};
 // export default deleteUser;
