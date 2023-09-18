@@ -3,7 +3,7 @@ import { Users } from "../../Models/Users";
 
  const inhabilityDeleteUser = async (req: Request, res: Response) => {
     try {
-        const {id} = req.body;
+        const {id} = req.params;
 
 
         const userFind = await Users.findOne({
@@ -28,7 +28,7 @@ import { Users } from "../../Models/Users";
 
 const deleteUser = async (req: Request, res: Response) => {
     try {
-        const {id} = req.body;
+        const {id} = req.params;
 
 
         const userFind = await Users.findOne({
@@ -54,7 +54,7 @@ const deleteUser = async (req: Request, res: Response) => {
 
 const restoreUser = async (req: Request, res: Response) => {
     try {
-        const {id} = req.body;
+        const {id} = req.params;
 
 
         const userFind = await Users.findOne({

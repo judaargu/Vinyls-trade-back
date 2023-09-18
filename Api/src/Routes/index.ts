@@ -47,11 +47,11 @@ routerUsers.get("/admins", async (req: Request, res: Response) => {
   }
 });
 
-router.delete('/deleteUser', deleteUser);
+router.delete('/deleteUser/:id', deleteUser);
 
-router.delete('/inhabilityUser', inhabilityDeleteUser);
+router.delete('/inhabilityUser/:id', inhabilityDeleteUser);
 
-router.get('/restoreUser', restoreUser);
+router.get('/restoreUser/:id', restoreUser);
 
 router.get("/:id", async (req: Request, res: Response) => {
   try {

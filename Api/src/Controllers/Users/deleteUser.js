@@ -13,7 +13,7 @@ exports.inhabilityDeleteUser = exports.restoreUser = exports.deleteAllUsers = ex
 const Users_1 = require("../../Models/Users");
 const inhabilityDeleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { id } = req.body;
+        const { id } = req.params;
         const userFind = yield Users_1.Users.findOne({
             where: {
                 id
@@ -38,7 +38,7 @@ const inhabilityDeleteUser = (req, res) => __awaiter(void 0, void 0, void 0, fun
 exports.inhabilityDeleteUser = inhabilityDeleteUser;
 const deleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { id } = req.body;
+        const { id } = req.params;
         const userFind = yield Users_1.Users.findOne({
             where: {
                 id
@@ -64,7 +64,7 @@ const deleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () 
 exports.deleteUser = deleteUser;
 const restoreUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { id } = req.body;
+        const { id } = req.params;
         const userFind = yield Users_1.Users.findOne({
             where: {
                 id

@@ -56,9 +56,9 @@ routerUsers.get("/admins", (req, res) => __awaiter(void 0, void 0, void 0, funct
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
-router.delete('/deleteUser', deleteUser_1.deleteUser);
-router.delete('/inhabilityUser', deleteUser_1.inhabilityDeleteUser);
-router.get('/restoreUser', deleteUser_1.restoreUser);
+router.delete('/deleteUser/:id', deleteUser_1.deleteUser);
+router.delete('/inhabilityUser/:id', deleteUser_1.inhabilityDeleteUser);
+router.get('/restoreUser/:id', deleteUser_1.restoreUser);
 router.get("/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
