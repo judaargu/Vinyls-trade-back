@@ -1,9 +1,5 @@
 import { Router } from "express";
-import {
-  getAllVinyls,
-  postVinylsController,
-  getVinylById,
-} from "../Controllers/Vinyls/getVinyls";
+import { getAllVinyls, postVinylsController, getVinylById } from "../Controllers/Vinyls/getVinyls";
 import { createUser, loginUser } from "../Controllers/Users/postUser";
 import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
@@ -70,7 +66,22 @@ router.post("/login", async (req: Request, res: Response) => {
 });
 
 //! Ruta para autenticación con google
-routerAuth.get("/google", (req: Request, res: Response) => res.send(req.user));
+
+// routerAuth.get('/google', (req:Request, res:Response) => res.send(req.user));
+routerAuth.get('/google', async (req:Request, res:Response) => {
+  const infoUser: any = req.user;
+  try {
+    const user = await createUser(infoUser);
+    return res.status(user.status).json(user.data);
+  } catch (error) {
+    return res.status(500).json({ message: "Error interno del servidor" });
+  }
+});
+
+router.get("/protectedResource", authenticateJWT, (req: Request, res: Response) => {
+  res.json({message: 'Ruta protegida'})
+})
+
 
 router.get(
   "/protectedResource",
@@ -129,6 +140,18 @@ router.post("/webhook", async (req: Request, res: Response) => {
 });
 
 router.get("/order", historial)
+
+// ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
+router.delete("/deleteUsers", async (req: Request, res: Response) => {
+  try {
+    const deleteSucces = await deleteAllUsers();
+    return res.status(deleteSucces.status).json(deleteSucces.data);
+  } catch (error) {
+    return res.status(500).json({message: "Error interno del servidor"});
+  }
+})
+
+
 
 
 export { router, routerAuth, routerUsers };

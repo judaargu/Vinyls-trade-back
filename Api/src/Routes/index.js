@@ -19,7 +19,11 @@ const Reviews_1 = require("../Controllers/Users/Reviews");
 const payment_1 = require("../Controllers/MercadoPago/payment");
 const putVinyls_1 = require("../Controllers/Vinyls/putVinyls");
 const getUsers_1 = require("../Controllers/Users/getUsers");
+
 const postOrder_1 = require("../Controllers/Order/postOrder");
+
+const deleteUser_1 = require("../Controllers/Users/deleteUser");
+
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
@@ -75,9 +79,20 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
     }
 }));
 //! Ruta para autenticación con google
-routerAuth.get("/google", (req, res) => res.send(req.user));
+// routerAuth.get('/google', (req:Request, res:Response) => res.send(req.user));
+routerAuth.get('/google', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const infoUser = req.user;
+    try {
+        const user = yield (0, postUser_1.createUser)(infoUser);
+        return res.status(user.status).json(user.data);
+    }
+    catch (error) {
+        return res.status(500).json({ message: "Error interno del servidor" });
+    }
+}));
+
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
-    res.json({ message: "Ruta protegida" });
+    res.json({ message: 'Ruta protegida' });
 });
 //Vinilos
 router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -103,6 +118,7 @@ router.put("/upgrade_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void 0
 }));
 //! Ruta para agregar una reseña
 router.post("/reviews", Reviews_1.createReview);
+
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -124,3 +140,15 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
     }
 }));
 router.get("/order", postOrder_1.historial);
+
+// ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
+router.delete("/deleteUsers", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const deleteSucces = yield (0, deleteUser_1.deleteAllUsers)();
+        return res.status(deleteSucces.status).json(deleteSucces.data);
+    }
+    catch (error) {
+        return res.status(500).json({ message: "Error interno del servidor" });
+    }
+}));
+

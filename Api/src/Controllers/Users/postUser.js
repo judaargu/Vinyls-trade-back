@@ -17,15 +17,30 @@ const bcrypt_1 = __importDefault(require("bcrypt"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const crypto_1 = __importDefault(require("crypto"));
 const Users_1 = require("../../Models/Users");
-const secretKey = crypto_1.default.randomBytes(32).toString('hex');
+const secretKey = crypto_1.default.randomBytes(32).toString("hex");
 const createUser = (userData) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { name, email, password, codArea, phoneNumber, city, country, isAdmin } = userData;
+        const { name, email, password, codArea, phoneNumber, city, country, isAdmin, } = userData;
         const userFound = yield Users_1.Users.findOne({ where: { email } });
         if (userFound) {
             return {
-                status: 400,
+                status: 200,
                 data: { message: "El correo electrónico ya está registrado" },
+            };
+        }
+        // ! Si el usuario re registra con google no viene con toda la información
+        if (!password) {
+            const newUser = yield Users_1.Users.create({
+                name,
+                email,
+                isAdmin,
+            });
+            const token = jsonwebtoken_1.default.sign({ userId: newUser.id }, secretKey, {
+                expiresIn: "1h",
+            });
+            return {
+                status: 201,
+                data: Object.assign(Object.assign({}, newUser.toJSON()), { token }),
             };
         }
         const securityLevel = 10;
@@ -41,7 +56,7 @@ const createUser = (userData) => __awaiter(void 0, void 0, void 0, function* () 
             isAdmin,
         });
         const token = jsonwebtoken_1.default.sign({ userId: newUser.id }, secretKey, {
-            expiresIn: '1h',
+            expiresIn: "1h",
         });
         return {
             status: 201,
@@ -81,7 +96,7 @@ const loginUser = (loginData) => __awaiter(void 0, void 0, void 0, function* () 
             };
         }
         const token = jsonwebtoken_1.default.sign({ userId: user.id }, secretKey, {
-            expiresIn: '1h',
+            expiresIn: "1h",
         });
         return {
             status: 200,

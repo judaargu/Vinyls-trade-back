@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteUser = void 0;
+exports.deleteAllUsers = exports.deleteUser = void 0;
 const Users_1 = require("../../Models/Users");
 const deleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -36,4 +36,19 @@ const deleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () 
     }
 });
 exports.deleteUser = deleteUser;
-exports.default = exports.deleteUser;
+// ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
+const deleteAllUsers = () => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        yield Users_1.Users.destroy({
+            where: {
+                isAdmin: false,
+            },
+        });
+        return { status: 200, data: 'Todos los usuarios han sido eliminados correctamente.' };
+    }
+    catch (error) {
+        return { status: 500, data: 'Error al eliminar los usuarios:', error };
+    }
+});
+exports.deleteAllUsers = deleteAllUsers;
+// export default deleteUser;
