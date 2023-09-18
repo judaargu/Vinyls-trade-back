@@ -19,11 +19,8 @@ const Reviews_1 = require("../Controllers/Users/Reviews");
 const payment_1 = require("../Controllers/MercadoPago/payment");
 const putVinyls_1 = require("../Controllers/Vinyls/putVinyls");
 const getUsers_1 = require("../Controllers/Users/getUsers");
-
 const postOrder_1 = require("../Controllers/Order/postOrder");
-
 const deleteUser_1 = require("../Controllers/Users/deleteUser");
-
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
@@ -59,6 +56,9 @@ routerUsers.get("/admins", (req, res) => __awaiter(void 0, void 0, void 0, funct
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
+router.delete('/deleteUser', deleteUser_1.deleteUser);
+router.delete('/inhabilityUser', deleteUser_1.inhabilityDeleteUser);
+router.delete('/restoreUser', deleteUser_1.restoreUser);
 router.get("/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
@@ -90,9 +90,11 @@ routerAuth.get('/google', (req, res) => __awaiter(void 0, void 0, void 0, functi
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
-
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
     res.json({ message: 'Ruta protegida' });
+});
+router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
+    res.json({ message: "Ruta protegida" });
 });
 //Vinilos
 router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -118,7 +120,6 @@ router.put("/upgrade_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void 0
 }));
 //! Ruta para agregar una reseña
 router.post("/reviews", Reviews_1.createReview);
-
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -140,7 +141,6 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
     }
 }));
 router.get("/order", postOrder_1.historial);
-
 // ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
 router.delete("/deleteUsers", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -151,4 +151,3 @@ router.delete("/deleteUsers", (req, res) => __awaiter(void 0, void 0, void 0, fu
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
-

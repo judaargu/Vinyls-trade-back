@@ -10,6 +10,7 @@ import { changeVinyls } from "../Controllers/Vinyls/putVinyls";
 import { getAdmins, getUsers } from "../Controllers/Users/getUsers";
 import {ParsedQs} from 'qs'
 import { historial } from "../Controllers/Order/postOrder";
+import { deleteAllUsers, deleteUser, inhabilityDeleteUser, restoreUser } from "../Controllers/Users/deleteUser";
 
 
 const router = Router();
@@ -45,6 +46,12 @@ routerUsers.get("/admins", async (req: Request, res: Response) => {
     return res.status(500).json({ message: "Error interno del servidor" });
   }
 });
+
+router.delete('/deleteUser', deleteUser);
+
+router.delete('/inhabilityUser', inhabilityDeleteUser);
+
+router.delete('/restoreUser', restoreUser);
 
 router.get("/:id", async (req: Request, res: Response) => {
   try {
