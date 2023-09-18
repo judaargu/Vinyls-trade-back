@@ -25,6 +25,10 @@ const initOrderModel = (sequelize) => {
             type: sequelize_1.DataTypes.FLOAT,
             allowNull: false,
         },
+        state: {
+            type: sequelize_1.DataTypes.STRING,
+            allowNull: false,
+        }
     }, {
         tableName: "orders",
         sequelize,

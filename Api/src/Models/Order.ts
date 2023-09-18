@@ -6,6 +6,7 @@ class Order extends Model {
   declare detail: object[];
   declare tax: number | null;
   declare total: number;
+  declare state: string;
 }
 
 const initOrderModel =(sequelize: Sequelize) => {
@@ -29,6 +30,10 @@ const initOrderModel =(sequelize: Sequelize) => {
       type: DataTypes.FLOAT,
       allowNull: false,
     },
+    state: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
   },
   {
     tableName: "orders",

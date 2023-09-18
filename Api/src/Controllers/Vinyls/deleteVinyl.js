@@ -41,20 +41,6 @@ const deleteVinyl = (req, res) => __awaiter(void 0, void 0, void 0, function* ()
                 id: vinylId,
             },
         });
-        // const vinylFind = await Vinyl.findOne({
-        //     where : {
-        //         title
-        //     }
-        // })
-        // if (vinylFind?.idApi !== undefined) {
-        //     return res.status(402).send('No puedes eliminar un vinilo ya existente');
-        // }
-        // if(vinylFind) {
-        //     await vinylFind.destroy();
-        //     res.status(200).send(`se ha eliminado al vinilo ${title}`)
-        // } else {
-        //     res.status(400).json({message: 'No se ha encontrado el vinilo para eliminar'})
-        // }
     }
     catch (error) {
         res.status(401).json({ message: "Ha fallado la eliminación del vinilo" });
