@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { getAllVinyls, postVinylsController, getVinylById } from "../Controllers/Vinyls/getVinyls";
 import { createUser, loginUser } from "../Controllers/Users/postUser";
+import loginGoogle from "../Controllers/Users/googleUsers";
 import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
 import { createReview } from "../Controllers/Users/Reviews";
@@ -66,11 +67,10 @@ router.post("/login", async (req: Request, res: Response) => {
 
 
 //! Ruta para autenticación con google
-// routerAuth.get('/google', (req:Request, res:Response) => res.send(req.user));
 routerAuth.get('/google', async (req:Request, res:Response) => {
   const infoUser: any = req.user;
   try {
-    const user = await createUser(infoUser);
+    const user = await loginGoogle(infoUser);
     return res.status(user.status).json(user.data);
   } catch (error) {
     return res.status(500).json({ message: "Error interno del servidor" });

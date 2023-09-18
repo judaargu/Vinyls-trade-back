@@ -28,21 +28,6 @@ const createUser = (userData) => __awaiter(void 0, void 0, void 0, function* () 
                 data: { message: "El correo electrónico ya está registrado" },
             };
         }
-        // ! Si el usuario re registra con google no viene con toda la información
-        if (!password) {
-            const newUser = yield Users_1.Users.create({
-                name,
-                email,
-                isAdmin,
-            });
-            const token = jsonwebtoken_1.default.sign({ userId: newUser.id }, secretKey, {
-                expiresIn: "1h",
-            });
-            return {
-                status: 201,
-                data: Object.assign(Object.assign({}, newUser.toJSON()), { token }),
-            };
-        }
         const securityLevel = 10;
         const encryptedPassword = yield bcrypt_1.default.hash(password, securityLevel);
         const newUser = yield Users_1.Users.create({

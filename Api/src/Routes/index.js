@@ -8,11 +8,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.routerUsers = exports.routerAuth = exports.router = void 0;
 const express_1 = require("express");
 const getVinyls_1 = require("../Controllers/Vinyls/getVinyls");
 const postUser_1 = require("../Controllers/Users/postUser");
+const googleUsers_1 = __importDefault(require("../Controllers/Users/googleUsers"));
 const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
 const Reviews_1 = require("../Controllers/Users/Reviews");
@@ -74,11 +78,10 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
     }
 }));
 //! Ruta para autenticación con google
-// routerAuth.get('/google', (req:Request, res:Response) => res.send(req.user));
 routerAuth.get('/google', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const infoUser = req.user;
     try {
-        const user = yield (0, postUser_1.createUser)(infoUser);
+        const user = yield (0, googleUsers_1.default)(infoUser);
         return res.status(user.status).json(user.data);
     }
     catch (error) {

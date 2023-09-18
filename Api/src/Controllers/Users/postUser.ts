@@ -13,7 +13,7 @@ interface CreateUserResponse {
 export const createUser = async (userData: {
   name: string;
   email: string;
-  password?: string;
+  password: string;
   codArea?: string;
   phoneNumber?: string;
   city?: string;
@@ -37,24 +37,6 @@ export const createUser = async (userData: {
       return {
         status: 200,
         data: { message: "El correo electrónico ya está registrado" },
-      };
-    }
-
-  // ! Si el usuario re registra con google no viene con toda la información
-    if (!password) {
-      const newUser = await Users.create({
-        name,
-        email,
-        isAdmin,
-      });
-
-      const token = jwt.sign({ userId: newUser.id }, secretKey, {
-        expiresIn: "1h",
-      });
-
-      return {
-        status: 201,
-        data: { ...newUser.toJSON(), token },
       };
     }
 
