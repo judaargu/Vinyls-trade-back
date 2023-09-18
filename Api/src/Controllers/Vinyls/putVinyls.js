@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.changeVinyls = void 0;
+exports.suspendVinyls = exports.restoreVinyls = exports.changeVinyls = void 0;
 const Vinyls_1 = require("../../Models/Vinyls");
 const changeVinyls = (body, params) => __awaiter(void 0, void 0, void 0, function* () {
     const { units } = body;
@@ -21,7 +21,32 @@ const changeVinyls = (body, params) => __awaiter(void 0, void 0, void 0, functio
         return 'actualizacion exitosa';
     }
     else {
-        return 'no se ha encontrado el vinilo correspondiente';
+        return 'Fallo la actualizacion de stock';
     }
 });
 exports.changeVinyls = changeVinyls;
+const restoreVinyls = (params) => __awaiter(void 0, void 0, void 0, function* () {
+    const { id } = params;
+    const vinilo = yield Vinyls_1.Vinyl.findByPk(id);
+    if (vinilo) {
+        Vinyls_1.Vinyl.restore({
+            where: {
+                id,
+                stock: 1
+            }
+        });
+    }
+});
+exports.restoreVinyls = restoreVinyls;
+const suspendVinyls = (params) => __awaiter(void 0, void 0, void 0, function* () {
+    const { id } = params;
+    const vinilo = yield Vinyls_1.Vinyl.findByPk(id);
+    if (vinilo && vinilo.stock <= 0) {
+        Vinyls_1.Vinyl.destroy({
+            where: {
+                id
+            }
+        });
+    }
+});
+exports.suspendVinyls = suspendVinyls;
