@@ -28,11 +28,11 @@ export const createOrder = async (userData: {
       },
     ],
     back_urls: {
-      success: "https://vinyls-trade-back-production.up.railway.app",
-      failure: "https://vinyls-trade-back-production.up.railway.app",
+      success: "https://vinils-trade-client.vercel.app",
+      failure: "https://vinils-trade-client.vercel.app",
     },
     auto_return: "approved",
-    notification_url: "https://vinyls-trade-back-production.up.railway.app/webhook",
+    notification_url: "https://vinils-trade-client.vercel.app/webhook",
   });
 
   return result.body.init_point;
