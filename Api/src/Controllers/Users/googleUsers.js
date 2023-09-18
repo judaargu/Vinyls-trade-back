@@ -31,7 +31,7 @@ const loginGoogle = (body) => __awaiter(void 0, void 0, void 0, function* () {
             });
             return {
                 status: 201,
-                data: Object.assign(Object.assign({}, newUser.toJSON()), { token }),
+                data: Object.assign(Object.assign({}, newUser.toJSON()), { token, email }),
             };
         }
         const token = jsonwebtoken_1.default.sign({ userId: user.id }, secretKey, {

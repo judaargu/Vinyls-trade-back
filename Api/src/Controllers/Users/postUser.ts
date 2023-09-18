@@ -112,7 +112,7 @@ export const loginUser = async (loginData: {
 
     return {
       status: 200,
-      data: { message: "Inicio de sesión exitoso", token },
+      data: { message: "Inicio de sesión exitoso", token, email },
     };
   } catch (error) {
     console.error("Ha ocurrido un error al iniciar sesión:", error);

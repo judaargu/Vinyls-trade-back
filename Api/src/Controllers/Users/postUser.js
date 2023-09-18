@@ -85,7 +85,7 @@ const loginUser = (loginData) => __awaiter(void 0, void 0, void 0, function* () 
         });
         return {
             status: 200,
-            data: { message: "Inicio de sesión exitoso", token },
+            data: { message: "Inicio de sesión exitoso", token, email },
         };
     }
     catch (error) {
