@@ -9,23 +9,49 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteAllUsers = exports.deleteUser = void 0;
+exports.inhabilityDeleteUser = exports.restoreUser = exports.deleteAllUsers = exports.deleteUser = void 0;
 const Users_1 = require("../../Models/Users");
-const deleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+const inhabilityDeleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { name } = req.body;
+        const { id } = req.body;
         const userFind = yield Users_1.Users.findOne({
             where: {
-                name
+                id
             }
         });
         if (userFind) {
             yield Users_1.Users.destroy({
                 where: {
-                    name,
+                    id,
                 }
             });
-            res.status(200).send(`se ha eliminado al usuario ${name}`);
+            res.status(200).send(`se ha eliminado al usuario ${id}`);
+        }
+        else {
+            res.status(400).json({ message: 'No se ha encontrado el usuario para eliminar' });
+        }
+    }
+    catch (error) {
+        res.status(401).json({ message: 'Ha fallado la eliminación del usuario' });
+    }
+});
+exports.inhabilityDeleteUser = inhabilityDeleteUser;
+const deleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { id } = req.body;
+        const userFind = yield Users_1.Users.findOne({
+            where: {
+                id
+            }
+        });
+        if (userFind) {
+            yield Users_1.Users.destroy({
+                where: {
+                    id,
+                },
+                force: true,
+            });
+            res.status(200).send(`se ha eliminado al usuario ${id}`);
         }
         else {
             res.status(400).json({ message: 'No se ha encontrado el usuario para eliminar' });
@@ -36,6 +62,31 @@ const deleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () 
     }
 });
 exports.deleteUser = deleteUser;
+const restoreUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { id } = req.body;
+        const userFind = yield Users_1.Users.findOne({
+            where: {
+                id
+            }
+        });
+        if (userFind) {
+            yield Users_1.Users.restore({
+                where: {
+                    id,
+                }
+            });
+            res.status(200).send(`se ha eliminado al usuario ${id}`);
+        }
+        else {
+            res.status(400).json({ message: 'No se ha encontrado el usuario para eliminar' });
+        }
+    }
+    catch (error) {
+        res.status(401).json({ message: 'Ha fallado la eliminación del usuario' });
+    }
+});
+exports.restoreUser = restoreUser;
 // ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
 const deleteAllUsers = () => __awaiter(void 0, void 0, void 0, function* () {
     try {

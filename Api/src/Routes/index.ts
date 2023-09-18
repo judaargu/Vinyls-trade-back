@@ -6,10 +6,13 @@ import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
 import { createReview } from "../Controllers/Users/Reviews";
 import { Request, Response } from "express";
-import { createOrder, recieveWebhook } from "../Controllers/MercadoPago/payment";
-import { ParsedQs } from "qs";
+import { createOrder, verifyPayment } from "../Controllers/MercadoPago/payment";
+import { changeVinyls } from "../Controllers/Vinyls/putVinyls";
 import { getAdmins, getUsers } from "../Controllers/Users/getUsers";
-import { deleteAllUsers } from "../Controllers/Users/deleteUser";
+import {ParsedQs} from 'qs'
+import { historial } from "../Controllers/Order/postOrder";
+import { deleteAllUsers, deleteUser, inhabilityDeleteUser, restoreUser } from "../Controllers/Users/deleteUser";
+
 
 const router = Router();
 const routerAuth = Router();
@@ -32,7 +35,7 @@ routerUsers.get("/users", async (req: Request, res: Response) => {
     const users = await getUsers();
     return res.status(users.status).json(users.json);
   } catch (error) {
-    return res.status(500).json({message: "Error interno del servidor"});
+    return res.status(500).json({ message: "Error interno del servidor" });
   }
 });
 
@@ -41,10 +44,15 @@ routerUsers.get("/admins", async (req: Request, res: Response) => {
     const users = await getAdmins();
     return res.status(users.status).json(users.json);
   } catch (error) {
-    return res.status(500).json({message: "Error interno del servidor"});
+    return res.status(500).json({ message: "Error interno del servidor" });
   }
 });
 
+router.delete('/deleteUser', deleteUser);
+
+router.delete('/inhabilityUser', inhabilityDeleteUser);
+
+router.delete('/restoreUser', restoreUser);
 
 router.get("/:id", async (req: Request, res: Response) => {
   try {
@@ -65,7 +73,6 @@ router.post("/login", async (req: Request, res: Response) => {
   }
 });
 
-
 //! Ruta para autenticación con google
 routerAuth.get('/google', async (req:Request, res:Response) => {
   const infoUser: any = req.user;
@@ -82,6 +89,15 @@ router.get("/protectedResource", authenticateJWT, (req: Request, res: Response) 
 })
 
 
+router.get(
+  "/protectedResource",
+  authenticateJWT,
+  (req: Request, res: Response) => {
+    res.json({ message: "Ruta protegida" });
+  }
+);
+
+//Vinilos
 
 router.post("/", async (req: Request, res: Response) => {
   try {
@@ -94,12 +110,21 @@ router.post("/", async (req: Request, res: Response) => {
 
 router.post("/vinyls", postVinylsController);
 
+router.put("/upgrade_vinyls/:id", async (req: Request, res: Response) => {
+  try {
+    const response = await changeVinyls(req.body, req.params);
+    res
+      .status(200)
+      .send(`se han realizado los cambios en el vinilo ${req.params.id}`);
+  } catch (error) {
+    res.status(400).json(error);
+  }
+});
 //! Ruta para agregar una reseña
-router.post('/reviews', createReview);
-
-
+router.post("/reviews", createReview);
 
 //Mercado Pago
+
 router.post("/create_order", async (req: Request, res: Response) => {
   try {
     const payment = await createOrder(req.body);
@@ -109,25 +134,18 @@ router.post("/create_order", async (req: Request, res: Response) => {
   }
 });
 
-router.get("/success", (req: Request, res: Response) =>
-  res.status(200).send("success")
-);
-router.get("/failure", (req: Request, res: Response) =>
-  res.status(200).send("failure")
-);
-router.get("/pending", (req: Request, res: Response) =>
-  res.status(200).send("pending")
-);
 
 router.post("/webhook", async (req: Request, res: Response) => {
   const queryParams: ParsedQs = req.query;
   try {
-    const webhook = await recieveWebhook(queryParams);
+    const webhook = await verifyPayment(queryParams);
     res.status(207).json(webhook);
   } catch (error) {
     res.status(407).json(error);
   }
 });
+
+router.get("/order", historial)
 
 // ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
 router.delete("/deleteUsers", async (req: Request, res: Response) => {
@@ -140,5 +158,6 @@ router.delete("/deleteUsers", async (req: Request, res: Response) => {
 })
 
 
-export {router, routerAuth, routerUsers};
 
+
+export { router, routerAuth, routerUsers };

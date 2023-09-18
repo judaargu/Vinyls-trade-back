@@ -21,7 +21,9 @@ const authMiddleware_1 = require("../Middlewares/authMiddleware");
 const postVinyl_1 = require("../Controllers/Vinyls/postVinyl");
 const Reviews_1 = require("../Controllers/Users/Reviews");
 const payment_1 = require("../Controllers/MercadoPago/payment");
+const putVinyls_1 = require("../Controllers/Vinyls/putVinyls");
 const getUsers_1 = require("../Controllers/Users/getUsers");
+const postOrder_1 = require("../Controllers/Order/postOrder");
 const deleteUser_1 = require("../Controllers/Users/deleteUser");
 const router = (0, express_1.Router)();
 exports.router = router;
@@ -58,6 +60,9 @@ routerUsers.get("/admins", (req, res) => __awaiter(void 0, void 0, void 0, funct
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
+router.delete('/deleteUser', deleteUser_1.deleteUser);
+router.delete('/inhabilityUser', deleteUser_1.inhabilityDeleteUser);
+router.delete('/restoreUser', deleteUser_1.restoreUser);
 router.get("/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
@@ -91,6 +96,10 @@ routerAuth.get('/google', (req, res) => __awaiter(void 0, void 0, void 0, functi
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
     res.json({ message: 'Ruta protegida' });
 });
+router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
+    res.json({ message: "Ruta protegida" });
+});
+//Vinilos
 router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, postVinyl_1.postVinyl)(req.body);
@@ -101,8 +110,19 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 router.post("/vinyls", getVinyls_1.postVinylsController);
+router.put("/upgrade_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield (0, putVinyls_1.changeVinyls)(req.body, req.params);
+        res
+            .status(200)
+            .send(`se han realizado los cambios en el vinilo ${req.params.id}`);
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
 //! Ruta para agregar una reseña
-router.post('/reviews', Reviews_1.createReview);
+router.post("/reviews", Reviews_1.createReview);
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -113,19 +133,17 @@ router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, fun
         return res.status(406).json(error);
     }
 }));
-router.get("/success", (req, res) => res.status(200).send("success"));
-router.get("/failure", (req, res) => res.status(200).send("failure"));
-router.get("/pending", (req, res) => res.status(200).send("pending"));
 router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const queryParams = req.query;
     try {
-        const webhook = yield (0, payment_1.recieveWebhook)(queryParams);
+        const webhook = yield (0, payment_1.verifyPayment)(queryParams);
         res.status(207).json(webhook);
     }
     catch (error) {
         res.status(407).json(error);
     }
 }));
+router.get("/order", postOrder_1.historial);
 // ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
 router.delete("/deleteUsers", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {

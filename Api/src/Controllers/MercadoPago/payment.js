@@ -12,11 +12,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.recieveWebhook = exports.createOrder = void 0;
+exports.verifyPayment = exports.createOrder = void 0;
 const mercadopago_1 = __importDefault(require("mercadopago"));
-const MercadoPago_1 = require("../../Models/MercadoPago");
+const orderDetail_1 = require("../../Models/orderDetail");
+const Order_1 = require("../../Models/Order");
 const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* () {
     mercadopago_1.default.configure({
+        sandbox: true,
         access_token: "TEST-5240565219201009-090712-67305e7f259028a53ae62015ae9f6938-1472124079",
     });
     const { title, price, units } = userData;
@@ -30,29 +32,32 @@ const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* ()
             },
         ],
         back_urls: {
-            success: "http://localhost:3001/success",
-            failure: "http://localhost:3001/failure",
-            pending: "http://localhost:3001/pending",
+            success: "https://vinyls-trade-back-production.up.railway.app",
+            failure: "https://vinyls-trade-back-production.up.railway.app",
         },
-        notification_url: "https://a2bf-191-81-181-155.ngrok.io/webhook",
+        auto_return: "approved",
+        notification_url: "https://vinyls-trade-back-production.up.railway.app/webhook",
     });
     return result.body.init_point;
 });
 exports.createOrder = createOrder;
-const recieveWebhook = (queryParams) => __awaiter(void 0, void 0, void 0, function* () {
+const verifyPayment = (queryParams) => __awaiter(void 0, void 0, void 0, function* () {
     if (queryParams.type === "payment") {
         const data = yield mercadopago_1.default.payment.findById(queryParams["data.id"]);
-        console.log(data);
-        const createMP = MercadoPago_1.MercadoPago.create({
-            idMP: data.response.order.id,
-            fistName: data.response.payer.first_name,
-            lastaName: data.response.payer.last_name,
-            email: data.response.payer.email,
-            status: data.response.status,
-            statusDetail: data.response.status_detail,
-            amount: data.response.transaction_detail.total_paid_amount,
+        const allOrderDetail = yield orderDetail_1.OrderDetail.findAll();
+        const detailJson = JSON.parse(JSON.stringify(allOrderDetail));
+        const saveOrder = yield Order_1.Order.create({
+            where: {
+                detail: detailJson,
+                tax: data.body.taxes_amount,
+                amount: data.body.transaction_amount,
+                state: data.body.status,
+            },
         });
-        return data;
+        orderDetail_1.OrderDetail.destroy({
+            force: true,
+        });
+        return saveOrder;
     }
 });
-exports.recieveWebhook = recieveWebhook;
+exports.verifyPayment = verifyPayment;
