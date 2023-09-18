@@ -51,7 +51,7 @@ router.delete('/deleteUser', deleteUser);
 
 router.delete('/inhabilityUser', inhabilityDeleteUser);
 
-router.delete('/restoreUser', restoreUser);
+router.get('/restoreUser', restoreUser);
 
 router.get("/:id", async (req: Request, res: Response) => {
   try {
