@@ -37,11 +37,14 @@ const initUsersModel = (sequelize) => {
         isAdmin: {
             type: sequelize_1.DataTypes.BOOLEAN,
             defaultValue: false,
+        },
+        deletedAt: {
+            type: sequelize_1.DataTypes.DATE
         }
     }, {
         sequelize,
         modelName: "Users",
-        timestamps: false,
+        timestamps: true,
         paranoid: true,
     });
 };

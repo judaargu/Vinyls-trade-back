@@ -10,6 +10,7 @@ class Users extends Model {
   public city?: string;
   public country?: string;
   public isAdmin!: boolean;
+  public deletedAt!: Date | null;
 }
 
 const initUsersModel = (sequelize: Sequelize) => {
@@ -45,12 +46,15 @@ const initUsersModel = (sequelize: Sequelize) => {
       isAdmin: {
         type: DataTypes.BOOLEAN,
         defaultValue: false,
+      },
+      deletedAt: {
+        type: DataTypes.DATE
       }
     },
     {
       sequelize,
       modelName: "Users",
-      timestamps: false,
+      timestamps: true,
       paranoid: true,
     }
   );

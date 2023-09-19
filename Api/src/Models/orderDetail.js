@@ -12,6 +12,10 @@ const initOrderDetail = (sequelize) => {
             primaryKey: true,
             defaultValue: sequelize_1.DataTypes.UUIDV4,
         },
+        name: {
+            type: sequelize_1.DataTypes.STRING,
+            allowNull: false
+        },
         vinylId: {
             type: sequelize_1.DataTypes.UUID,
             allowNull: false,
