@@ -12,9 +12,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.createOrderDetail = void 0;
 const orderDetail_1 = require("../../Models/orderDetail");
 const createOrderDetail = (body) => __awaiter(void 0, void 0, void 0, function* () {
-    const { vinylId, units, amount, taxAmount, totalAmount, orderStatus } = body;
+    const { name, vinylId, units, amount, taxAmount, totalAmount, orderStatus } = body;
     const createOD = yield orderDetail_1.OrderDetail.create({
         where: {
+            name,
             vinylId,
             units,
             amount,
@@ -23,5 +24,6 @@ const createOrderDetail = (body) => __awaiter(void 0, void 0, void 0, function* 
             orderStatus
         }
     });
+    return `estan los detalles d ela compra del ${name}`;
 });
 exports.createOrderDetail = createOrderDetail;

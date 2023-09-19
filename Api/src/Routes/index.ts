@@ -1,5 +1,9 @@
 import { Router } from "express";
-import { getAllVinyls, postVinylsController, getVinylById } from "../Controllers/Vinyls/getVinyls";
+import {
+  getAllVinyls,
+  postVinylsController,
+  getVinylById,
+} from "../Controllers/Vinyls/getVinyls";
 import { createUser, loginUser } from "../Controllers/Users/postUser";
 import loginGoogle from "../Controllers/Users/googleUsers";
 import { authenticateJWT } from "../Middlewares/authMiddleware";
@@ -7,12 +11,21 @@ import { postVinyl } from "../Controllers/Vinyls/postVinyl";
 import { createReview, getReviewsByVinylId } from "../Controllers/Users/Reviews";
 import { Request, Response } from "express";
 import { createOrder, verifyPayment } from "../Controllers/MercadoPago/payment";
-import { changeVinyls } from "../Controllers/Vinyls/putVinyls";
+import {
+  changeVinyls,
+  restoreVinyls,
+  suspendVinyls,
+} from "../Controllers/Vinyls/putVinyls";
 import { getAdmins, getUsers } from "../Controllers/Users/getUsers";
-import {ParsedQs} from 'qs'
-import { historial } from "../Controllers/Order/postOrder";
-import { deleteAllUsers, deleteUser, inhabilityDeleteUser, restoreUser } from "../Controllers/Users/deleteUser";
-
+import { ParsedQs } from "qs";
+import { history } from "../Controllers/Order/postOrder";
+import {
+  deleteAllUsers,
+  deleteUser,
+  inhabilityDeleteUser,
+  restoreUser,
+} from "../Controllers/Users/deleteUser";
+import { Order } from "../Models/Order";
 
 const router = Router();
 const routerAuth = Router();
@@ -48,11 +61,11 @@ routerUsers.get("/admins", async (req: Request, res: Response) => {
   }
 });
 
-router.delete('/deleteUser/:id', deleteUser);
+router.delete("/deleteUser/:id", deleteUser);
 
-router.delete('/inhabilityUser/:id', inhabilityDeleteUser);
+router.delete("/inhabilityUser/:id", inhabilityDeleteUser);
 
-router.get('/restoreUser/:id', restoreUser);
+router.patch("/restoreUser/:id", restoreUser);
 
 router.get("/:id", async (req: Request, res: Response) => {
   try {
@@ -74,7 +87,7 @@ router.post("/login", async (req: Request, res: Response) => {
 });
 
 //! Ruta para autenticación con google
-routerAuth.get('/google', async (req:Request, res:Response) => {
+routerAuth.get("/google", async (req: Request, res: Response) => {
   const infoUser: any = req.user;
   try {
     const user = await loginGoogle(infoUser);
@@ -84,10 +97,13 @@ routerAuth.get('/google', async (req:Request, res:Response) => {
   }
 });
 
-router.get("/protectedResource", authenticateJWT, (req: Request, res: Response) => {
-  res.json({message: 'Ruta protegida'})
-})
-
+router.get(
+  "/protectedResource",
+  authenticateJWT,
+  (req: Request, res: Response) => {
+    res.json({ message: "Ruta protegida" });
+  }
+);
 
 router.get(
   "/protectedResource",
@@ -113,13 +129,30 @@ router.post("/vinyls", postVinylsController);
 router.put("/upgrade_vinyls/:id", async (req: Request, res: Response) => {
   try {
     const response = await changeVinyls(req.body, req.params);
-    res
-      .status(200)
-      .send(`se han realizado los cambios en el vinilo ${req.params.id}`);
+    res.status(200).json(response);
   } catch (error) {
     res.status(400).json(error);
   }
 });
+
+router.patch("/restore_vinyls/:id", async (req: Request, res: Response) => {
+  try {
+    const response = await restoreVinyls(req.params);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(400).json(error);
+  }
+});
+
+router.delete("/delete_vinyls/:id", async (req: Request, res: Response) => {
+  try {
+    const response = await suspendVinyls(req.params);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(400).json(error);
+  }
+});
+
 //! Ruta para agregar una reseña
 router.post("/reviews", createReview);
 router.get('/vinilo/:vinylId', getReviewsByVinylId);
@@ -135,7 +168,6 @@ router.post("/create_order", async (req: Request, res: Response) => {
   }
 });
 
-
 router.post("/webhook", async (req: Request, res: Response) => {
   const queryParams: ParsedQs = req.query;
   try {
@@ -146,7 +178,7 @@ router.post("/webhook", async (req: Request, res: Response) => {
   }
 });
 
-router.get("/order", historial)
+router.get("/order", history);
 
 // ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
 router.delete("/deleteUsers", async (req: Request, res: Response) => {
@@ -154,11 +186,8 @@ router.delete("/deleteUsers", async (req: Request, res: Response) => {
     const deleteSucces = await deleteAllUsers();
     return res.status(deleteSucces.status).json(deleteSucces.data);
   } catch (error) {
-    return res.status(500).json({message: "Error interno del servidor"});
+    return res.status(500).json({ message: "Error interno del servidor" });
   }
-})
-
-
-
+});
 
 export { router, routerAuth, routerUsers };

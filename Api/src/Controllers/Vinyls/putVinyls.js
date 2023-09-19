@@ -12,41 +12,56 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.suspendVinyls = exports.restoreVinyls = exports.changeVinyls = void 0;
 const Vinyls_1 = require("../../Models/Vinyls");
 const changeVinyls = (body, params) => __awaiter(void 0, void 0, void 0, function* () {
-    const { units } = body;
+    const { stock } = body;
     const { id } = params;
     const vinilo = yield Vinyls_1.Vinyl.findByPk(id);
     if (vinilo) {
-        vinilo.stock = vinilo.stock - units;
+        vinilo.stock = stock;
         yield vinilo.save();
-        return 'actualizacion exitosa';
+        return "actualizacion exitosa";
     }
     else {
-        return 'Fallo la actualizacion de stock';
+        return "Fallo la actualizacion de stock";
     }
 });
 exports.changeVinyls = changeVinyls;
 const restoreVinyls = (params) => __awaiter(void 0, void 0, void 0, function* () {
     const { id } = params;
-    const vinilo = yield Vinyls_1.Vinyl.findByPk(id);
+    const vinilo = yield Vinyls_1.Vinyl.findOne({
+        where: {
+            id,
+        },
+        paranoid: false,
+    });
     if (vinilo) {
-        Vinyls_1.Vinyl.restore({
-            where: {
-                id,
-                stock: 1
-            }
-        });
+        vinilo.restore();
+        vinilo.stock = 1;
+        yield vinilo.save();
+        return 'Se restauro exitosamente';
+    }
+    else {
+        return 'fallo la restauracion';
     }
 });
 exports.restoreVinyls = restoreVinyls;
 const suspendVinyls = (params) => __awaiter(void 0, void 0, void 0, function* () {
     const { id } = params;
-    const vinilo = yield Vinyls_1.Vinyl.findByPk(id);
-    if (vinilo && vinilo.stock <= 0) {
+    const vinilo = yield Vinyls_1.Vinyl.findOne({
+        where: {
+            id,
+            stock: 0
+        }
+    });
+    if (vinilo) {
         Vinyls_1.Vinyl.destroy({
             where: {
-                id
-            }
+                id,
+            },
         });
+        return 'se ha suspendido con exito';
+    }
+    else {
+        return 'fallo la suspension del vinilo';
     }
 });
 exports.suspendVinyls = suspendVinyls;

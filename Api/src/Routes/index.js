@@ -60,9 +60,9 @@ routerUsers.get("/admins", (req, res) => __awaiter(void 0, void 0, void 0, funct
         return res.status(500).json({ message: "Error interno del servidor" });
     }
 }));
-router.delete('/deleteUser/:id', deleteUser_1.deleteUser);
-router.delete('/inhabilityUser/:id', deleteUser_1.inhabilityDeleteUser);
-router.get('/restoreUser/:id', deleteUser_1.restoreUser);
+router.delete("/deleteUser/:id", deleteUser_1.deleteUser);
+router.delete("/inhabilityUser/:id", deleteUser_1.inhabilityDeleteUser);
+router.patch("/restoreUser/:id", deleteUser_1.restoreUser);
 router.get("/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const vinyl = yield (0, getVinyls_1.getVinylById)(req.params);
@@ -83,7 +83,7 @@ router.post("/login", (req, res) => __awaiter(void 0, void 0, void 0, function* 
     }
 }));
 //! Ruta para autenticación con google
-routerAuth.get('/google', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+routerAuth.get("/google", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const infoUser = req.user;
     try {
         const user = yield (0, googleUsers_1.default)(infoUser);
@@ -94,7 +94,7 @@ routerAuth.get('/google', (req, res) => __awaiter(void 0, void 0, void 0, functi
     }
 }));
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
-    res.json({ message: 'Ruta protegida' });
+    res.json({ message: "Ruta protegida" });
 });
 router.get("/protectedResource", authMiddleware_1.authenticateJWT, (req, res) => {
     res.json({ message: "Ruta protegida" });
@@ -113,9 +113,25 @@ router.post("/vinyls", getVinyls_1.postVinylsController);
 router.put("/upgrade_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const response = yield (0, putVinyls_1.changeVinyls)(req.body, req.params);
-        res
-            .status(200)
-            .send(`se han realizado los cambios en el vinilo ${req.params.id}`);
+        res.status(200).json(response);
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
+router.patch("/restore_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield (0, putVinyls_1.restoreVinyls)(req.params);
+        res.status(200).json(response);
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
+router.delete("/delete_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield (0, putVinyls_1.suspendVinyls)(req.params);
+        res.status(200).json(response);
     }
     catch (error) {
         res.status(400).json(error);
@@ -143,7 +159,7 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
         res.status(407).json(error);
     }
 }));
-router.get("/order", postOrder_1.historial);
+router.get("/order", postOrder_1.history);
 // ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
 router.delete("/deleteUsers", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
