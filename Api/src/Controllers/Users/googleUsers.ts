@@ -20,7 +20,7 @@ const loginGoogle = async (body: Users) => {
       });
       return {
         status: 201,
-        data: { ...newUser.toJSON(), token },
+        data: { ...newUser.toJSON(), token, email },
       };
     }
 
