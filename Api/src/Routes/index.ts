@@ -4,7 +4,7 @@ import { createUser, loginUser } from "../Controllers/Users/postUser";
 import loginGoogle from "../Controllers/Users/googleUsers";
 import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
-import { createReview } from "../Controllers/Users/Reviews";
+import { createReview, getReviewsByVinylId } from "../Controllers/Users/Reviews";
 import { Request, Response } from "express";
 import { createOrder, verifyPayment } from "../Controllers/MercadoPago/payment";
 import { changeVinyls } from "../Controllers/Vinyls/putVinyls";
@@ -122,6 +122,7 @@ router.put("/upgrade_vinyls/:id", async (req: Request, res: Response) => {
 });
 //! Ruta para agregar una reseña
 router.post("/reviews", createReview);
+router.get('/vinilo/:vinylId', getReviewsByVinylId);
 
 //Mercado Pago
 

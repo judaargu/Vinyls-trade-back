@@ -2,32 +2,30 @@ import { DataTypes, Model, Sequelize } from 'sequelize';
 
 class Review extends Model {
   public id!: number;
-  public name!: string; 
   public email!: string;     
-  public country!: string;   
   public comment!: string | null;
+  public rating!: number;
   public createdAt!: Date;
 }
 
 const initReview = (sequelize: Sequelize) => {
   Review.init(
     {
-      name: {             
-        type: DataTypes.STRING, 
-        allowNull: false,
-      },
       email: {                
         type: DataTypes.STRING, 
         allowNull: false,
       },
-      country: {               
-        type: DataTypes.STRING, 
-        allowNull: false,
-      },
+
       comment: {
         type: DataTypes.TEXT,
         allowNull: true,
       },
+
+      rating: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+
       createdAt: {
         type: DataTypes.DATE,
         defaultValue: DataTypes.NOW,
