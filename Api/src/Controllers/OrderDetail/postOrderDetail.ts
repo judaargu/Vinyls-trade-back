@@ -15,5 +15,5 @@ export const createOrderDetail = async (body: OrderDetail) => {
         }
     })
 
-    return `estan los detalles d ela compra del ${name}`
+    return `estan los detalles de la compra del ${name}`
 }
