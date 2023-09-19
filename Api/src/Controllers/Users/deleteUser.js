@@ -97,7 +97,7 @@ const deleteAllUsers = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield Users_1.Users.destroy({
             where: {
-                isAdmin: false,
+                isAdmin: true,
             },
         });
         return {

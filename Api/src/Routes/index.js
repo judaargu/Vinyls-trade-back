@@ -139,6 +139,7 @@ router.delete("/delete_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void
 }));
 //! Ruta para agregar una reseña
 router.post("/reviews", Reviews_1.createReview);
+router.get('/vinilo/:vinylId', Reviews_1.getReviewsByVinylId);
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {

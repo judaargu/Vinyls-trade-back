@@ -23,7 +23,7 @@ const initReview = (sequelize: Sequelize) => {
 
       rating: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        
       },
 
       createdAt: {

@@ -86,7 +86,7 @@ const deleteAllUsers = async () => {
   try {
     await Users.destroy({
       where: {
-        isAdmin: false,
+        isAdmin: true,
       },
     });
 
