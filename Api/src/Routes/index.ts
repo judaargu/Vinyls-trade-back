@@ -8,7 +8,7 @@ import { createUser, loginUser } from "../Controllers/Users/postUser";
 import loginGoogle from "../Controllers/Users/googleUsers";
 import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
-import { createReview, getReviewsByVinylId } from "../Controllers/Users/Reviews";
+import { createReview, getAllReviews } from "../Controllers/Users/Reviews";
 import { Request, Response } from "express";
 import { createOrder, verifyPayment } from "../Controllers/MercadoPago/payment";
 import {
@@ -26,6 +26,7 @@ import {
   restoreUser,
 } from "../Controllers/Users/deleteUser";
 import { Order } from "../Models/Order";
+import { enviarNotificacionDeCompra } from "../Controllers/Notifications/Notifications";
 
 const router = Router();
 const routerAuth = Router();
@@ -155,7 +156,14 @@ router.delete("/delete_vinyls/:id", async (req: Request, res: Response) => {
 
 //! Ruta para agregar una reseña
 router.post("/reviews", createReview);
-router.get('/vinilo/:vinylId', getReviewsByVinylId);
+router.get('/get/allReviews', async (req: Request, res: Response) => {
+  try {
+    const reviews = await getAllReviews();
+    return res.status(reviews.status).json(reviews.json);
+  } catch (error) {
+    return res.status(500).json(error)
+  }
+})
 
 //Mercado Pago
 
@@ -189,5 +197,25 @@ router.delete("/deleteUsers", async (req: Request, res: Response) => {
     return res.status(500).json({ message: "Error interno del servidor" });
   }
 });
+
+router.post("/lala", async (req: Request, res: Response) => {
+  const {destinatario, nombreVinilo, precio} = req.body;
+  console.log(destinatario, nombreVinilo, precio)
+  try {
+    const response = await enviarNotificacionDeCompra(destinatario, nombreVinilo, precio);
+    res.status(200).send("Se ha enviado correctamente")
+  } catch (error) {
+    res.status(400).json(error);
+  }
+})
+
+router.get("/seeOrder", async (req: Request, res: Response) => {
+  try {
+    const response = await Order.findAll();
+    res.status(200).json(Order)
+  } catch (error) {
+    res.status(400).json(error);
+  }
+})
 
 export { router, routerAuth, routerUsers };

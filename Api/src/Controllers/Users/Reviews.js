@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getReviewsByVinylId = exports.createReview = void 0;
+exports.getAllReviews = exports.createReview = void 0;
 const Reviews_1 = require("../../Models/Reviews");
 const createReview = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -25,14 +25,13 @@ const createReview = (req, res) => __awaiter(void 0, void 0, void 0, function* (
     }
 });
 exports.createReview = createReview;
-const getReviewsByVinylId = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+const getAllReviews = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const vinylId = req.params.vinylId;
-        const reviews = yield Reviews_1.Review.findAll({ where: { vinylId } });
-        res.json(reviews);
+        const reviews = yield Reviews_1.Review.findAll();
+        return { status: 200, json: reviews };
     }
     catch (error) {
-        res.status(500).json({ error: 'Error interno del servidor' });
+        return { status: 500, json: "Error al traer los reviews" };
     }
 });
-exports.getReviewsByVinylId = getReviewsByVinylId;
+exports.getAllReviews = getAllReviews;

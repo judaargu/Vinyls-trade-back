@@ -25,6 +25,8 @@ const putVinyls_1 = require("../Controllers/Vinyls/putVinyls");
 const getUsers_1 = require("../Controllers/Users/getUsers");
 const postOrder_1 = require("../Controllers/Order/postOrder");
 const deleteUser_1 = require("../Controllers/Users/deleteUser");
+const Order_1 = require("../Models/Order");
+const Notifications_1 = require("../Controllers/Notifications/Notifications");
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
@@ -139,7 +141,15 @@ router.delete("/delete_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void
 }));
 //! Ruta para agregar una reseña
 router.post("/reviews", Reviews_1.createReview);
-router.get('/vinilo/:vinylId', Reviews_1.getReviewsByVinylId);
+router.get('/get/allReviews', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const reviews = yield (0, Reviews_1.getAllReviews)();
+        return res.status(reviews.status).json(reviews.json);
+    }
+    catch (error) {
+        return res.status(500).json(error);
+    }
+}));
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -169,5 +179,25 @@ router.delete("/deleteUsers", (req, res) => __awaiter(void 0, void 0, void 0, fu
     }
     catch (error) {
         return res.status(500).json({ message: "Error interno del servidor" });
+    }
+}));
+router.post("/lala", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const { destinatario, nombreVinilo, precio } = req.body;
+    console.log(destinatario, nombreVinilo, precio);
+    try {
+        const response = yield (0, Notifications_1.enviarNotificacionDeCompra)(destinatario, nombreVinilo, precio);
+        res.status(200).send("Se ha enviado correctamente");
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
+router.get("/seeOrder", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield Order_1.Order.findAll();
+        res.status(200).json(Order_1.Order);
+    }
+    catch (error) {
+        res.status(400).json(error);
     }
 }));

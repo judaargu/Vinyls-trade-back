@@ -13,12 +13,10 @@ const initReview = (sequelize: Sequelize) => {
     {
       email: {                
         type: DataTypes.STRING, 
-        allowNull: false,
       },
 
       comment: {
         type: DataTypes.TEXT,
-        allowNull: true,
       },
 
       rating: {
