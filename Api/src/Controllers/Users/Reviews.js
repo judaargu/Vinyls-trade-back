@@ -13,8 +13,11 @@ exports.getReviewsByVinylId = exports.createReview = void 0;
 const Reviews_1 = require("../../Models/Reviews");
 const createReview = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const { name, email, country, comment } = req.body;
-        const newReview = yield Reviews_1.Review.create({ name, email, country, comment });
+        const { email, comment, rating } = req.body;
+        if (rating < 1 || rating > 5) {
+            return res.status(400).json({ error: "La calificación debe ser entre 1 y 5 puntos" });
+        }
+        const newReview = yield Reviews_1.Review.create({ email, comment, rating });
         res.status(201).json(newReview);
     }
     catch (error) {
