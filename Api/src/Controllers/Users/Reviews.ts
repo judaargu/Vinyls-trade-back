@@ -16,15 +16,13 @@ export const createReview = async (req: Request, res: Response) => {
   }
 };
 
-export const getReviewsByVinylId = async (req: Request, res: Response) => {
+export const getAllReviews = async () => {
   try {
-    const vinylId = req.params.vinylId;
-    const reviews = await Review.findAll({ where: { vinylId } });
-    res.json(reviews);
+    const reviews = await Review.findAll(); 
+    return {status: 200, json: reviews}
   } catch (error) {
-    res.status(500).json({ error: 'Error interno del servidor' });
+    return {status: 500, json: "Error al traer los reviews"}
   }
 };
-
 
 
