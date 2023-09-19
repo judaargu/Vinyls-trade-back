@@ -6,14 +6,14 @@ import {initVinylModel ,Vinyl} from './Models/Vinyls';
 import {initOrderDetail ,OrderDetail} from './Models/orderDetail';
 import { initReview } from './Models/Reviews';
 
-const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
-    logging: false, 
-    native: false, 
-});
-// const sequelize = new Sequelize(`${DB_DEPLOY}`, {
+// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
 //     logging: false, 
 //     native: false, 
 // });
+const sequelize = new Sequelize(`${DB_DEPLOY}`, {
+    logging: false, 
+    native: false, 
+});
 
 initOrderModel(sequelize)
 initUsersModel(sequelize)

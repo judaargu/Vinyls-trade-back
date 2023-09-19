@@ -24,6 +24,6 @@ const createOrderDetail = (body) => __awaiter(void 0, void 0, void 0, function* 
             orderStatus
         }
     });
-    return `estan los detalles d ela compra del ${name}`;
+    return `estan los detalles de la compra del ${name}`;
 });
 exports.createOrderDetail = createOrderDetail;

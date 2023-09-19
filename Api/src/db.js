@@ -8,15 +8,15 @@ const Users_1 = require("./Models/Users");
 const Vinyls_1 = require("./Models/Vinyls");
 const orderDetail_1 = require("./Models/orderDetail");
 const Reviews_1 = require("./Models/Reviews");
-const sequelize = new sequelize_1.Sequelize(`postgres://${config_1.DB_USER}:${config_1.DB_PASSWORD}@${config_1.DB_HOST}/${config_1.DB_NAME}`, {
+// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`, {
+//     logging: false, 
+//     native: false, 
+// });
+const sequelize = new sequelize_1.Sequelize(`${config_1.DB_DEPLOY}`, {
     logging: false,
     native: false,
 });
 exports.sequelize = sequelize;
-// const sequelize = new Sequelize(`${DB_DEPLOY}`, {
-//     logging: false, 
-//     native: false, 
-// });
 (0, Order_1.initOrderModel)(sequelize);
 (0, Users_1.initUsersModel)(sequelize);
 (0, Vinyls_1.initVinylModel)(sequelize);
