@@ -10,7 +10,7 @@ import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
 import {
   createReview,
-  getReviewsByVinylId,
+  getAllReviews,
 } from "../Controllers/Users/Reviews";
 import { Request, Response } from "express";
 import { createOrder, verifyPayment } from "../Controllers/MercadoPago/payment";
@@ -159,7 +159,7 @@ router.delete("/delete_vinyls/:id", async (req: Request, res: Response) => {
 
 //! Ruta para agregar una reseña
 router.post("/reviews", createReview);
-router.get("/vinilo/:vinylId", getReviewsByVinylId);
+// router.get("/vinilo/:vinylId", getReviewsByVinylId);
 
 //Mercado Pago
 

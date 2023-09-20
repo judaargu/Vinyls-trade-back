@@ -9,11 +9,9 @@ const initReview = (sequelize) => {
     Review.init({
         email: {
             type: sequelize_1.DataTypes.STRING,
-            allowNull: false,
         },
         comment: {
             type: sequelize_1.DataTypes.TEXT,
-            allowNull: true,
         },
         rating: {
             type: sequelize_1.DataTypes.INTEGER,
