@@ -26,8 +26,6 @@ const getUsers_1 = require("../Controllers/Users/getUsers");
 const postOrder_1 = require("../Controllers/Order/postOrder");
 const deleteUser_1 = require("../Controllers/Users/deleteUser");
 const postOrderDetail_1 = require("../Controllers/OrderDetail/postOrderDetail");
-const Order_1 = require("../Models/Order");
-const Notifications_1 = require("../Controllers/Notifications/Notifications");
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
@@ -142,7 +140,15 @@ router.delete("/delete_vinyls/:id", (req, res) => __awaiter(void 0, void 0, void
 }));
 //! Ruta para agregar una reseña
 router.post("/reviews", Reviews_1.createReview);
-// router.get("/vinilo/:vinylId", getReviewsByVinylId);
+router.get('/get/allReviews', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const reviews = yield (0, Reviews_1.getAllReviews)();
+        return res.status(reviews.status).json(reviews.json);
+    }
+    catch (error) {
+        return res.status(500).json(error);
+    }
+}));
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {

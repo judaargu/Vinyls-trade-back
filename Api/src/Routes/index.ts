@@ -159,7 +159,14 @@ router.delete("/delete_vinyls/:id", async (req: Request, res: Response) => {
 
 //! Ruta para agregar una reseña
 router.post("/reviews", createReview);
-// router.get("/vinilo/:vinylId", getReviewsByVinylId);
+router.get('/get/allReviews', async (req: Request, res: Response) => {
+  try {
+    const reviews = await getAllReviews();
+    return res.status(reviews.status).json(reviews.json);
+  } catch (error) {
+    return res.status(500).json(error)
+  }
+})
 
 //Mercado Pago
 
