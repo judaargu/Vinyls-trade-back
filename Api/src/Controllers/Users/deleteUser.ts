@@ -11,12 +11,16 @@ const inhabilityDeleteUser = async (req: Request, res: Response) => {
       },
     });
     if (userFind) {
+      const users = {
+        id: userFind.id,
+        name: userFind.name
+      }
       await Users.destroy({
         where: {
           id,
         },
       });
-      res.status(200).send(`se ha eliminado al usuario ${id}`);
+      res.status(200).json(users);
     } else {
       res
         .status(400)

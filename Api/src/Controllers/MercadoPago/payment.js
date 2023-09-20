@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyPayment = exports.createOrder = void 0;
 const mercadopago_1 = __importDefault(require("mercadopago"));
 const orderDetail_1 = require("../../Models/orderDetail");
-const Order_1 = require("../../Models/Order");
+const postOrder_1 = require("../Order/postOrder");
 const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* () {
     mercadopago_1.default.configure({
         sandbox: true,
@@ -36,28 +36,22 @@ const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* ()
             failure: "https://vinils-trade-client.vercel.app",
         },
         auto_return: "approved",
-        notification_url: "https://vinils-trade-client.vercel.app/webhook",
+        notification_url: "https://vinyls-trade-back-production.up.railway.app/webhook",
     });
     return result.body.init_point;
 });
 exports.createOrder = createOrder;
 const verifyPayment = (queryParams) => __awaiter(void 0, void 0, void 0, function* () {
-    if (queryParams.type === "payment") {
-        const data = yield mercadopago_1.default.payment.findById(queryParams["data.id"]);
-        const allOrderDetail = yield orderDetail_1.OrderDetail.findAll();
-        const detailJson = JSON.parse(JSON.stringify(allOrderDetail));
-        const saveOrder = yield Order_1.Order.create({
-            where: {
-                detail: detailJson,
-                tax: data.body.taxes_amount,
-                amount: data.body.transaction_amount,
-                state: data.body.status,
-            },
-        });
-        orderDetail_1.OrderDetail.destroy({
-            force: true,
-        });
-        return saveOrder;
+    try {
+        if (queryParams.type === "payment") {
+            const data = yield mercadopago_1.default.payment.findById(queryParams["data.id"]);
+            const allOrderDetail = yield orderDetail_1.OrderDetail.findAll();
+            const saveOrder = yield (0, postOrder_1.postOrder)(allOrderDetail, data.response.taxes_amount, data.response.transaction_amount, data.response.status);
+            return saveOrder;
+        }
+    }
+    catch (error) {
+        return error;
     }
 });
 exports.verifyPayment = verifyPayment;

@@ -9,19 +9,33 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.history = void 0;
+exports.postOrder = exports.history = void 0;
 const Order_1 = require("../../Models/Order");
-const historial = () => __awaiter(void 0, void 0, void 0, function* () {
+const history = () => __awaiter(void 0, void 0, void 0, function* () {
     const youOrder = yield Order_1.Order.findAll();
     return youOrder;
 });
-const history = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+exports.history = history;
+// const history = async (req: Request, res: Response) => {
+//   try {
+//     const response = await historial();
+//     res.status(200).json(response);
+//   } catch (error) {
+//     res.status(400).json(error);
+//   }
+// };
+const postOrder = (detail, tax, total, state) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const response = yield historial();
-        res.status(200).json(response);
+        const saveOrder = yield Order_1.Order.create({
+            detail,
+            tax,
+            total,
+            state
+        });
+        return saveOrder;
     }
     catch (error) {
-        res.status(400).json(error);
+        return error;
     }
 });
-exports.history = history;
+exports.postOrder = postOrder;

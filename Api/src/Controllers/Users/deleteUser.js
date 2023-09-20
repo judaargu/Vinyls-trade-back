@@ -20,12 +20,16 @@ const inhabilityDeleteUser = (req, res) => __awaiter(void 0, void 0, void 0, fun
             },
         });
         if (userFind) {
+            const users = {
+                id: userFind.id,
+                name: userFind.name
+            };
             yield Users_1.Users.destroy({
                 where: {
                     id,
                 },
             });
-            res.status(200).send(`se ha eliminado al usuario ${id}`);
+            res.status(200).json(users);
         }
         else {
             res

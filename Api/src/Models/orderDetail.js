@@ -14,11 +14,10 @@ const initOrderDetail = (sequelize) => {
         },
         name: {
             type: sequelize_1.DataTypes.STRING,
-            allowNull: false
         },
         vinylId: {
             type: sequelize_1.DataTypes.UUID,
-            allowNull: false,
+            defaultValue: 'a0abaee7-9e97-425f-b3dd-d4fecdd155ad'
         },
         units: {
             type: sequelize_1.DataTypes.INTEGER,
