@@ -15,9 +15,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyPayment = exports.createOrder = void 0;
 const mercadopago_1 = __importDefault(require("mercadopago"));
 const orderDetail_1 = require("../../Models/orderDetail");
-const Order_1 = require("../../Models/Order");
 const getOrderDetail_1 = require("../OrderDetail/getOrderDetail");
 const postOrder_1 = require("../Order/postOrder");
+const Notifications_1 = require("../Notifications/Notifications");
 const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* () {
     mercadopago_1.default.configure({
         sandbox: true,
@@ -46,12 +46,12 @@ exports.createOrder = createOrder;
 const verifyPayment = (queryParams) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         if (queryParams.type === "payment") {
+            yield (0, getOrderDetail_1.getOrder)();
             const data = yield mercadopago_1.default.payment.findById(queryParams["data.id"]);
-            console.log(data);
-            yield Order_1.Order.destroy();
             const allOrderDetail = yield orderDetail_1.OrderDetail.findAll();
             const saveOrder = yield (0, postOrder_1.postOrder)(data.response.payer.email, allOrderDetail, data.response.taxes_amount, data.response.transaction_amount, data.response.status);
-            const deleteDetail = yield (0, getOrderDetail_1.getOrderDetail)();
+            const saveNotification = yield (0, Notifications_1.enviarNotificacionDeCompra)(saveOrder.dataValues.userEmail, saveOrder.dataValues.detail, saveOrder.dataValues.total);
+            yield (0, getOrderDetail_1.getOrderDetail)();
             return saveOrder;
         }
     }

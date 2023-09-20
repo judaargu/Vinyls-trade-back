@@ -3,8 +3,9 @@ import { MercadoPago } from "../../Models/MercadoPago";
 import { OrderDetail } from "../../Models/orderDetail";
 import { Order } from "../../Models/Order";
 import { Request, Response } from "express";
-import { getOrderDetail } from "../OrderDetail/getOrderDetail";
+import { getOrder, getOrderDetail } from "../OrderDetail/getOrderDetail";
 import { postOrder } from "../Order/postOrder";
+import { enviarNotificacionDeCompra } from "../Notifications/Notifications";
 
 export const createOrder = async (userData: {
   title: string;
@@ -39,24 +40,30 @@ export const createOrder = async (userData: {
   return result.body.init_point;
 };
 
-
 export const verifyPayment = async (queryParams: any) => {
-
   try {
     if (queryParams.type === "payment") {
+      await getOrder();
       const data = await mercadopago.payment.findById(queryParams["data.id"]);
-      console.log(data)
-      await Order.destroy();
-      
-  
+
       const allOrderDetail = await OrderDetail.findAll();
-      
-      const saveOrder = await postOrder(data.response.payer.email, allOrderDetail, data.response.taxes_amount, data.response.transaction_amount, data.response.status)
-      const deleteDetail = await getOrderDetail();
+
+      const saveOrder: any = await postOrder(
+        data.response.payer.email,
+        allOrderDetail,
+        data.response.taxes_amount,
+        data.response.transaction_amount,
+        data.response.status
+      );
+      const saveNotification = await enviarNotificacionDeCompra(
+        saveOrder.dataValues.userEmail,
+        saveOrder.dataValues.detail,
+        saveOrder.dataValues.total
+      );
+      await getOrderDetail();
       return saveOrder;
     }
   } catch (error) {
-    return error
+    return error;
   }
 };
-

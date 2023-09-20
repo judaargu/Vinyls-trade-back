@@ -18,7 +18,20 @@ export const getOrderDetail = async () => {
       for (const orderDetail of orderDetails) {
         await orderDetail.destroy();
       }
+      return 'Se han borrado con éxito todos los registros de OrderDetail';
+  
+
+    } else {
+      return 'no se esta pudiendo borrar'
     }
+  } catch (error) {
+    return error
+  }
+  
+};
+
+export const getOrder = async () => {
+  try {
     const orders= await Order.findAll();
 
     if (orders.length > 0) {
@@ -27,13 +40,10 @@ export const getOrderDetail = async () => {
         await order.destroy();
       }
       return 'Se han borrado con éxito todos los registros de OrderDetail';
-
     } else {
-      return 'no se esta pudiendo borrar'
+      return 'no se ha podidod borra el Order'
     }
-    
   } catch (error) {
-    return error
+    
   }
-  
-};
+}
