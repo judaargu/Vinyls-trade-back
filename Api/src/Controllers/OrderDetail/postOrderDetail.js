@@ -13,8 +13,8 @@ exports.createOrderDetail = void 0;
 const orderDetail_1 = require("../../Models/orderDetail");
 const createOrderDetail = (body) => __awaiter(void 0, void 0, void 0, function* () {
     const { name, vinylId, units, amount, taxAmount, totalAmount, orderStatus } = body;
-    const createOD = yield orderDetail_1.OrderDetail.create({
-        where: {
+    try {
+        const createOD = yield orderDetail_1.OrderDetail.create({
             name,
             vinylId,
             units,
@@ -22,8 +22,11 @@ const createOrderDetail = (body) => __awaiter(void 0, void 0, void 0, function* 
             taxAmount,
             totalAmount,
             orderStatus
-        }
-    });
-    return `estan los detalles de la compra del ${name}`;
+        });
+        return { status: 200, json: createOD };
+    }
+    catch (error) {
+        return { status: 500, json: 'error en el servidor' };
+    }
 });
 exports.createOrderDetail = createOrderDetail;

@@ -4,6 +4,7 @@ import { OrderDetail } from "../../Models/orderDetail";
 import { Order } from "../../Models/Order";
 import { Request, Response } from "express";
 import { getOrderDetail } from "../OrderDetail/getOrderDetail";
+import { postOrder } from "../Order/postOrder";
 
 export const createOrder = async (userData: {
   title: string;
@@ -32,7 +33,7 @@ export const createOrder = async (userData: {
       failure: "https://vinils-trade-client.vercel.app",
     },
     auto_return: "approved",
-    notification_url: "https://vinils-trade-client.vercel.app/webhook",
+    notification_url: "https://vinyls-trade-back-production.up.railway.app/webhook",
   });
 
   return result.body.init_point;
@@ -40,24 +41,19 @@ export const createOrder = async (userData: {
 
 
 export const verifyPayment = async (queryParams: any) => {
-  if (queryParams.type === "payment") {
-    const data = await mercadopago.payment.findById(queryParams["data.id"]);
-
-    const allOrderDetail = await OrderDetail.findAll();
-
-    const detailJson = JSON.parse(JSON.stringify(allOrderDetail));
-    const saveOrder = await Order.create({
-      where: {
-        detail: detailJson,
-        tax: data.body.taxes_amount,
-        amount: data.body.transaction_amount,
-        state: data.body.status,
-      },
-    });
-    OrderDetail.destroy({
-      force: true,
-    })
-    return saveOrder;
+  try {
+    
+    if (queryParams.type === "payment") {
+      const data = await mercadopago.payment.findById(queryParams["data.id"]);
+      
+  
+      const allOrderDetail = await OrderDetail.findAll();
+      
+      const saveOrder = await postOrder(allOrderDetail, data.response.taxes_amount, data.response.transaction_amount, data.response.status)
+      return saveOrder;
+    }
+  } catch (error) {
+    return error
   }
 };
 

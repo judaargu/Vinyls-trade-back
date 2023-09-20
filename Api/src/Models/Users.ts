@@ -11,6 +11,8 @@ class Users extends Model {
   public country?: string;
   public isAdmin!: boolean;
   public deletedAt!: Date | null;
+  public createdAt!: Date | null;
+  public updatedAt!: Date | null;
 }
 
 const initUsersModel = (sequelize: Sequelize) => {
@@ -49,6 +51,12 @@ const initUsersModel = (sequelize: Sequelize) => {
       },
       deletedAt: {
         type: DataTypes.DATE
+      },
+      createdAt: {
+        type: DataTypes.DATE,
+      },
+      updatedAt: {
+        type: DataTypes.DATE,
       }
     },
     {

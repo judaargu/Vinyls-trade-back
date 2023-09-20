@@ -26,6 +26,7 @@ const getUsers_1 = require("../Controllers/Users/getUsers");
 const postOrder_1 = require("../Controllers/Order/postOrder");
 const deleteUser_1 = require("../Controllers/Users/deleteUser");
 const Order_1 = require("../Models/Order");
+const postOrderDetail_1 = require("../Controllers/OrderDetail/postOrderDetail");
 const Notifications_1 = require("../Controllers/Notifications/Notifications");
 const router = (0, express_1.Router)();
 exports.router = router;
@@ -170,7 +171,24 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
         res.status(407).json(error);
     }
 }));
-router.get("/order", postOrder_1.history);
+router.post("/createOrderDetail", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield (0, postOrderDetail_1.createOrderDetail)(req.body);
+        res.status(response.status).json(response.json);
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
+router.get("/get/order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield (0, postOrder_1.history)();
+        res.status(200).json(response);
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
 // ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
 router.delete("/deleteUsers", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {

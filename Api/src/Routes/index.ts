@@ -8,7 +8,10 @@ import { createUser, loginUser } from "../Controllers/Users/postUser";
 import loginGoogle from "../Controllers/Users/googleUsers";
 import { authenticateJWT } from "../Middlewares/authMiddleware";
 import { postVinyl } from "../Controllers/Vinyls/postVinyl";
-import { createReview, getAllReviews } from "../Controllers/Users/Reviews";
+import {
+  createReview,
+  getAllReviews,
+} from "../Controllers/Users/Reviews";
 import { Request, Response } from "express";
 import { createOrder, verifyPayment } from "../Controllers/MercadoPago/payment";
 import {
@@ -26,6 +29,7 @@ import {
   restoreUser,
 } from "../Controllers/Users/deleteUser";
 import { Order } from "../Models/Order";
+import { createOrderDetail } from "../Controllers/OrderDetail/postOrderDetail";
 import { enviarNotificacionDeCompra } from "../Controllers/Notifications/Notifications";
 
 const router = Router();
@@ -186,7 +190,22 @@ router.post("/webhook", async (req: Request, res: Response) => {
   }
 });
 
-router.get("/order", history);
+router.post("/createOrderDetail", async (req: Request, res: Response) => {
+  try {
+    const response = await createOrderDetail(req.body);
+    res.status(response.status).json(response.json);
+  } catch (error) {
+    res.status(400).json(error);
+  }
+});
+router.get("/get/order", async (req: Request, res: Response) => {
+  try {
+    const response = await history();
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(400).json(error);
+  }
+});
 
 // ! Sólo usar cuando se quiera eliminar a todos los usuarios de la base de datos
 router.delete("/deleteUsers", async (req: Request, res: Response) => {
