@@ -24,9 +24,10 @@ exports.history = history;
 //     res.status(400).json(error);
 //   }
 // };
-const postOrder = (detail, tax, total, state) => __awaiter(void 0, void 0, void 0, function* () {
+const postOrder = (userEmail, detail, tax, total, state) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const saveOrder = yield Order_1.Order.create({
+            userEmail,
             detail,
             tax,
             total,

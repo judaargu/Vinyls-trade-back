@@ -11,14 +11,20 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getOrderDetail = void 0;
 const orderDetail_1 = require("../../Models/orderDetail");
-const getOrderDetail = (queryParams) => __awaiter(void 0, void 0, void 0, function* () {
-    const allOrderDetail = yield orderDetail_1.OrderDetail.findAll();
-    orderDetail_1.OrderDetail.destroy({
-        where: {
-            id: queryParams,
-        },
-        force: true,
-    });
-    return allOrderDetail;
+const getOrderDetail = () => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const orderDetail = yield orderDetail_1.OrderDetail.findAll();
+        if (orderDetail.length) {
+            console.log(orderDetail);
+            yield orderDetail_1.OrderDetail.destroy();
+            return 'Se ha borrado con exito su Orden de Compras';
+        }
+        else {
+            return 'no se esta pudiendo borrar';
+        }
+    }
+    catch (error) {
+        return error;
+    }
 });
 exports.getOrderDetail = getOrderDetail;

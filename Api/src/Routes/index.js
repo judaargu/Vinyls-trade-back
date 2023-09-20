@@ -25,9 +25,9 @@ const putVinyls_1 = require("../Controllers/Vinyls/putVinyls");
 const getUsers_1 = require("../Controllers/Users/getUsers");
 const postOrder_1 = require("../Controllers/Order/postOrder");
 const deleteUser_1 = require("../Controllers/Users/deleteUser");
-const Order_1 = require("../Models/Order");
 const postOrderDetail_1 = require("../Controllers/OrderDetail/postOrderDetail");
 const Notifications_1 = require("../Controllers/Notifications/Notifications");
+const getOrderDetail_1 = require("../Controllers/OrderDetail/getOrderDetail");
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
@@ -210,10 +210,10 @@ router.post("/lala", (req, res) => __awaiter(void 0, void 0, void 0, function* (
         res.status(400).json(error);
     }
 }));
-router.get("/seeOrder", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+router.delete("/deleteOrderDetail", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const response = yield Order_1.Order.findAll();
-        res.status(200).json(Order_1.Order);
+        const response = yield (0, getOrderDetail_1.getOrderDetail)();
+        res.status(200).json(response);
     }
     catch (error) {
         res.status(400).json(error);

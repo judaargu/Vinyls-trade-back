@@ -13,6 +13,9 @@ const initOrderModel = (sequelize) => {
             primaryKey: true,
             defaultValue: sequelize_1.DataTypes.UUIDV4,
         },
+        userEmail: {
+            type: sequelize_1.DataTypes.STRING
+        },
         detail: {
             type: sequelize_1.DataTypes.JSONB,
             allowNull: false,
