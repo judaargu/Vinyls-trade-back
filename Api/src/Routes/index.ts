@@ -31,6 +31,7 @@ import {
 import { Order } from "../Models/Order";
 import { createOrderDetail } from "../Controllers/OrderDetail/postOrderDetail";
 import { enviarNotificacionDeCompra } from "../Controllers/Notifications/Notifications";
+import { getOrderDetail } from "../Controllers/OrderDetail/getOrderDetail";
 
 const router = Router();
 const routerAuth = Router();
@@ -228,13 +229,14 @@ router.post("/lala", async (req: Request, res: Response) => {
   }
 })
 
-router.get("/seeOrder", async (req: Request, res: Response) => {
+router.delete("/delete/deleteOrderDetail", async (req: Request, res: Response) => {
   try {
-    const response = await Order.findAll();
-    res.status(200).json(Order)
+    const response = await getOrderDetail();
+    res.status(200).json(response)
   } catch (error) {
     res.status(400).json(error);
   }
 })
+
 
 export { router, routerAuth, routerUsers };

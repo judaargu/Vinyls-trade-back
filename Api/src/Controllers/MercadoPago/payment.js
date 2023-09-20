@@ -15,6 +15,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyPayment = exports.createOrder = void 0;
 const mercadopago_1 = __importDefault(require("mercadopago"));
 const orderDetail_1 = require("../../Models/orderDetail");
+const Order_1 = require("../../Models/Order");
+const getOrderDetail_1 = require("../OrderDetail/getOrderDetail");
 const postOrder_1 = require("../Order/postOrder");
 const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* () {
     mercadopago_1.default.configure({
@@ -36,7 +38,7 @@ const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* ()
             failure: "https://vinils-trade-client.vercel.app",
         },
         auto_return: "approved",
-        notification_url: "https://vinyls-trade-back-production.up.railway.app/webhook",
+        notification_url: "https://e625-191-81-185-105.ngrok-free.app/webhook",
     });
     return result.body.init_point;
 });
@@ -45,8 +47,11 @@ const verifyPayment = (queryParams) => __awaiter(void 0, void 0, void 0, functio
     try {
         if (queryParams.type === "payment") {
             const data = yield mercadopago_1.default.payment.findById(queryParams["data.id"]);
+            console.log(data);
+            yield Order_1.Order.destroy();
             const allOrderDetail = yield orderDetail_1.OrderDetail.findAll();
-            const saveOrder = yield (0, postOrder_1.postOrder)(allOrderDetail, data.response.taxes_amount, data.response.transaction_amount, data.response.status);
+            const saveOrder = yield (0, postOrder_1.postOrder)(data.response.payer.email, allOrderDetail, data.response.taxes_amount, data.response.transaction_amount, data.response.status);
+            const deleteDetail = yield (0, getOrderDetail_1.getOrderDetail)();
             return saveOrder;
         }
     }

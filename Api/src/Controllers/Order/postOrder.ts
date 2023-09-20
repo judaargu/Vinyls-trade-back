@@ -16,10 +16,11 @@ const history = async () => {
 //   }
 // };
 
-const postOrder = async (detail: object[], tax: number, total:number, state: string) => {
+const postOrder = async (userEmail: string, detail: object[], tax: number, total:number, state: string) => {
   try {
     
       const saveOrder = await Order.create({
+          userEmail,
           detail,
           tax,
           total, 

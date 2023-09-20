@@ -3,6 +3,7 @@ import { Model, DataTypes, ForeignKey, Sequelize } from "sequelize";
 class Order extends Model {
   declare id: string;
   declare userId: ForeignKey<number>;
+  declare userEmail: string;
   declare detail: object[];
   declare tax: number | null;
   declare total: number;
@@ -17,6 +18,9 @@ const initOrderModel =(sequelize: Sequelize) => {
       allowNull: false,
       primaryKey: true,
       defaultValue: DataTypes.UUIDV4,
+    },
+    userEmail: {
+      type: DataTypes.STRING
     },
     detail: {
       type: DataTypes.JSONB,
