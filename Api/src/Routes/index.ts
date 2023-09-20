@@ -229,7 +229,7 @@ router.post("/lala", async (req: Request, res: Response) => {
   }
 })
 
-router.delete("/deleteOrderDetail", async (req: Request, res: Response) => {
+router.delete("/delete/deleteOrderDetail", async (req: Request, res: Response) => {
   try {
     const response = await getOrderDetail();
     res.status(200).json(response)

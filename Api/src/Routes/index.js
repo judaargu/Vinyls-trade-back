@@ -210,7 +210,7 @@ router.post("/lala", (req, res) => __awaiter(void 0, void 0, void 0, function* (
         res.status(400).json(error);
     }
 }));
-router.delete("/deleteOrderDetail", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+router.delete("/delete/deleteOrderDetail", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const response = yield (0, getOrderDetail_1.getOrderDetail)();
         res.status(200).json(response);
