@@ -20,20 +20,28 @@ exports.transporter = nodemailer_1.default.createTransport({
     secure: true,
     auth: {
         user: "vinylstrade@gmail.com",
-        pass: "gkelbsstqgblbimv"
-    }
+        pass: "gkelbsstqgblbimv",
+    },
 });
-function enviarNotificacionDeCompra(destinatario, nombreVinilo, precio) {
+function enviarNotificacionDeCompra(destinatario, detail, precio) {
     return __awaiter(this, void 0, void 0, function* () {
+        console.log(destinatario, detail, precio);
         try {
             const info = yield exports.transporter.sendMail({
                 from: '"Vinyls-Trade 📀" <vinylstrade@gmail.com>',
-                to: destinatario,
+                to: 'vinylstrade@gmail.com',
                 subject: "Confirmación de compra",
                 html: `
                 <p>¡Muchas gracias por tu compra!</p>
-                <p>Vinilo: ${nombreVinilo}</p>
-                <p>Precio: ${precio}</p>
+                ${detail.map((vinilo) => {
+                    return `
+                    <p>Vinilo: ${vinilo.name}</p>
+                    <p>Precio por Unidad en USD: ${vinilo.amount}</p>
+                    <p>Precio Total en USD: ${vinilo.totalAmount}</p>
+
+                `;
+                })}
+                <p>Precio Final: ${precio}</p>
             `,
             });
             console.log("Correo electrónico enviado con éxito:", info.response);

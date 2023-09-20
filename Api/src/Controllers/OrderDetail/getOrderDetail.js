@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getOrderDetail = void 0;
+exports.getOrder = exports.getOrderDetail = void 0;
 const Order_1 = require("../../Models/Order");
 const orderDetail_1 = require("../../Models/orderDetail");
 const getOrderDetail = () => __awaiter(void 0, void 0, void 0, function* () {
@@ -27,13 +27,6 @@ const getOrderDetail = () => __awaiter(void 0, void 0, void 0, function* () {
             for (const orderDetail of orderDetails) {
                 yield orderDetail.destroy();
             }
-        }
-        const orders = yield Order_1.Order.findAll();
-        if (orders.length > 0) {
-            // Si hay registros, elimínalos uno por uno
-            for (const order of orders) {
-                yield order.destroy();
-            }
             return 'Se han borrado con éxito todos los registros de OrderDetail';
         }
         else {
@@ -45,3 +38,21 @@ const getOrderDetail = () => __awaiter(void 0, void 0, void 0, function* () {
     }
 });
 exports.getOrderDetail = getOrderDetail;
+const getOrder = () => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const orders = yield Order_1.Order.findAll();
+        if (orders.length > 0) {
+            // Si hay registros, elimínalos uno por uno
+            for (const order of orders) {
+                yield order.destroy();
+            }
+            return 'Se han borrado con éxito todos los registros de OrderDetail';
+        }
+        else {
+            return 'no se ha podidod borra el Order';
+        }
+    }
+    catch (error) {
+    }
+});
+exports.getOrder = getOrder;

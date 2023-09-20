@@ -31,7 +31,8 @@ import {
 import { Order } from "../Models/Order";
 import { createOrderDetail } from "../Controllers/OrderDetail/postOrderDetail";
 import { enviarNotificacionDeCompra } from "../Controllers/Notifications/Notifications";
-import { getOrderDetail } from "../Controllers/OrderDetail/getOrderDetail";
+import { getOrder, getOrderDetail } from "../Controllers/OrderDetail/getOrderDetail";
+import { OrderDetail } from "../Models/orderDetail";
 
 const router = Router();
 const routerAuth = Router();
@@ -237,6 +238,25 @@ router.delete("/delete/deleteOrderDetail", async (req: Request, res: Response) =
     res.status(400).json(error);
   }
 })
+
+router.delete("/deleteOrder", async (req: Request, res: Response) => {
+  try {
+    const response = await getOrder();
+    res.status(200).json(response)
+  } catch (error) {
+    res.status(400).json(error);
+  }
+})
+
+router.get('/get/orderDetail', async (req: Request, res: Response) => {
+  try {
+    const response = await OrderDetail.findAll();
+    res.status(200).json(response)
+  } catch (error) {
+    res.status(400).json(error);
+  }
+})
+
 
 
 export { router, routerAuth, routerUsers };

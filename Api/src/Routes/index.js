@@ -28,6 +28,7 @@ const deleteUser_1 = require("../Controllers/Users/deleteUser");
 const postOrderDetail_1 = require("../Controllers/OrderDetail/postOrderDetail");
 const Notifications_1 = require("../Controllers/Notifications/Notifications");
 const getOrderDetail_1 = require("../Controllers/OrderDetail/getOrderDetail");
+const orderDetail_1 = require("../Models/orderDetail");
 const router = (0, express_1.Router)();
 exports.router = router;
 const routerAuth = (0, express_1.Router)();
@@ -213,6 +214,24 @@ router.post("/lala", (req, res) => __awaiter(void 0, void 0, void 0, function* (
 router.delete("/delete/deleteOrderDetail", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const response = yield (0, getOrderDetail_1.getOrderDetail)();
+        res.status(200).json(response);
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
+router.delete("/deleteOrder", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield (0, getOrderDetail_1.getOrder)();
+        res.status(200).json(response);
+    }
+    catch (error) {
+        res.status(400).json(error);
+    }
+}));
+router.get('/get/orderDetail', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const response = yield orderDetail_1.OrderDetail.findAll();
         res.status(200).json(response);
     }
     catch (error) {
