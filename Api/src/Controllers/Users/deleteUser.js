@@ -14,22 +14,22 @@ const Users_1 = require("../../Models/Users");
 const inhabilityDeleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { id } = req.params;
-        const userFind = yield Users_1.Users.findOne({
+        const userFind = yield Users_1.Users.update({ isDeleted: true }, {
             where: {
-                id,
-            },
+                id
+            }
         });
         if (userFind) {
-            const users = {
-                id: userFind.id,
-                name: userFind.name
-            };
-            yield Users_1.Users.destroy({
-                where: {
-                    id,
-                },
-            });
-            res.status(200).json(users);
+            // const users = {
+            //   id: userFind.id,
+            //   name: userFind.name
+            // }
+            // await Users.destroy({
+            //   where: {
+            //     id,
+            //   },
+            // });
+            res.status(200).json(userFind);
         }
         else {
             res
@@ -75,14 +75,20 @@ exports.deleteUser = deleteUser;
 const restoreUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { id } = req.params;
-        const userFind = yield Users_1.Users.findOne({
+        const userFind = yield Users_1.Users.update({ isDeleted: false }, // Valores que deseas actualizar
+        {
             where: {
-                id,
+                id, // Condición para seleccionar el usuario específico por su ID
             },
-            paranoid: false,
         });
         if (userFind) {
-            yield userFind.restore();
+            // await userFind.restore();
+            // await Users.findOne({
+            //   where:{
+            //     id,
+            //     isDeleted: false
+            //   }
+            // })
             res.status(200).send(`se ha restaurado al usuario ${id}`);
         }
         else {
@@ -101,7 +107,7 @@ const deleteAllUsers = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield Users_1.Users.destroy({
             where: {
-                isAdmin: true,
+                isAdmin: false,
             },
         });
         return {

@@ -38,6 +38,10 @@ const initUsersModel = (sequelize) => {
             type: sequelize_1.DataTypes.BOOLEAN,
             defaultValue: false,
         },
+        isDeleted: {
+            type: sequelize_1.DataTypes.BOOLEAN,
+            defaultValue: false,
+        },
         deletedAt: {
             type: sequelize_1.DataTypes.DATE
         },

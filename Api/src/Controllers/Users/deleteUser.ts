@@ -1,26 +1,31 @@
 import { Request, Response } from "express";
 import { Users } from "../../Models/Users";
+import { sequelize } from "../../db";
 
 const inhabilityDeleteUser = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
 
-    const userFind = await Users.findOne({
-      where: {
-        id,
-      },
-    });
-    if (userFind) {
-      const users = {
-        id: userFind.id,
-        name: userFind.name
-      }
-      await Users.destroy({
+
+    const userFind = await Users.update(
+      {isDeleted: true},
+      {
         where: {
-          id,
-        },
-      });
-      res.status(200).json(users);
+          id
+        }
+      }
+    )
+    if (userFind) {
+      // const users = {
+      //   id: userFind.id,
+      //   name: userFind.name
+      // }
+      // await Users.destroy({
+      //   where: {
+      //     id,
+      //   },
+      // });
+      res.status(200).json(userFind);
     } else {
       res
         .status(400)
@@ -65,14 +70,23 @@ const restoreUser = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
 
-    const userFind = await Users.findOne({
-      where: {
-        id,
-      },
-      paranoid: false,
-    });
+
+    const userFind = await Users.update(
+      { isDeleted: false }, // Valores que deseas actualizar
+      {
+        where: {
+          id, // Condición para seleccionar el usuario específico por su ID
+        },
+      }
+    )
     if (userFind) {
-      await userFind.restore();
+      // await userFind.restore();
+      // await Users.findOne({
+      //   where:{
+      //     id,
+      //     isDeleted: false
+      //   }
+      // })
       res.status(200).send(`se ha restaurado al usuario ${id}`);
     } else {
       res
@@ -90,7 +104,7 @@ const deleteAllUsers = async () => {
   try {
     await Users.destroy({
       where: {
-        isAdmin: true,
+        isAdmin: false,
       },
     });
 
