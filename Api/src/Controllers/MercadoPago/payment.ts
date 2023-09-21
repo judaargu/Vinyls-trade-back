@@ -34,7 +34,7 @@ export const createOrder = async (userData: {
       failure: "https://vinils-trade-client.vercel.app",
     },
     auto_return: "approved",
-    notification_url: "https://e625-191-81-185-105.ngrok-free.app/webhook",
+    notification_url: "https://ca68-191-81-191-48.ngrok-free.app/webhook",
   });
 
   return result.body.init_point;

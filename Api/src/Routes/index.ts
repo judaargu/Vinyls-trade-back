@@ -70,9 +70,9 @@ routerUsers.get("/admins", async (req: Request, res: Response) => {
 
 router.delete("/deleteUser/:id", deleteUser);
 
-router.delete("/inhabilityUser/:id", inhabilityDeleteUser);
+router.put("/inhabilityUser/:id", inhabilityDeleteUser);
 
-router.patch("/restoreUser/:id", restoreUser);
+router.put("/restoreUser/:id", restoreUser);
 
 router.get("/:id", async (req: Request, res: Response) => {
   try {
