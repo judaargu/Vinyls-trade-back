@@ -194,8 +194,9 @@ router.post("/webhook", async (req: Request, res: Response) => {
 
 router.post("/createOrderDetail", async (req: Request, res: Response) => {
   try {
+    console.log(req.body)
     const response = await createOrderDetail(req.body);
-    res.status(response.status).json(response.json);
+    res.status(response.status).json(req.body);
   } catch (error) {
     res.status(400).json(error);
   }

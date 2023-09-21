@@ -174,8 +174,9 @@ router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function
 }));
 router.post("/createOrderDetail", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
+        console.log(req.body);
         const response = yield (0, postOrderDetail_1.createOrderDetail)(req.body);
-        res.status(response.status).json(response.json);
+        res.status(response.status).json(req.body);
     }
     catch (error) {
         res.status(400).json(error);
