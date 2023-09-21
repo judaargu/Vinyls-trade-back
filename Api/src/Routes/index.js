@@ -154,6 +154,7 @@ router.get('/get/allReviews', (req, res) => __awaiter(void 0, void 0, void 0, fu
 }));
 //Mercado Pago
 router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log(req.body);
     try {
         const payment = yield (0, payment_1.createOrder)(req.body);
         return res.status(206).json(payment);
@@ -164,6 +165,7 @@ router.post("/create_order", (req, res) => __awaiter(void 0, void 0, void 0, fun
 }));
 router.post("/webhook", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const queryParams = req.query;
+    console.log(queryParams);
     try {
         const webhook = yield (0, payment_1.verifyPayment)(queryParams);
         res.status(207).json(webhook);

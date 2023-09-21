@@ -34,18 +34,20 @@ export const createOrder = async (userData: {
       failure: "https://vinils-trade-client.vercel.app",
     },
     auto_return: "approved",
-    notification_url: "https://ca68-191-81-191-48.ngrok-free.app/webhook",
+    notification_url: "https://vinyls-trade-back-production.up.railway.app/webhook",
   });
 
   return result.body.init_point;
 };
 
 export const verifyPayment = async (queryParams: any) => {
+  console.log(queryParams.type)
   try {
     if (queryParams.type === "payment") {
       await getOrder();
+      console.log(queryParams['data.id'])
       const data = await mercadopago.payment.findById(queryParams["data.id"]);
-
+      console.log(data)
       const allOrderDetail = await OrderDetail.findAll();
 
       const saveOrder: any = await postOrder(
@@ -61,7 +63,10 @@ export const verifyPayment = async (queryParams: any) => {
         saveOrder.dataValues.total
       );
       await getOrderDetail();
+      console.log(saveOrder)
       return saveOrder;
+    } else {
+      return 'no entro al if'
     }
   } catch (error) {
     return error;

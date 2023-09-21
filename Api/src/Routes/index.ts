@@ -174,6 +174,7 @@ router.get('/get/allReviews', async (req: Request, res: Response) => {
 //Mercado Pago
 
 router.post("/create_order", async (req: Request, res: Response) => {
+  console.log(req.body)
   try {
     const payment = await createOrder(req.body);
     return res.status(206).json(payment);
@@ -184,6 +185,7 @@ router.post("/create_order", async (req: Request, res: Response) => {
 
 router.post("/webhook", async (req: Request, res: Response) => {
   const queryParams: ParsedQs = req.query;
+  console.log(queryParams);
   try {
     const webhook = await verifyPayment(queryParams);
     res.status(207).json(webhook);
