@@ -41,6 +41,7 @@ exports.getOrderDetail = getOrderDetail;
 const getOrder = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const orders = yield Order_1.Order.findAll();
+        console.log(orders);
         if (orders.length > 0) {
             // Si hay registros, elimínalos uno por uno
             for (const order of orders) {
@@ -53,6 +54,7 @@ const getOrder = () => __awaiter(void 0, void 0, void 0, function* () {
         }
     }
     catch (error) {
+        return error;
     }
 });
 exports.getOrder = getOrder;

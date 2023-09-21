@@ -38,21 +38,28 @@ const createOrder = (userData) => __awaiter(void 0, void 0, void 0, function* ()
             failure: "https://vinils-trade-client.vercel.app",
         },
         auto_return: "approved",
-        notification_url: "https://ca68-191-81-191-48.ngrok-free.app/webhook",
+        notification_url: "https://vinyls-trade-back-production.up.railway.app/webhook",
     });
     return result.body.init_point;
 });
 exports.createOrder = createOrder;
 const verifyPayment = (queryParams) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log(queryParams.type);
     try {
         if (queryParams.type === "payment") {
             yield (0, getOrderDetail_1.getOrder)();
+            console.log(queryParams['data.id']);
             const data = yield mercadopago_1.default.payment.findById(queryParams["data.id"]);
+            console.log(data);
             const allOrderDetail = yield orderDetail_1.OrderDetail.findAll();
             const saveOrder = yield (0, postOrder_1.postOrder)(data.response.payer.email, allOrderDetail, data.response.taxes_amount, data.response.transaction_amount, data.response.status);
             const saveNotification = yield (0, Notifications_1.enviarNotificacionDeCompra)(saveOrder.dataValues.userEmail, saveOrder.dataValues.detail, saveOrder.dataValues.total);
             yield (0, getOrderDetail_1.getOrderDetail)();
+            console.log(saveOrder);
             return saveOrder;
+        }
+        else {
+            return 'no entro al if';
         }
     }
     catch (error) {

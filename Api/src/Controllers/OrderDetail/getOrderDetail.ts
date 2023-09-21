@@ -33,7 +33,7 @@ export const getOrderDetail = async () => {
 export const getOrder = async () => {
   try {
     const orders= await Order.findAll();
-
+    console.log(orders)
     if (orders.length > 0) {
       // Si hay registros, elimínalos uno por uno
       for (const order of orders) {
@@ -44,6 +44,6 @@ export const getOrder = async () => {
       return 'no se ha podidod borra el Order'
     }
   } catch (error) {
-    
+    return error
   }
 }
